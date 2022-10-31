@@ -27,5 +27,5 @@
     </div><!-- Fin  container -->
     
     
-    
+    <?php wp_footer() ?>
  </footer>
