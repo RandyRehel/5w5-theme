@@ -1,0 +1,41 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 10px solid black;
+}
+
+.communication {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 30px;
+}
+
+.com {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav-item4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: 2px solid black;
+  color: red;
+}
+/*# sourceMappingURL=footer.css.map */

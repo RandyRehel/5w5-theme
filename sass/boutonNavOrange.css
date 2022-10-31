@@ -1,0 +1,179 @@
+.BoutonsHeader {
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+  height: 100px;
+  width: 70%;
+  align-items: center;
+}
+
+.BoutonNavHeaderB {
+  background-image: url("/content/themes/theme2022/assets/img/BoutonBleu.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 60%;
+  width: 40%;
+  margin-right: 20px;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  font-size: clamp(1rem, 1vw, 2rem);
+}
+
+.BoutonNavHeaderY {
+  background-image: url("/content/themes/theme2022/assets/img/BoutonJaune.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 60%;
+  width: 40%;
+  margin-right: 20px;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+}
+
+.BoutonNavHeaderO {
+  background-image: url("/content/themes/theme2022/assets/img/BoutonOrange.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 60%;
+  width: 40%;
+  margin-right: 20px;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+}
+
+.BoutonNavHeaderV {
+  background-image: url("/content/themes/theme2022/assets/img/BoutonVert.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 60%;
+  width: 40%;
+  margin-right: 20px;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+}
+
+.BoutonNavHeaderB:hover {
+  background-image: url("/content/themes/theme2022/assets/img/BoutonBleu_Hover.png");
+}
+
+.BoutonNavHeaderY:hover {
+  background-image: url("/content/themes/theme2022/assets/img/BoutonJaune_hovrr.png");
+}
+
+.BoutonNavHeaderO:hover {
+  background-image: url("/content/themes/theme2022/assets/img/BoutonOrange_hover.png");
+}
+
+.BoutonNavHeaderV:hover {
+  background-image: url("/content/themes/theme2022/assets/img/BoutonVert_Hover.png");
+}
+
+.NosProjets {
+  display: flex;
+  flex-direction: column;
+}
+
+.titretProjet {
+  position: absolute;
+  font-size: 30px;
+  bottom: 59vh;
+  left: 15vh;
+}
+
+.BoutonProjet {
+  padding-top: 60px;
+  padding-left: 60px;
+}
+
+.ImgNosProjet {
+  height: auto;
+  height: 40px;
+  max-width: 100%;
+}
+
+.paragrapheLorum1 {
+  -webkit-line-clamp: 2;
+  max-width: 650px;
+  padding-bottom: 20px;
+}
+
+.lesImages {
+  background-color: white;
+  width: 500px;
+  text-align: center;
+}
+
+.flecheDroite {
+  position: relative;
+  left: 88%;
+  bottom: 0%;
+  width: 10%;
+  height: 60px;
+  transform: rotate(-270deg);
+}
+
+.flecheGauche {
+  position: relative;
+  left: 2%;
+  bottom: 10%;
+  width: 10%;
+  height: 60px;
+  transform: rotate(270deg);
+}
+
+.BoutonNavOrange {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  align-items: flex-end;
+}
+
+.BoutonNavOetB {
+  display: flex;
+  background-image: url("/content/themes/theme2022/assets/img/BoutonNavOrange.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+}
+
+.BoutonNavOetB:hover {
+  background-image: url("/content/themes/theme2022/assets/img/BoutonNav_hover.png");
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #070044;
+  margin: 0;
+  padding: 0;
+}
+
+.PageContenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b2d4e0;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=boutonNavOrange.css.map */
