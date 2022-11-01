@@ -33,17 +33,10 @@
   align-items: center;
   z-index: 2;
 }
-
 .enterNav ul li a {
   display: flex;
   align-items: center;
 }
-
-.enterNav ul li img {
-  width: 40px;
-  height: 40px;
-}
-
 .enterNav .navImgDroit {
   background-color: beige;
   width: 40%;
@@ -76,5 +69,4 @@
 .contactsHeader ul li {
   width: 20%;
   list-style-type: none;
-}
-/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=header.css.map */

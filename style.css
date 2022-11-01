@@ -769,7 +769,6 @@ textarea {
   color: black;
   margin-top: 50px;
 }
-
 .middleText a {
   display: flex;
   align-items: center;
@@ -804,7 +803,6 @@ textarea {
   position: relative;
   top: -100px;
 }
-
 .blocIntro .messageBubble {
   background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BulleFooter.png-e1667267695647.png");
   background-size: 100% 100%;
@@ -813,7 +811,6 @@ textarea {
   position: relative;
   top: -90px;
 }
-
 .blocIntro .messageBubble p {
   padding: 40px 10px 25px 10px;
 }
@@ -1247,7 +1244,6 @@ textarea {
   align-items: center;
   z-index: 2;
 }
-
 .enterNav ul li a {
   text-decoration: none;
   font-family: "Silkscreen";
@@ -1258,7 +1254,6 @@ textarea {
   width: 40px;
   height: 40px;
 }
-
 .enterNav .navImgDroit {
   background-color: beige;
   width: 40%;
