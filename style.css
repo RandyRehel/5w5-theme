@@ -737,7 +737,6 @@ textarea {
   text-align: center;
   flex-direction: column;
 }
-
 .middleText a {
   display: flex;
   align-items: center;
@@ -747,14 +746,12 @@ textarea {
   width: 40vw;
   align-self: flex-end;
 }
-
 .blocIntro .messageBubble {
   background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BulleFooter.png-e1667267695647.png");
   background-size: 100% 100%;
   background-position: right;
   background-repeat: no-repeat;
 }
-
 .blocIntro .messageBubble p {
   padding: 40px 10px 25px 10px;
 }
@@ -1110,18 +1107,10 @@ textarea {
   list-style: none;
 }
 
-<<<<<<< HEAD
 .navLeProgramme {
   margin-bottom: 30;
   margin-left: 0;
   padding: 0;
-=======
-.nav-item {
-  width: 20%;
-}
-
-.nav-item4 {
->>>>>>> d934272cb27db47d51c5abbf9305873abe716837
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -1182,15 +1171,10 @@ textarea {
   align-content: center;
   z-index: 2;
 }
-<<<<<<< HEAD
-=======
-
 .enterNav ul li a {
   display: flex;
   align-items: center;
 }
-
->>>>>>> d934272cb27db47d51c5abbf9305873abe716837
 .enterNav .navImgDroit {
   background-color: beige;
   width: 40%;

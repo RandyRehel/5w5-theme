@@ -26,15 +26,10 @@
   align-content: center;
   z-index: 2;
 }
-<<<<<<< HEAD
-=======
-
 .enterNav ul li a {
   display: flex;
   align-items: center;
 }
-
->>>>>>> d934272cb27db47d51c5abbf9305873abe716837
 .enterNav .navImgDroit {
   background-color: beige;
   width: 40%;
@@ -64,10 +59,5 @@
 }
 .contactsHeader ul li {
   width: 20%;
-<<<<<<< HEAD
-}/*# sourceMappingURL=header.css.map */
-=======
   list-style-type: none;
-}
-/*# sourceMappingURL=header.css.map */
->>>>>>> d934272cb27db47d51c5abbf9305873abe716837
+}/*# sourceMappingURL=header.css.map */

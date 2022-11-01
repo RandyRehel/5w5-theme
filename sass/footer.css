@@ -65,18 +65,10 @@
   list-style: none;
 }
 
-<<<<<<< HEAD
 .navLeProgramme {
   margin-bottom: 30;
   margin-left: 0;
   padding: 0;
-=======
-.nav-item {
-  width: 20%;
-}
-
-.nav-item4 {
->>>>>>> d934272cb27db47d51c5abbf9305873abe716837
   display: flex;
   align-items: center;
   flex-direction: row;
