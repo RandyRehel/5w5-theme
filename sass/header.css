@@ -4,6 +4,7 @@
   z-index: 3;
   overflow: hidden;
   position: absolute;
+  height: 100vh;
 }
 
 .enterNav {
@@ -11,30 +12,38 @@
   align-items: flex-end;
   background-color: darkgray;
 }
+
 .enterNav ul {
   padding: 0;
   width: 50%;
   flex-direction: column;
 }
+
 .enterNav ul li {
   display: flex;
   justify-content: space-between;
   border: black 2px solid;
-  background-color: skyblue;
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonOrange_hover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 20px 20px 10px;
   margin: 20px 0;
   padding: 10px;
-  align-content: center;
+  align-items: center;
   z-index: 2;
 }
-<<<<<<< HEAD
-=======
 
 .enterNav ul li a {
   display: flex;
   align-items: center;
 }
 
->>>>>>> d934272cb27db47d51c5abbf9305873abe716837
+.enterNav ul li img {
+  width: 40px;
+  height: 40px;
+}
+
 .enterNav .navImgDroit {
   background-color: beige;
   width: 40%;
@@ -58,16 +67,14 @@
   justify-content: space-around;
   background-color: darkgray;
 }
+
 .contactsHeader ul {
   flex-direction: row;
   display: flex;
 }
+
 .contactsHeader ul li {
   width: 20%;
-<<<<<<< HEAD
-}/*# sourceMappingURL=header.css.map */
-=======
   list-style-type: none;
 }
 /*# sourceMappingURL=header.css.map */
->>>>>>> d934272cb27db47d51c5abbf9305873abe716837

@@ -7,7 +7,7 @@
     </div>
 
     <div class="blocIntro">
-        <img src="" alt="Timien">
+        <img src="http://projetweb2022.loc/wp-content/uploads/2022/11/New_Piskel-1.png_1.png" alt="Timien" width="200px" height="auto">
         <div class="messageBubble">
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate voluptatum saepe nostrum, sed voluptatibus dolore qui laborum incidunt alias, libero ut, tempora consequatur sit eum ipsa magni nihil minus eligendi.

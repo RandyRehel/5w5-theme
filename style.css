@@ -48,6 +48,21 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 	- Alignments
 
 --------------------------------------------------------------*/
+@font-face {
+  font-family: 'Silkscreen';
+  src: url("./fonts/SilkscreenRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'SilkscreenBold';
+  src: url("./fonts/SilkscreenBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url("./fonts/Quicksand.ttf") format("truetype");
+}
+
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
@@ -224,9 +239,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -234,9 +249,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type=button]::-moz-focus-inner,
-[type=reset]::-moz-focus-inner,
-[type=submit]::-moz-focus-inner {
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -245,9 +260,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type=button]:-moz-focusring,
-[type=reset]:-moz-focusring,
-[type=submit]:-moz-focusring {
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -291,8 +306,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type=checkbox],
-[type=radio] {
+[type="checkbox"],
+[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
@@ -300,8 +315,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type=number]::-webkit-inner-spin-button,
-[type=number]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -309,7 +324,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
@@ -317,7 +332,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type=search]::-webkit-search-decoration {
+[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -387,8 +402,8 @@ input,
 select,
 optgroup,
 textarea {
-  color: #404040;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: black;
+  font-family: "Quicksand";
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -517,28 +532,12 @@ table {
 
 /* Links
 --------------------------------------------- */
-a {
-  color: #4169e1;
-}
-a:visited {
-  color: #800080;
-}
-a:hover, a:focus, a:active {
-  color: #191970;
-}
-a:focus {
-  outline: thin dotted;
-}
-a:hover, a:active {
-  outline: 0;
-}
-
 /* Forms
 --------------------------------------------- */
 button,
-input[type=button],
-input[type=reset],
-input[type=submit] {
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
@@ -547,58 +546,61 @@ input[type=submit] {
   line-height: 1;
   padding: 0.6em 1em 0.4em;
 }
+
 button:hover,
-input[type=button]:hover,
-input[type=reset]:hover,
-input[type=submit]:hover {
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
   border-color: #ccc #bbb #aaa;
 }
+
 button:active, button:focus,
-input[type=button]:active,
-input[type=button]:focus,
-input[type=reset]:active,
-input[type=reset]:focus,
-input[type=submit]:active,
-input[type=submit]:focus {
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
   border-color: #aaa #bbb #bbb;
 }
 
-input[type=text],
-input[type=email],
-input[type=url],
-input[type=password],
-input[type=search],
-input[type=number],
-input[type=tel],
-input[type=range],
-input[type=date],
-input[type=month],
-input[type=week],
-input[type=time],
-input[type=datetime],
-input[type=datetime-local],
-input[type=color],
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
 textarea {
   color: #666;
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 3px;
 }
-input[type=text]:focus,
-input[type=email]:focus,
-input[type=url]:focus,
-input[type=password]:focus,
-input[type=search]:focus,
-input[type=number]:focus,
-input[type=tel]:focus,
-input[type=range]:focus,
-input[type=date]:focus,
-input[type=month]:focus,
-input[type=week]:focus,
-input[type=time]:focus,
-input[type=datetime]:focus,
-input[type=datetime-local]:focus,
-input[type=color]:focus,
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
 textarea:focus {
   color: #111;
 }
@@ -623,12 +625,14 @@ textarea {
   display: block;
   width: 100%;
 }
+
 .main-navigation ul {
   display: none;
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
+
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
@@ -637,28 +641,36 @@ textarea {
   left: -999em;
   z-index: 99999;
 }
+
 .main-navigation ul ul ul {
   left: -999em;
   top: 0;
 }
-.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
+
+.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li.focus > ul {
   display: block;
   left: auto;
 }
+
 .main-navigation ul ul a {
   width: 200px;
 }
+
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
 }
+
 .main-navigation li {
   position: relative;
 }
+
 .main-navigation a {
   display: block;
   text-decoration: none;
 }
+
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -673,21 +685,25 @@ textarea {
     display: flex;
   }
 }
-.site-main .comment-navigation,
-.site-main .posts-navigation,
-.site-main .post-navigation {
+
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
   margin: 0 0 1.5em;
 }
+
 .comment-navigation .nav-links,
 .posts-navigation .nav-links,
 .post-navigation .nav-links {
   display: flex;
 }
+
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   flex: 1 0 50%;
 }
+
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -721,31 +737,72 @@ textarea {
   margin: 0 0 1.5em;
 }
 
+.frontBody {
+  overflow: hidden;
+}
+
+.biggerC {
+  font-size: 28px;
+}
+
 .flecheVisite {
   rotate: -90deg;
+  width: 38px;
+  height: auto;
 }
 
 .containerFrontpage {
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: hidden;
 }
 
 .middleText {
-  width: 30vw;
+  width: 40vw;
   display: flex;
   text-align: center;
   flex-direction: column;
+  font-family: "Silkscreen";
+  font-size: 16px;
+  align-items: center;
+  color: black;
+  margin-top: 50px;
 }
 
 .middleText a {
   display: flex;
   align-items: center;
+  text-decoration: none;
+}
+
+.middleText a:visited {
+  color: black;
+}
+
+.middleText a:hover {
+  color: black;
+}
+
+.middleText a:active {
+  color: black;
+}
+
+.Logo {
+  width: 240px;
+  height: auto;
+  margin-bottom: 20px;
 }
 
 .blocIntro {
   width: 40vw;
   align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 50px;
+  position: relative;
+  top: -100px;
 }
 
 .blocIntro .messageBubble {
@@ -753,10 +810,17 @@ textarea {
   background-size: 100% 100%;
   background-position: right;
   background-repeat: no-repeat;
+  position: relative;
+  top: -90px;
 }
 
 .blocIntro .messageBubble p {
   padding: 40px 10px 25px 10px;
+}
+
+.copyrightFoot {
+  position: absolute;
+  bottom: 0;
 }
 
 /* Comments
@@ -774,6 +838,7 @@ textarea {
 .widget {
   margin: 0 0 1.5em;
 }
+
 .widget select {
   max-width: 100%;
 }
@@ -800,11 +865,13 @@ textarea {
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-.wp-caption img[class*=wp-image-] {
+
+.wp-caption img[class*="wp-image-"] {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
@@ -974,7 +1041,6 @@ textarea {
 
 .paragrapheLorum1 {
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
 }
@@ -1110,18 +1176,10 @@ textarea {
   list-style: none;
 }
 
-<<<<<<< HEAD
 .navLeProgramme {
   margin-bottom: 30;
   margin-left: 0;
   padding: 0;
-=======
-.nav-item {
-  width: 20%;
-}
-
-.nav-item4 {
->>>>>>> d934272cb27db47d51c5abbf9305873abe716837
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -1160,37 +1218,47 @@ textarea {
   z-index: 3;
   overflow: hidden;
   position: absolute;
+  height: 100vh;
 }
 
 .enterNav {
   display: flex;
   align-items: flex-end;
-  background-color: darkgray;
+  background-color: rgba(0, 0, 0, 0.5);
 }
+
 .enterNav ul {
   padding: 0;
   width: 50%;
   flex-direction: column;
 }
+
 .enterNav ul li {
   display: flex;
   justify-content: space-between;
   border: black 2px solid;
-  background-color: skyblue;
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonOrange_hover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 20px 20px 10px;
   margin: 20px 0;
   padding: 10px;
-  align-content: center;
+  align-items: center;
   z-index: 2;
 }
-<<<<<<< HEAD
-=======
 
 .enterNav ul li a {
-  display: flex;
-  align-items: center;
+  text-decoration: none;
+  font-family: "Silkscreen";
+  color: black;
 }
 
->>>>>>> d934272cb27db47d51c5abbf9305873abe716837
+.enterNav ul li img {
+  width: 40px;
+  height: 40px;
+}
+
 .enterNav .navImgDroit {
   background-color: beige;
   width: 40%;
@@ -1214,14 +1282,17 @@ textarea {
   justify-content: space-around;
   background-color: darkgray;
 }
+
 .contactsHeader ul {
   flex-direction: row;
   display: flex;
 }
+
 .contactsHeader ul li {
   width: 20%;
   list-style-type: none;
 }
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
@@ -1256,6 +1327,7 @@ textarea {
   width: 1px;
   word-wrap: normal !important;
 }
+
 .screen-reader-text:focus {
   background-color: #f1f1f1;
   border-radius: 3px;
@@ -1305,4 +1377,5 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1.5em;
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */

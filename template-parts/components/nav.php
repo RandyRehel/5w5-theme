@@ -10,9 +10,9 @@
     <ul>
         <?php foreach($navLinks as $links):?>
         
-        <li> 
+        <li class="frontNavItems"> 
             <a href="<?=$links['link']?>"><p><?=$links['txt']?></p></a>
-            <img src="" alt="image de cercles menus" width="20" height="20">
+            <img src="http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonNav_hover-1.png" alt="image de cercles menus">
         </li>
         <?php endforeach ?>
     </ul>

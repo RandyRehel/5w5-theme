@@ -4,13 +4,14 @@
     z-index: 3;
     overflow: hidden;
     position: absolute;
+    height: 100vh;
 }
 
 .enterNav{
 
     display: flex;
     align-items: flex-end;
-    background-color: darkgray;
+    background-color: rgba($color: black, $alpha: .5);
     
     ul{
         padding: 0;
@@ -20,14 +21,24 @@
             display: flex;
             justify-content: space-between;
             border: black 2px solid ;
-            background-color: skyblue;
+            background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonOrange_hover.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px 20px 20px 10px;
             margin: 20px 0;
             padding: 10px;
-            align-content: center;
+            align-items: center;
             z-index: 2;
             a{
-                display: flex;
-                align-items: center;
+                text-decoration: none;
+                font-family: $font__title;
+                color: black;
+            }
+
+            img{
+                width: 40px;
+                height: 40px;
             }
         }
     }

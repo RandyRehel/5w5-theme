@@ -15,7 +15,7 @@
     <?php wp_head() ?>
 </head>
 <!-- if is_frontpage && is_homepage functions a verifier dans refUnderscores -->
-<body>
+<body class="frontBody">
 <header class="enterHeader" x-data="{open: false}">
     <button x-on:click="open = ! open"><img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000" width="40" height="40"></button>
     <div x-show="open">
