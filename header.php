@@ -23,31 +23,26 @@
         <?php get_template_part( 'template-parts/components/nav');?>
             <div class="navImgDroit" style="content:'';">
             </div>
-        </div>
-        <div class="contactsHeader">
-            <div class="communicationsHead">
-                <div class="comTexte">
+            <div class="contactsHeader">
+                <div class="leftHeader">
                     <p>
-                        TOTALLY NORMAL NOT LONG TITLE
+                        POUR NOUS COMMUNIQUER
                     </p>
-                </div>
-            
-                <div class="icones">
                     <ul>
-                        <li class="ico"><img src="" alt="mail"></li>
-                        <li class="ico"><img src="" alt="ig"></li>
-                        <li class="ico"><img src="" alt="fb"></li>
+                        <li><a><img class="icoHeader" src="http://projetweb2022.loc/wp-content/uploads/2022/11/IconeMail-1-1.png" alt="email"></a></li>
+                        <li><a><img class="icoHeader" src="http://projetweb2022.loc/wp-content/uploads/2022/11/InstaLogo-1.png_1.png" alt="instagram"></a></li>
+                        <li><a><img class="icoHeader" src="http://projetweb2022.loc/wp-content/uploads/2022/11/LogoFB.png" alt="facebook"></a></li>
                     </ul>
                 </div>
-            </div>
-
-            <div class="emplacementsHead">
-                <img src="" alt="">
-                <p>
-                    THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG <br>
-                    THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG <br>
-                    THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG 
-                </p>
+                <div class="rightHeader">
+                    <ul>
+                        <li><img src="http://projetweb2022.loc/wp-content/uploads/2022/11/LocationLogo-1.png.png" alt="emplacement"></li>
+                        <li><p class="texteEmplacement">COLLÈGE DE MAISONNEUVE<br>
+                                3800, Rue SHERBROOKE EST <br>
+                                MONTRÉAL (QUÉBEC) <br>
+                                H1X 2A2 | (514) 254-7131</p></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

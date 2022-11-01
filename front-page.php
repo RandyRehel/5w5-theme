@@ -3,14 +3,18 @@
     <div class="middleText">
         <img class="Logo"src="http://projetweb2022.loc/wp-content/uploads/2022/11/Logo.png" alt="Logo du tim">
         <p>TECHNIQUES D'INTÉGRATIONS MULTIMÉDIA</p>
-        <a href=""><p><span class="biggerC">C</span>OMMENCER LA VISITE GUIDÉE!</p><img class="flecheVisite"src="http://projetweb2022.loc/wp-content/uploads/2022/11/fleche2.png" alt="image play button"></a>
+        <a href="http://projetweb2022.loc/le-programme/"><p><span class="biggerC">C</span>OMMENCER LA VISITE GUIDÉE!</p><img class="flecheVisite"src="http://projetweb2022.loc/wp-content/uploads/2022/11/fleche2.png" alt="image play button"></a>
     </div>
 
     <div class="blocIntro">
         <img src="http://projetweb2022.loc/wp-content/uploads/2022/11/New_Piskel-1.png_1.png" alt="Timien" width="200px" height="auto">
         <div class="messageBubble">
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate voluptatum saepe nostrum, sed voluptatibus dolore qui laborum incidunt alias, libero ut, tempora consequatur sit eum ipsa magni nihil minus eligendi.
+               BONJOUR VISITEUR, BIENVENUE SUR LE SITE DU TIM! <br>
+               POUR COMMENCER UNE VISITE GUIDÉE DU DÉPARTEMENT APPUIE SUR <br> 
+               LE BOUTON JOUER. TU PEUX AUSSI OUVRIR LE MENU ET Y NAVIGUER <br>
+               TOI MÊME. <br><br>
+               BONNE VISITE! :)
             </p>
         </div>
     </div>

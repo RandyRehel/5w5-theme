@@ -769,6 +769,7 @@ textarea {
   color: black;
   margin-top: 50px;
 }
+
 .middleText a {
   display: flex;
   align-items: center;
@@ -803,6 +804,7 @@ textarea {
   position: relative;
   top: -100px;
 }
+
 .blocIntro .messageBubble {
   background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BulleFooter.png-e1667267695647.png");
   background-size: 100% 100%;
@@ -811,13 +813,18 @@ textarea {
   position: relative;
   top: -90px;
 }
+
 .blocIntro .messageBubble p {
   padding: 40px 10px 25px 10px;
+  font-family: "Silkscreen";
+  font-size: 12px;
 }
 
 .copyrightFoot {
   position: absolute;
   bottom: 0;
+  font-family: "Silkscreen";
+  font-size: 12px;
 }
 
 /* Comments
@@ -1211,7 +1218,7 @@ textarea {
 
 .enterHeader {
   padding: 20px 20px;
-  max-width: 40vw;
+  width: 40vw;
   z-index: 3;
   overflow: hidden;
   position: absolute;
@@ -1221,16 +1228,19 @@ textarea {
 .enterNav {
   display: flex;
   align-items: flex-end;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
+  flex-wrap: wrap;
 }
 
 .enterNav ul {
   padding: 0;
-  width: 50%;
+  margin-left: 0;
+  width: 60%;
   flex-direction: column;
 }
 
-.enterNav ul li {
+.enterNav ul .frontNavItems {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   border: black 2px solid;
@@ -1239,25 +1249,34 @@ textarea {
   background-size: cover;
   background-position: center;
   border-radius: 10px 20px 20px 10px;
-  margin: 20px 0;
+  margin: 5px 0;
   padding: 10px;
   align-items: center;
   z-index: 2;
+  height: 50px;
 }
-.enterNav ul li a {
+
+.enterNav ul .frontNavItems:first-of-type {
+  width: 125%;
+}
+
+.enterNav ul .frontNavItems a {
   text-decoration: none;
   font-family: "Silkscreen";
   color: black;
+  padding-left: 20px;
+  font-size: 16px;
 }
 
-.enterNav ul li img {
+.enterNav ul .frontNavItems img {
   width: 40px;
   height: 40px;
 }
+
 .enterNav .navImgDroit {
   background-color: beige;
-  width: 40%;
-  height: 200px;
+  width: 30%;
+  height: 160px;
   margin: 15px;
   z-index: 0;
   bottom: -10px;
@@ -1270,22 +1289,69 @@ textarea {
 }
 
 .contactsHeader {
-  border: 5px solid black;
-  width: 89%;
-  margin: 0 5%;
+  margin: 0 5% 0 0;
   display: flex;
   justify-content: space-around;
-  background-color: darkgray;
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BulleFooter.png-e1667267695647.png");
+  background-size: 100% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -15px;
+  padding-top: 15px;
+  padding-left: 20px;
 }
 
-.contactsHeader ul {
+.contactsHeader .leftHeader {
+  margin-top: 32px;
+}
+
+.contactsHeader .leftHeader p {
+  width: 55%;
+  color: black;
+  font-family: "Silkscreen";
+  font-size: 14px;
+}
+
+.contactsHeader .leftHeader ul {
   flex-direction: row;
   display: flex;
+  align-items: center;
 }
 
-.contactsHeader ul li {
+.contactsHeader .leftHeader ul li {
   width: 20%;
   list-style-type: none;
+  margin: 0px 10px;
+}
+
+.contactsHeader .leftHeader ul li a {
+  display: flex;
+  align-items: center;
+}
+
+.contactsHeader .leftHeader ul li .icoHeader {
+  width: 168px;
+}
+
+.contactsHeader .rightHeader {
+  margin-top: 32px;
+}
+
+.contactsHeader .rightHeader ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.contactsHeader .rightHeader ul li:first-of-type {
+  margin-right: 10px;
+}
+
+.contactsHeader .rightHeader ul li .texteEmplacement {
+  line-height: 0.6rem;
+  font-size: 9px;
+  font-family: "Silkscreen";
 }
 
 /*--------------------------------------------------------------

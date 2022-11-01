@@ -76,6 +76,8 @@
 
         p{
             padding: 40px 10px 25px 10px;
+            font-family: $font__title;
+            font-size: 12px;
         }
     }
 }
@@ -83,4 +85,6 @@
 .copyrightFoot{
     position: absolute;
     bottom: 0;
+    font-family: $font__title;
+    font-size: 12px;
 }
