@@ -1,14 +1,13 @@
 .enterHeader{
-    border: 1px gray solid;
-    background-color: darkgray;
-    max-width: 40vw;
     padding: 20px 20px;
+    max-width: 40vw;
 }
 
 .enterNav{
 
     display: flex;
     align-items: flex-end;
+    background-color: darkgray;
     
     ul{
         padding: 0;
@@ -18,10 +17,15 @@
             display: flex;
             justify-content: space-between;
             border: black 2px solid ;
+            background-color: skyblue;
             margin: 20px 0;
             padding: 10px;
             align-content: center;
             z-index: 2;
+            a{
+                display: flex;
+                align-items: center;
+            }
         }
     }
 
@@ -50,10 +54,12 @@
     margin: 0 5%;
     display: flex;
     justify-content: space-around;
+    background-color: darkgray;
 
     ul{
         li{
            width: 20%;
+           list-style-type: none;
         }
         flex-direction: row;
         display: flex;

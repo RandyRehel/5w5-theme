@@ -11,7 +11,7 @@
         <?php foreach($navLinks as $links):?>
         
         <li> 
-            <a href="<?=$links['link']?>"><?=$links['txt']?></a>
+            <a href="<?=$links['link']?>"><p><?=$links['txt']?></p></a>
             <img src="" alt="image de cercles menus" width="20" height="20">
         </li>
         <?php endforeach ?>

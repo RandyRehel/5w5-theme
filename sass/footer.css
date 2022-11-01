@@ -28,6 +28,10 @@
   list-style: none;
 }
 
+.nav-item {
+  width: 20%;
+}
+
 .nav-item4 {
   display: flex;
   flex-direction: column;
