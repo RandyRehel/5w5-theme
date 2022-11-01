@@ -1,8 +1,19 @@
+.containerLeprogramme {
+  background-color: aquamarine;
+}
+
 .row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   border: 10px solid black;
+}
+
+.rowLeProgramme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #2a2841;
 }
 
 .communication {
@@ -14,9 +25,35 @@
   font-size: 30px;
 }
 
+.communicationLeProgramme {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+}
+
+.maisonneuveContactsLeProgramme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
 .com {
   white-space: nowrap;
   text-align: center;
+}
+
+.comLeProgramme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  text-align: center;
+  color: white;
 }
 
 .nav {
@@ -28,14 +65,38 @@
   list-style: none;
 }
 
-.nav-item4 {
+.navLeProgramme {
+  margin-bottom: 30;
+  margin-left: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav-item {
+  padding-right: 5px;
+}
+
+.nav-item4LeProgramme {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   height: 100%;
-  border: 2px solid black;
-  color: red;
+  font-size: 13px;
+  color: white;
+  padding-bottom: 15px;
 }
-/*# sourceMappingURL=footer.css.map */
+
+.renseignements {
+  color: white;
+}
+
+.renseignementsFooter {
+  color: white;
+  font-size: 15px;
+  margin: 0;
+}/*# sourceMappingURL=footer.css.map */

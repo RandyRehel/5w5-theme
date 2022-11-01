@@ -91,7 +91,7 @@
         </div><!--Fin PageContenu -->
     </div><!--Fin content -->
 </div> <!--Fin app -->
-
+<?php include 'footer2.php';?>
 
 </body>
 </html>

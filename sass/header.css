@@ -9,13 +9,11 @@
   display: flex;
   align-items: flex-end;
 }
-
 .enterNav ul {
   padding: 0;
   width: 50%;
   flex-direction: column;
 }
-
 .enterNav ul li {
   display: flex;
   justify-content: space-between;
@@ -25,7 +23,6 @@
   align-content: center;
   z-index: 2;
 }
-
 .enterNav .navImgDroit {
   background-color: beige;
   width: 40%;
@@ -48,13 +45,10 @@
   display: flex;
   justify-content: space-around;
 }
-
 .contactsHeader ul {
   flex-direction: row;
   display: flex;
 }
-
 .contactsHeader ul li {
   width: 20%;
-}
-/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=header.css.map */
