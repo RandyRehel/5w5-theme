@@ -721,6 +721,44 @@ textarea {
   margin: 0 0 1.5em;
 }
 
+.flecheVisite {
+  rotate: -90deg;
+}
+
+.containerFrontpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.middleText {
+  width: 30vw;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.middleText a {
+  display: flex;
+  align-items: center;
+}
+
+.blocIntro {
+  width: 40vw;
+  align-self: flex-end;
+}
+
+.blocIntro .messageBubble {
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BulleFooter.png-e1667267695647.png");
+  background-size: 100% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.blocIntro .messageBubble p {
+  padding: 40px 10px 25px 10px;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
@@ -1119,6 +1157,9 @@ textarea {
 .enterHeader {
   padding: 20px 20px;
   max-width: 40vw;
+  z-index: 3;
+  overflow: hidden;
+  position: absolute;
 }
 
 .enterNav {
