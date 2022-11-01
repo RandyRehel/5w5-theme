@@ -1072,10 +1072,18 @@ textarea {
   list-style: none;
 }
 
+<<<<<<< HEAD
 .navLeProgramme {
   margin-bottom: 30;
   margin-left: 0;
   padding: 0;
+=======
+.nav-item {
+  width: 20%;
+}
+
+.nav-item4 {
+>>>>>>> d934272cb27db47d51c5abbf9305873abe716837
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -1109,15 +1117,14 @@ textarea {
 }
 
 .enterHeader {
-  border: 1px gray solid;
-  background-color: darkgray;
-  max-width: 40vw;
   padding: 20px 20px;
+  max-width: 40vw;
 }
 
 .enterNav {
   display: flex;
   align-items: flex-end;
+  background-color: darkgray;
 }
 .enterNav ul {
   padding: 0;
@@ -1128,11 +1135,21 @@ textarea {
   display: flex;
   justify-content: space-between;
   border: black 2px solid;
+  background-color: skyblue;
   margin: 20px 0;
   padding: 10px;
   align-content: center;
   z-index: 2;
 }
+<<<<<<< HEAD
+=======
+
+.enterNav ul li a {
+  display: flex;
+  align-items: center;
+}
+
+>>>>>>> d934272cb27db47d51c5abbf9305873abe716837
 .enterNav .navImgDroit {
   background-color: beige;
   width: 40%;
@@ -1154,6 +1171,7 @@ textarea {
   margin: 0 5%;
   display: flex;
   justify-content: space-around;
+  background-color: darkgray;
 }
 .contactsHeader ul {
   flex-direction: row;
@@ -1161,6 +1179,7 @@ textarea {
 }
 .contactsHeader ul li {
   width: 20%;
+  list-style-type: none;
 }
 /*--------------------------------------------------------------
 # Plugins

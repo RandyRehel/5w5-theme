@@ -15,10 +15,8 @@
     <?php wp_head() ?>
 </head>
 <!-- if is_frontpage && is_homepage functions a verifier dans refUnderscores -->
-<section class="enterHeader" x-data="{open: false}">
-   <div class="logo">
-        <img src="" alt="le logo du tim">
-    </div>
+<body>
+<header class="enterHeader" x-data="{open: false}">
     <button x-on:click="open = ! open"><img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000" width="40" height="40"></button>
     <div x-show="open">
         <div class="nav enterNav">
@@ -27,15 +25,30 @@
             </div>
         </div>
         <div class="contactsHeader">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <ul>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="communicationsHead">
+                <div class="comTexte">
+                    <p>
+                        TOTALLY NORMAL NOT LONG TITLE
+                    </p>
+                </div>
+            
+                <div class="icones">
+                    <ul>
+                        <li class="ico"><img src="" alt="mail"></li>
+                        <li class="ico"><img src="" alt="ig"></li>
+                        <li class="ico"><img src="" alt="fb"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="emplacementsHead">
+                <img src="" alt="">
+                <p>
+                    THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG <br>
+                    THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG <br>
+                    THIS TEXT IS VERY LONG THIS TEXT IS VERY LONG 
+                </p>
+            </div>
         </div>
     </div>
-</section>
+</header>
