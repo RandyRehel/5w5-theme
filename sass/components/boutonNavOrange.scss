@@ -213,4 +213,67 @@
 }
 
 
+////////////////////////////////////////////////////////// Page vie étudiante
+.PageContenuVieEtudiante{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3c25e;
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BGBleu.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   margin: 0; 
+   padding: 0; 
+}
+.paragrapheLorum1VieEtudiante{
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-width: 650px;
+    padding-bottom: 20px;
+}
+.titretProjetVieEtudiante{
+    position: absolute;
+    font-size: 30px;
+    bottom: 50vh;
+    left: 9vh;
+}
+.contentVieEtudiante{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+////////////// les images étudiantes
+.lesImagesEtudiantes{
+    background-color: #f3c25e;
+    width: 500px;
+    margin-left: 10vh;
+}
+.logoLeprogrammeEtudiante1{
+    display: flex;
+    align-items: center;
+    height: 14vh; 
+    width: 60vh;
+    background-color: white;
+    margin-bottom: 2.5vh;
+    border: solid black 1px;
+}
+.logoLeprogrammeEtudiante2{
+    display: flex;
+    align-items: center;
+    height: 43vh; 
+    width: 60vh;
+    background-color: white;
+    margin-bottom: 2.5vh;
+    border: solid black 1px;
+}
+.logoLeprogrammeEtudiante3{
+    display: flex;
+    align-items: center;
+    height: 14vh; 
+    width: 60vh;
+    background-color: white;
+    border: solid black 1px;
+}
 
