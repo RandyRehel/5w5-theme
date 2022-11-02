@@ -109,7 +109,6 @@
 
 .paragrapheLorum1 {
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
 }
@@ -120,20 +119,33 @@
   text-align: center;
 }
 
-.flecheDroite {
+.flechesDiv {
   position: relative;
+<<<<<<< HEAD
   left: 88%;
   bottom: 4%;
   width: 10%;
+=======
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.flecheDroite {
+>>>>>>> 3110439e9c05b4a51cbf6e29e5aafc848da6189d
   height: 60px;
   transform: rotate(-270deg);
 }
 
 .flecheGauche {
+<<<<<<< HEAD
   position: relative;
   left: 2%;
   bottom: 14%;
   width: 10%;
+=======
+>>>>>>> 3110439e9c05b4a51cbf6e29e5aafc848da6189d
   height: 60px;
   transform: rotate(270deg);
 }
@@ -174,11 +186,19 @@
   display: flex;
   justify-content: space-between;
   background-color: #b2d4e0;
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BGBleu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
 
 .logoLeprogramme {
   display: flex;
   align-items: center;
 }/*# sourceMappingURL=boutonNavOrange.css.map */
+=======
+/*# sourceMappingURL=boutonNavOrange.css.map */
+>>>>>>> 3110439e9c05b4a51cbf6e29e5aafc848da6189d
