@@ -138,11 +138,6 @@
 
 .flechesDiv{
     position: relative;
-<<<<<<< HEAD
-    left: 88%;
-    bottom: 4%;
-    width: 10%;
-=======
     bottom: 0;
     display: flex;
     justify-content: space-between;
@@ -150,21 +145,22 @@
 }
 
 .flecheDroite{
->>>>>>> 3110439e9c05b4a51cbf6e29e5aafc848da6189d
+    position: relative;
     height: 60px;
+    left: 85%;
+    bottom: 4%;
+    width: 10%;
     transform: rotate(-270deg);
 }
 .flecheGauche{
-<<<<<<< HEAD
     position: relative;
     left: 2%;
     bottom: 14%;
     width: 10%;
-=======
->>>>>>> 3110439e9c05b4a51cbf6e29e5aafc848da6189d
     height: 60px;
     transform: rotate(270deg);
 }
+
 
 ////////////////////////////////////////////////////////////////////////Section des 4 bouttons contenu
 .BoutonNavOrange{
