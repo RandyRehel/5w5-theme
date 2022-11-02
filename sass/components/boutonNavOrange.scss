@@ -10,7 +10,7 @@
 }
 .BoutonNavHeaderB{
     
-    background-image: url('/content/themes/theme2022/assets/img/BoutonBleu.png');
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -28,7 +28,7 @@
 }
 .BoutonNavHeaderY{
     
-    background-image: url('/content/themes/theme2022/assets/img/BoutonJaune.png');
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonJaune.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -43,7 +43,7 @@
 }
 .BoutonNavHeaderO{
     
-    background-image: url('/content/themes/theme2022/assets/img/BoutonOrange.png');
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonOrange.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -58,7 +58,7 @@
 }
 .BoutonNavHeaderV{
     
-    background-image: url('/content/themes/theme2022/assets/img/BoutonVert.png');
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonVert.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: center;
@@ -73,19 +73,19 @@
 }
 ////////////////////// hover pour les boutons
 .BoutonNavHeaderB:hover{
-    background-image: url('/content/themes/theme2022/assets/img/BoutonBleu_Hover.png');
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu_Hover.png');
 }
 
 .BoutonNavHeaderY:hover{
-    background-image: url('/content/themes/theme2022/assets/img/BoutonJaune_hovrr.png');
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonJaune_hovrr.png');
 }
 
 .BoutonNavHeaderO:hover{
-    background-image: url('/content/themes/theme2022/assets/img/BoutonOrange_hover.png');
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonOrange_hover.png');
 }
 
 .BoutonNavHeaderV:hover{
-    background-image: url('/content/themes/theme2022/assets/img/BoutonVert_Hover.png');
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonVert_Hover.png');
 }
 
 
@@ -105,7 +105,7 @@
     position: absolute;
     font-size: 30px;
     bottom: 59vh;
-    left: 15vh;
+    left: 9vh;
     
 }
 .BoutonProjet{
@@ -138,7 +138,7 @@
 .flecheDroite{
     position: relative;
     left: 88%;
-    bottom: 0%;
+    bottom: 4%;
     width: 10%;
     height: 60px;
     transform: rotate(-270deg);
@@ -147,7 +147,7 @@
 .flecheGauche{
     position: relative;
     left: 2%;
-    bottom: 10%;
+    bottom: 14%;
     width: 10%;
     height: 60px;
     transform: rotate(270deg);
@@ -166,7 +166,7 @@
 //bouton orange
 .BoutonNavOetB{
     display: flex;
-    background-image: url('/content/themes/theme2022/assets/img/BoutonNavOrange.png');
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonNavOrange.png');
     background-size: cover;
     height:100px;
     width:100px;
@@ -178,13 +178,13 @@
 }
 // hover pour que bouton tourne blue
 .BoutonNavOetB:hover{
-    background-image: url('/content/themes/theme2022/assets/img/BoutonNav_hover.png');
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonNav_hover.png');
 }
 //sections de la page
 .header{
     display: flex;
     justify-content: space-evenly;
-    background-color: #070044;
+    background-color:#2a2841;
     margin: 0; 
     padding: 0;
 }
@@ -194,6 +194,10 @@
    background-color: #b2d4e0;
    margin: 0; 
    padding: 0; 
+}
+.logoLeprogramme{
+    display: flex;
+    align-items: center;
 }
 
 

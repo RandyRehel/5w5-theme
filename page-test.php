@@ -41,7 +41,6 @@
         
        }
         
-        
     </style>
     <?php wp_head(); ?>
 </head>
@@ -49,8 +48,8 @@
 <div id="app">
     <div class="content">
         <div class="header">
-            <div class="logo1">
-                <img src="" alt="LOGO DU TIM">           
+            <div class="logoLeprogramme">
+                <img src="http://projetweb2022.loc/wp-content/uploads/2022/11/Logo.png" alt="LOGO DU TIM" height="110px" width="110px">           
             </div>
             
                 <div class="BoutonsHeader" >
@@ -65,8 +64,8 @@
         <div class="PageContenu">
             <div class="NosProjets">
             <div class="BoutonProjet" >
-                <img class="ImgNosProjet" src="" alt="LES PROJETS"  >
-                <p class="titretProjet">Nos projets</p>
+                <img class="ImgNosProjet" src="" alt=""  >
+                <p class="titretProjet">LE TIM... C'EST QUOI?</p>
                 <p class="paragrapheLorum1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
                       dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
@@ -76,8 +75,8 @@
                          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
                          , sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </div>
-            <img class="flecheDroite" src="" alt="la flèche droite"  >
-            <img class="flecheGauche" src="" alt="la flèche gauche"  height="20px">
+            <img class="flecheDroite" src="http://projetweb2022.loc/wp-content/uploads/2022/11/FlecheSuite.png" alt="la flèche droite"  >
+            <img class="flecheGauche" src="http://projetweb2022.loc/wp-content/uploads/2022/11/FlecheSuite.png" alt="la flèche gauche"  height="20px">
         </div>
         <div class="lesImages">
             <p>Images</p>
