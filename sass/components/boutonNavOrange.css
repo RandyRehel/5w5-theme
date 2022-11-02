@@ -199,10 +199,11 @@
   display: flex;
   justify-content: space-between;
   background-color: #f3c25e;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BGBleu.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BGJaune.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-size: 100% 100%;
   margin: 0;
   padding: 0;
 }
@@ -262,4 +263,37 @@
   width: 60vh;
   background-color: white;
   border: solid black 1px;
+}
+
+.PageContenuProjets {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9663a;
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BGOranget.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.contentProjets {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+}
+
+.BoutonContenuProjets {
+  background-repeat: no-repeat;
+  min-width: 35%;
+  margin-right: 20px;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  font-size: clamp(1rem, 1vw, 2rem);
 }/*# sourceMappingURL=boutonNavOrange.css.map */
