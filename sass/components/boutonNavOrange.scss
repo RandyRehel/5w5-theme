@@ -5,8 +5,14 @@
     margin:5px;
     height: 100px;
     width:70%;
-    align-items: center
-    
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: black;
+        p{
+            text-align: center;
+        }
+    }
 }
 .BoutonNavHeaderB{
     
@@ -199,6 +205,7 @@
 .PageContenu{
     display: flex;
     justify-content: space-between;
+    
     background-color: #b2d4e0;
     background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BGBleu.png');
     background-repeat: no-repeat;

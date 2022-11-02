@@ -20,15 +20,17 @@
     <div id="app">
         <div class="content">
             <div class="header">
-                <div class="logo1">
-                    <img src="" alt="LOGO DU TIM">           
-                </div>
-                
-                    <div class="BoutonsHeader" >
-                    <button class="BoutonNavHeaderB" type="button" >Le programme</button>
-                    <button class="BoutonNavHeaderY" type="button" >Vie étudiante</button>
-                    <button class="BoutonNavHeaderO" type="button" >Projets</button>
-                    <button class="BoutonNavHeaderV" type="button" >Stages</button>
+            <div class="logoLeprogramme">
+                <a href="http://projetweb2022.loc/frontpage">
+                    <img src="http://projetweb2022.loc/wp-content/uploads/2022/11/Logo.png" alt="LOGO DU TIM" height="110px" width="110px">           
+                </a>
+            </div>
+            
+                <div class="BoutonsHeader">
+                    <a href="http://projetweb2022.loc/le-programme"  class="BoutonNavHeaderB"><p>Le programme</p></a>
+                    <a href="http://projetweb2022.loc/vie-etudiante" class="BoutonNavHeaderY"><p>Vie étudiante</p></a>
+                    <a href="http://projetweb2022.loc/projets" class="BoutonNavHeaderO"><p>Projets</p></a>
+                    <a href="http://projetweb2022.loc/stages" class="BoutonNavHeaderV"><p>Stages</p></a>
                     </div>
                 
                 
@@ -44,8 +46,8 @@
                         COMPETENCES 
                     </div>
                     <div class="flechesDiv">
-                        <img class="flecheGauche" src="http://projetweb2022.loc/wp-content/uploads/2022/11/FlecheSuite.png" alt="la flèche gauche" > 
-                        <img class="flecheDroite" src="http://projetweb2022.loc/wp-content/uploads/2022/11/FlecheSuite.png" alt="la flèche droite" >
+                        <a href="javascript:history.back()"><img class="flecheGaucheProf" src="http://projetweb2022.loc/wp-content/uploads/2022/11/FlecheSuite.png" alt="la flèche gauche" ></a> 
+                        <img class="flecheDroiteProf" src="http://projetweb2022.loc/wp-content/uploads/2022/11/FlecheSuite.png" alt="la flèche droite" >
                     </div>
                 </div>
                     <div class ="BoutonNavOrange">
