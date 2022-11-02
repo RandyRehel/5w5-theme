@@ -48,16 +48,19 @@
 <div id="app">
     <div class="content">
         <div class="header">
-            <div class="logoLeprogramme">
-                <img src="http://projetweb2022.loc/wp-content/uploads/2022/11/Logo.png" alt="LOGO DU TIM" height="110px" width="110px">           
+            
+        <div class="logoLeprogramme">
+                <a href="http://projetweb2022.loc/frontpage">
+                    <img src="http://projetweb2022.loc/wp-content/uploads/2022/11/Logo.png" alt="LOGO DU TIM" height="110px" width="110px">           
+                </a>
             </div>
             
-                <div class="BoutonsHeader" >
-                <button class="BoutonNavHeaderB" type="button" >Le programme</button>
-                <button class="BoutonNavHeaderY" type="button" >Vie étudiante</button>
-                <button class="BoutonNavHeaderO" type="button" >Projets</button>
-                <button class="BoutonNavHeaderV" type="button" >Stages</button>
-                </div>
+                <div class="BoutonsHeader">
+                    <a href="http://projetweb2022.loc/le-programme"  class="BoutonNavHeaderB"><p>Le programme</p></a>
+                    <a href="http://projetweb2022.loc/vie-etudiante" class="BoutonNavHeaderY"><p>Vie étudiante</p></a>
+                    <a href="http://projetweb2022.loc/projets" class="BoutonNavHeaderO"><p>Projets</p></a>
+                    <a href="http://projetweb2022.loc/stages" class="BoutonNavHeaderV"><p>Stages</p></a>
+                    </div>
             
             
         </div><!--Fin head -->
@@ -75,7 +78,7 @@
                          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
                          , sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </div>
-            <img class="flecheDroite" src="http://projetweb2022.loc/wp-content/uploads/2022/11/FlecheSuite.png" alt="la flèche droite"  >
+            <a href="http://projetweb2022.loc/category/profs"><img class="flecheDroite" src="http://projetweb2022.loc/wp-content/uploads/2022/11/FlecheSuite.png" alt="la flèche droite"></a>
             <img class="flecheGauche" src="http://projetweb2022.loc/wp-content/uploads/2022/11/FlecheSuite.png" alt="la flèche gauche"  height="20px">
         </div>
         <div class="lesImages">

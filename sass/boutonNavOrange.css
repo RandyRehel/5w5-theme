@@ -7,6 +7,15 @@
   align-items: center;
 }
 
+.BoutonsHeader a {
+  text-decoration: none;
+  color: black;
+}
+
+.BoutonsHeader a p {
+  text-align: center;
+}
+
 .BoutonNavHeaderB {
   background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu.png");
   background-size: contain;
@@ -109,7 +118,6 @@
 
 .paragrapheLorum1 {
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
 }
@@ -209,7 +217,6 @@
 
 .paragrapheLorum1VieEtudiante {
   -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
 }
@@ -262,4 +269,5 @@
   width: 60vh;
   background-color: white;
   border: solid black 1px;
-}/*# sourceMappingURL=boutonNavOrange.css.map */
+}
+/*# sourceMappingURL=boutonNavOrange.css.map */

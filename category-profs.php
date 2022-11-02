@@ -23,26 +23,27 @@
     <?php wp_head(); ?>
 </head>
 <body>
-<?php while (have_posts() ) : the_post();?>
 
-
-    <div id="app">
+<div id="app">
         <div class="content">
-            <div class="header">
-                <div class="logo1">
-                    <img src="" alt="LOGO DU TIM">           
-                </div>
-                
-                    <div class="BoutonsHeader" >
-                    <button class="BoutonNavHeaderB" type="button" >Le programme</button>
-                    <button class="BoutonNavHeaderY" type="button" >Vie étudiante</button>
-                    <button class="BoutonNavHeaderO" type="button" >Projets</button>
-                    <button class="BoutonNavHeaderV" type="button" >Stages</button>
+        <div class="header">
+           
+            <div class="logoLeprogramme">
+                <a href="http://projetweb2022.loc/frontpage">
+                    <img src="http://projetweb2022.loc/wp-content/uploads/2022/11/Logo.png" alt="LOGO DU TIM" height="110px" width="110px">           
+                </a>
+            </div>
+            
+                <div class="BoutonsHeader">
+                    <a href="http://projetweb2022.loc/le-programme"  class="BoutonNavHeaderB"><p>Le programme</p></a>
+                    <a href="http://projetweb2022.loc/vie-etudiante" class="BoutonNavHeaderY"><p>Vie étudiante</p></a>
+                    <a href="http://projetweb2022.loc/projets" class="BoutonNavHeaderO"><p>Projets</p></a>
+                    <a href="http://projetweb2022.loc/stages" class="BoutonNavHeaderV"><p>Stages</p></a>
                     </div>
                 
                 
             </div><!--Fin head -->
-            <div class="PageContenu" style="width: 100vw; height: 80vh;">
+            <div class="pageContenuProfs" style="min-height:80vh;">
             <?php 
                 if ( $arr_posts->have_posts() ) :
   
@@ -55,12 +56,14 @@
                                 the_post_thumbnail();
                             endif;
                             ?>
-                            <header class="entry-header">
-                                <h1 class="entry-title"><?php the_title(); ?></h1>
-                            </header>
-                            <div class="entry-content">
-                                <?php the_content();?>
+                            <div class="polaroidDiv">
+                                <div class="polaroidImg">
+                                    <?php the_content();?>
+                                    <h1 class="profTitre"><?php the_title(); ?></h1>
+                                </div>
                             </div>
+                            
+                            
                         </article>
                         <?php
                     endwhile;
@@ -69,7 +72,7 @@
             </div><!--Fin PageContenu -->
         </div><!--Fin content -->
     </div> <!--Fin app -->
+
 <?php include 'footer2.php';?>
-<?php endwhile; ?>
 </body>
 </html>
