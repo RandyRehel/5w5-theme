@@ -979,7 +979,7 @@ textarea {
 }
 
 .BoutonNavHeaderB {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonBleu.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -995,7 +995,7 @@ textarea {
 }
 
 .BoutonNavHeaderY {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonJaune.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonJaune.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1010,7 +1010,7 @@ textarea {
 }
 
 .BoutonNavHeaderO {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonOrange.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonOrange.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1025,7 +1025,7 @@ textarea {
 }
 
 .BoutonNavHeaderV {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonVert.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonVert.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1040,19 +1040,19 @@ textarea {
 }
 
 .BoutonNavHeaderB:hover {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonBleu_Hover.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu_Hover.png");
 }
 
 .BoutonNavHeaderY:hover {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonJaune_hovrr.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonJaune_hovrr.png");
 }
 
 .BoutonNavHeaderO:hover {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonOrange_hover.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonOrange_hover.png");
 }
 
 .BoutonNavHeaderV:hover {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonVert_Hover.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonVert_Hover.png");
 }
 
 .NosProjets {
@@ -1064,7 +1064,7 @@ textarea {
   position: absolute;
   font-size: 30px;
   bottom: 59vh;
-  left: 15vh;
+  left: 9vh;
 }
 
 .BoutonProjet {
@@ -1092,6 +1092,11 @@ textarea {
 
 .flechesDiv {
   position: relative;
+<<<<<<< HEAD
+  left: 88%;
+  bottom: 4%;
+  width: 10%;
+=======
   bottom: 0;
   display: flex;
   justify-content: space-between;
@@ -1099,11 +1104,19 @@ textarea {
 }
 
 .flecheDroite {
+>>>>>>> 3110439e9c05b4a51cbf6e29e5aafc848da6189d
   height: 60px;
   transform: rotate(-270deg);
 }
 
 .flecheGauche {
+<<<<<<< HEAD
+  position: relative;
+  left: 2%;
+  bottom: 14%;
+  width: 10%;
+=======
+>>>>>>> 3110439e9c05b4a51cbf6e29e5aafc848da6189d
   height: 60px;
   transform: rotate(270deg);
 }
@@ -1117,7 +1130,7 @@ textarea {
 
 .BoutonNavOetB {
   display: flex;
-  background-image: url("/content/themes/theme2022/assets/img/BoutonNavOrange.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonNavOrange.png");
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -1129,13 +1142,13 @@ textarea {
 }
 
 .BoutonNavOetB:hover {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonNav_hover.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonNav_hover.png");
 }
 
 .header {
   display: flex;
   justify-content: space-evenly;
-  background-color: #070044;
+  background-color: #2a2841;
   margin: 0;
   padding: 0;
 }
@@ -1150,6 +1163,11 @@ textarea {
   background-position: center;
   margin: 0;
   padding: 0;
+}
+
+.logoLeprogramme {
+  display: flex;
+  align-items: center;
 }
 
 .containerLeprogramme {
@@ -1208,6 +1226,7 @@ textarea {
   white-space: nowrap;
   text-align: center;
   color: white;
+  margin-bottom: 20px;
 }
 
 .nav {
@@ -1232,6 +1251,79 @@ textarea {
 
 .nav-item {
   padding-right: 5px;
+}
+
+.nav-itemLeProgramme {
+  padding-right: 5px;
+  padding-left: 15px;
+}
+
+.facebook {
+  height: 40px;
+  width: 40px;
+  display: list-item;
+  float: right;
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/LogoFB.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100% 100%;
+}
+
+.instagram {
+  height: 40px;
+  width: 40px;
+  display: list-item;
+  float: right;
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/InstaLogo-1.png_1.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100% 100%;
+}
+
+.mail {
+  height: 40px;
+  width: 40px;
+  display: list-item;
+  float: right;
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/IconeMail-1.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100% 100%;
+}
+
+.timLogoFooter {
+  position: absolute;
+  left: 90px;
+  top: 30px;
+}
+
+.emplacementIcone {
+  position: relative;
+  padding-right: 160px;
+}
+
+.logoEmplacementRouge {
+  position: absolute;
+  right: 43vh;
+  top: 109vh;
 }
 
 .nav-item4LeProgramme {

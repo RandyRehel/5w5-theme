@@ -54,6 +54,7 @@
   white-space: nowrap;
   text-align: center;
   color: white;
+  margin-bottom: 20px;
 }
 
 .nav {
@@ -80,6 +81,79 @@
   padding-right: 5px;
 }
 
+.nav-itemLeProgramme {
+  padding-right: 5px;
+  padding-left: 15px;
+}
+
+.facebook {
+  height: 40px;
+  width: 40px;
+  display: list-item;
+  float: right;
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/LogoFB.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100% 100%;
+}
+
+.instagram {
+  height: 40px;
+  width: 40px;
+  display: list-item;
+  float: right;
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/InstaLogo-1.png_1.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100% 100%;
+}
+
+.mail {
+  height: 40px;
+  width: 40px;
+  display: list-item;
+  float: right;
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/IconeMail-1.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100% 100%;
+}
+
+.timLogoFooter {
+  position: absolute;
+  left: 90px;
+  top: 30px;
+}
+
+.emplacementIcone {
+  position: relative;
+  padding-right: 160px;
+}
+
+.logoEmplacementRouge {
+  position: absolute;
+  right: 43vh;
+  top: 109vh;
+}
+
 .nav-item4LeProgramme {
   display: flex;
   flex-direction: column;
@@ -99,5 +173,4 @@
   color: white;
   font-size: 15px;
   margin: 0;
-}
-/*# sourceMappingURL=footer.css.map */
+}/*# sourceMappingURL=footer.css.map */

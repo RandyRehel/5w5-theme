@@ -8,7 +8,7 @@
 }
 
 .BoutonNavHeaderB {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonBleu.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -24,7 +24,7 @@
 }
 
 .BoutonNavHeaderY {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonJaune.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonJaune.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -39,7 +39,7 @@
 }
 
 .BoutonNavHeaderO {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonOrange.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonOrange.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -54,7 +54,7 @@
 }
 
 .BoutonNavHeaderV {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonVert.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonVert.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -69,19 +69,19 @@
 }
 
 .BoutonNavHeaderB:hover {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonBleu_Hover.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu_Hover.png");
 }
 
 .BoutonNavHeaderY:hover {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonJaune_hovrr.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonJaune_hovrr.png");
 }
 
 .BoutonNavHeaderO:hover {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonOrange_hover.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonOrange_hover.png");
 }
 
 .BoutonNavHeaderV:hover {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonVert_Hover.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonVert_Hover.png");
 }
 
 .NosProjets {
@@ -93,7 +93,7 @@
   position: absolute;
   font-size: 30px;
   bottom: 59vh;
-  left: 15vh;
+  left: 9vh;
 }
 
 .BoutonProjet {
@@ -121,6 +121,11 @@
 
 .flechesDiv {
   position: relative;
+<<<<<<< HEAD
+  left: 88%;
+  bottom: 4%;
+  width: 10%;
+=======
   bottom: 0;
   display: flex;
   justify-content: space-between;
@@ -128,11 +133,19 @@
 }
 
 .flecheDroite {
+>>>>>>> 3110439e9c05b4a51cbf6e29e5aafc848da6189d
   height: 60px;
   transform: rotate(-270deg);
 }
 
 .flecheGauche {
+<<<<<<< HEAD
+  position: relative;
+  left: 2%;
+  bottom: 14%;
+  width: 10%;
+=======
+>>>>>>> 3110439e9c05b4a51cbf6e29e5aafc848da6189d
   height: 60px;
   transform: rotate(270deg);
 }
@@ -146,7 +159,7 @@
 
 .BoutonNavOetB {
   display: flex;
-  background-image: url("/content/themes/theme2022/assets/img/BoutonNavOrange.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonNavOrange.png");
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -158,13 +171,13 @@
 }
 
 .BoutonNavOetB:hover {
-  background-image: url("/content/themes/theme2022/assets/img/BoutonNav_hover.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonNav_hover.png");
 }
 
 .header {
   display: flex;
   justify-content: space-evenly;
-  background-color: #070044;
+  background-color: #2a2841;
   margin: 0;
   padding: 0;
 }
@@ -180,4 +193,12 @@
   margin: 0;
   padding: 0;
 }
+<<<<<<< HEAD
+
+.logoLeprogramme {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=boutonNavOrange.css.map */
+=======
 /*# sourceMappingURL=boutonNavOrange.css.map */
+>>>>>>> 3110439e9c05b4a51cbf6e29e5aafc848da6189d
