@@ -276,7 +276,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #e9663a;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BGOranget.png");
+  background-image: url("/wp-content/uploads/2022/11/BGOranget.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -331,7 +331,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc00.png");
+  background-image: url("/wp-content/uploads/2022/11/FloppyDisc00.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -349,7 +349,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc02.png");
+  background-image: url("/wp-content/uploads/2022/11/FloppyDisc02.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -367,7 +367,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc04.png");
+  background-image: url("/wp-content/uploads/2022/11/FloppyDisc04.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -385,7 +385,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc06.png");
+  background-image: url("/wp-content/uploads/2022/11/FloppyDisc06.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
