@@ -19,7 +19,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #b2d4e0;
-    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BGBleu.png');
+    background-image: url('/wp-content/uploads/2022/11/BGBleu.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -71,7 +71,7 @@
 
 .polaroid{
     &Img{
-        background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/Polaroid-1.png.png');
+        background-image: url('/wp-content/uploads/2022/11/Polaroid-1.png.png');
         background-size: 100% 100%;
         background-repeat: no-repeat;
         margin: 20px 20px;

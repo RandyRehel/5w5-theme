@@ -1,5 +1,5 @@
 <?php 
-     $imgPath = 'uploads/';
+     $img_dir = get_theme_root_uri()."/../uploads/";
 ?>
 
 
@@ -12,7 +12,7 @@
         
         <li class="frontNavItems"> 
             <a href="<?=$links['link']?>"><p><?=$links['txt']?></p></a>
-            <img src="http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonNav_hover-1.png" alt="image de cercles menus">
+            <img src="<?=$img_dir?>2022/11/BoutonNav_hover-1.png" alt="image de cercles menus">
         </li>
         <?php endforeach; ?>
     </ul>

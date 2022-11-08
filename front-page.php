@@ -1,13 +1,13 @@
 <?php get_header();?>
 <div class="containerFrontpage">
     <div class="middleText">
-        <img class="Logo"src="http://projetweb2022.loc/wp-content/uploads/2022/11/Logo.png" alt="Logo du tim">
+        <img class="Logo"src="<?=$img_dir?>2022/11/Logo.png" alt="Logo du tim">
         <p>TECHNIQUES D'INTÉGRATIONS MULTIMÉDIA</p>
-        <a href="http://projetweb2022.loc/le-programme/"><p><span class="biggerC">C</span>OMMENCER LA VISITE GUIDÉE!</p><img class="flecheVisite"src="http://projetweb2022.loc/wp-content/uploads/2022/11/fleche2.png" alt="image play button"></a>
+        <a href="<?$url?>/le-programme/"><p><span class="biggerC">C</span>OMMENCER LA VISITE GUIDÉE!</p><img class="flecheVisite"src="<?=$img_dir?>2022/11/fleche2.png" alt="image play button"></a>
     </div>
 
     <div class="blocIntro">
-        <img src="http://projetweb2022.loc/wp-content/uploads/2022/11/New_Piskel-1.png_1.png" alt="Timien" width="200px" height="auto">
+        <img src="<?=$img_dir?>2022/11/New_Piskel-1.png_1.png" alt="Timien" width="200px" height="auto">
         <div class="messageBubble">
             <p>
                BONJOUR VISITEUR, BIENVENUE SUR LE SITE DU TIM! <br>

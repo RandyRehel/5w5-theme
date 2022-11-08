@@ -91,7 +91,7 @@
   width: 40px;
   display: list-item;
   float: right;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/LogoFB.png");
+  background-image: url("/wp-content/uploads/2022/11/LogoFB.png");
   background-repeat: no-repeat;
   background-position: 0;
   cursor: pointer;
@@ -108,7 +108,7 @@
   width: 40px;
   display: list-item;
   float: right;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/InstaLogo-1.png_1.png");
+  background-image: url("/wp-content/uploads/2022/11/InstaLogo-1.png_1.png");
   background-repeat: no-repeat;
   background-position: 0;
   cursor: pointer;
@@ -125,7 +125,7 @@
   width: 40px;
   display: list-item;
   float: right;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/IconeMail-1.png");
+  background-image: url("/wp-content/uploads/2022/11/IconeMail-1.png");
   background-repeat: no-repeat;
   background-position: 0;
   cursor: pointer;

@@ -187,3 +187,13 @@ function theme5w5_enqueue_style(){
 
 add_action('wp_enqueue_scripts', 'theme5w5_enqueue_style');
 
+
+function globalVars(){
+	global $img_dir;
+	$img_dir = get_theme_root_uri()."/../uploads/";
+	global $url;
+	$url = get_site_url();
+}
+
+add_action('wp_enqueue_scripts', 'globalVars');
+
