@@ -30,14 +30,14 @@
                                 POUR NOUS COMMUNIQUER
                             </p>
                             <ul>
-                                <li><a><img class="icoHeader" src="<?=$img_dir?>2022/11/IconeMail-1-1.png" alt="email"></a></li>
-                                <li><a><img class="icoHeader" src="<?=$img_dir?>2022/11/InstaLogo-1.png_1.png" alt="instagram"></a></li>
-                                <li><a><img class="icoHeader" src="<?=$img_dir?>2022/11/LogoFB.png" alt="facebook"></a></li>
+                                <li><a><img class="icoHeader" src="<?=$img_dir?>IconeMail-1-1.png" alt="email"></a></li>
+                                <li><a><img class="icoHeader" src="<?=$img_dir?>InstaLogo-1.png_1.png" alt="instagram"></a></li>
+                                <li><a><img class="icoHeader" src="<?=$img_dir?>LogoFB.png" alt="facebook"></a></li>
                             </ul>
                         </div>
                         <div class="rightHeader">
                             <ul>
-                                <li><img src="<?=$img_dir?>2022/11/LocationLogo-1.png.png" alt="emplacement"></li>
+                                <li><img src="<?=$img_dir?>LocationLogo-1.png.png" alt="emplacement"></li>
                                 <li><p class="texteEmplacement">COLLÈGE DE MAISONNEUVE<br>
                                         3800, Rue SHERBROOKE EST <br>
                                         MONTRÉAL (QUÉBEC) <br>
@@ -59,7 +59,7 @@ elseif(!is_front_page()):?>
        
         <div class="logoLeprogramme">
             <a href="<?=$url?>/frontpage">
-                <img src="<?=$img_dir?>2022/11/Logo.png" alt="LOGO DU TIM" height="110px" width="110px">           
+                <img src="<?=$img_dir?>Logo.png" alt="LOGO DU TIM" height="110px" width="110px">           
             </a>
         </div>
         

@@ -15,7 +15,7 @@
 }
 
 .BoutonNavHeaderB {
-  background-image: url("/wp-content/uploads/2022/11/BoutonBleu.png");
+  background-image: url("/wp-content/uploads/BoutonBleu.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -31,7 +31,7 @@
 }
 
 .BoutonNavHeaderY {
-  background-image: url("/wp-content/uploads/2022/11/BoutonJaune.png");
+  background-image: url("/wp-content/uploads/BoutonJaune.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -46,7 +46,7 @@
 }
 
 .BoutonNavHeaderO {
-  background-image: url("/wp-content/uploads/2022/11/BoutonOrange.png");
+  background-image: url("/wp-content/uploads/BoutonOrange.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -61,7 +61,7 @@
 }
 
 .BoutonNavHeaderV {
-  background-image: url("/wp-content/uploads/2022/11/BoutonVert.png");
+  background-image: url("/wp-content/uploads/BoutonVert.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -76,19 +76,19 @@
 }
 
 .BoutonNavHeaderB:hover {
-  background-image: url("/wp-content/uploads/2022/11/BoutonBleu_Hover.png");
+  background-image: url("/wp-content/uploads/BoutonBleu_Hover.png");
 }
 
 .BoutonNavHeaderY:hover {
-  background-image: url("/wp-content/uploads/2022/11/BoutonJaune_hovrr.png");
+  background-image: url("/wp-content/uploads/BoutonJaune_hovrr.png");
 }
 
 .BoutonNavHeaderO:hover {
-  background-image: url("/wp-content/uploads/2022/11/BoutonOrange_hover.png");
+  background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
 }
 
 .BoutonNavHeaderV:hover {
-  background-image: url("/wp-content/uploads/2022/11/BoutonVert_Hover.png");
+  background-image: url("/wp-content/uploads/BoutonVert_Hover.png");
 }
 
 .NosProjets {
@@ -162,7 +162,7 @@
 
 .BoutonNavOetB {
   display: flex;
-  background-image: url("/wp-content/uploads/2022/11/BoutonNavOrange.png");
+  background-image: url("/wp-content/uploads/BoutonNavOrange.png");
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -174,7 +174,7 @@
 }
 
 .BoutonNavOetB:hover {
-  background-image: url("/wp-content/uploads/2022/11/BoutonNav_hover.png");
+  background-image: url("/wp-content/uploads/BoutonNav_hover.png");
 }
 
 .header {
@@ -189,7 +189,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #b2d4e0;
-  background-image: url("/wp-content/uploads/2022/11/BGBleu.png");
+  background-image: url("/wp-content/uploads/BGBleu.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -206,7 +206,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #f3c25e;
-  background-image: url("/wp-content/uploads/2022/11/BGBleu.png");
+  background-image: url("/wp-content/uploads/BGBleu.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -276,7 +276,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #e9663a;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/BGOranget.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/BGOranget.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -329,7 +329,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc00.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/FloppyDisc00.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -347,7 +347,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc02.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/FloppyDisc02.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -365,7 +365,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc04.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/FloppyDisc04.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -383,7 +383,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc06.png");
+  background-image: url("http://projetweb2022.loc/wp-content/uploads/FloppyDisc06.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;

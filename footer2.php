@@ -12,12 +12,12 @@
     </div>
 
     <div class="emplacementIcone">
-    <img class="timLogoFooter" src="<?=$img_dir?>2022/11/Logo.png" height="140px" width="140px" >
+    <img class="timLogoFooter" src="<?=$img_dir?>Logo.png" height="140px" width="140px" >
     <li class="nav-item4LeProgramme">Copyright @ 2022 -Tim Maisonneuve. Tous Droits Réservés</li>
     </div>
     <!-- section Contacts de l'école maisonneuve-->
     <div class="maisonneuveContactsLeProgramme">
-    <img class="logoEmplacementRouge" src="<?=$img_dir?>2022/11/LocationLogo-1.png.png" height="30px" width="30px" >
+    <img class="logoEmplacementRouge" src="<?=$img_dir?>LocationLogo-1.png.png" height="30px" width="30px" >
         <p class="renseignementsFooter">Collège Maisonneuve</p>
         <p class="renseignementsFooter">3800, RUE SHERBROOKE EST</p>
         <p class="renseignementsFooter">MONTRÉAL(QUÉBEC)</p>

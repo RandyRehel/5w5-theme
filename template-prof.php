@@ -13,8 +13,8 @@
                         COMPETENCES 
                     </div>
                     <div class="flechesDiv">
-                        <a href="javascript:history.back()"><img class="flecheGaucheProf" src="<?=$img_dir?>2022/11/FlecheSuite.png" alt="la flèche gauche" ></a> 
-                        <img class="flecheDroiteProf" src="<?=$img_dir?>2022/11/FlecheSuite.png" alt="la flèche droite" >
+                        <a href="javascript:history.back()"><img class="flecheGaucheProf" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche" ></a> 
+                        <img class="flecheDroiteProf" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite" >
                     </div>
                 </div>
                     <div class ="BoutonNavOrange">

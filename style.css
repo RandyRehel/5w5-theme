@@ -806,7 +806,7 @@ textarea {
 }
 
 .blocIntro .messageBubble {
-  background-image: url("/wp-content/uploads/2022/11/BulleFooter.png-e1667267695647.png");
+  background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
   background-size: 100% 100%;
   background-position: right;
   background-repeat: no-repeat;
@@ -848,7 +848,7 @@ textarea {
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #b2d4e0;
-  background-image: url("/wp-content/uploads/2022/11/BGBleu.png");
+  background-image: url("/wp-content/uploads/BGBleu.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -892,7 +892,7 @@ textarea {
 }
 
 .polaroidImg {
-  background-image: url("/wp-content/uploads/2022/11/Polaroid-1.png.png");
+  background-image: url("/wp-content/uploads/Polaroid-1.png.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   margin: 20px 20px;
@@ -1035,7 +1035,7 @@ textarea {
 }
 
 .BoutonNavHeaderB {
-  background-image: url("/wp-content/uploads/2022/11/BoutonBleu.png");
+  background-image: url("/wp-content/uploads/BoutonBleu.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1051,7 +1051,7 @@ textarea {
 }
 
 .BoutonNavHeaderY {
-  background-image: url("/wp-content/uploads/2022/11/BoutonJaune.png");
+  background-image: url("/wp-content/uploads/BoutonJaune.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1066,7 +1066,7 @@ textarea {
 }
 
 .BoutonNavHeaderO {
-  background-image: url("/wp-content/uploads/2022/11/BoutonOrange.png");
+  background-image: url("/wp-content/uploads/BoutonOrange.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1081,7 +1081,7 @@ textarea {
 }
 
 .BoutonNavHeaderV {
-  background-image: url("/wp-content/uploads/2022/11/BoutonVert.png");
+  background-image: url("/wp-content/uploads/BoutonVert.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1096,19 +1096,19 @@ textarea {
 }
 
 .BoutonNavHeaderB:hover {
-  background-image: url("/wp-content/uploads/2022/11/BoutonBleu_Hover.png");
+  background-image: url("/wp-content/uploads/BoutonBleu_Hover.png");
 }
 
 .BoutonNavHeaderY:hover {
-  background-image: url("/wp-content/uploads/2022/11/BoutonJaune_hovrr.png");
+  background-image: url("/wp-content/uploads/BoutonJaune_hovrr.png");
 }
 
 .BoutonNavHeaderO:hover {
-  background-image: url("/wp-content/uploads/2022/11/BoutonOrange_hover.png");
+  background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
 }
 
 .BoutonNavHeaderV:hover {
-  background-image: url("/wp-content/uploads/2022/11/BoutonVert_Hover.png");
+  background-image: url("/wp-content/uploads/BoutonVert_Hover.png");
 }
 
 .NosProjets {
@@ -1181,7 +1181,7 @@ textarea {
 
 .BoutonNavOetB {
   display: flex;
-  background-image: url("/wp-content/uploads/2022/11/BoutonNavOrange.png");
+  background-image: url("/wp-content/uploads/BoutonNavOrange.png");
   background-size: cover;
   height: 100px;
   width: 100px;
@@ -1193,7 +1193,7 @@ textarea {
 }
 
 .BoutonNavOetB:hover {
-  background-image: url("/wp-content/uploads/2022/11/BoutonNav_hover.png");
+  background-image: url("/wp-content/uploads/BoutonNav_hover.png");
 }
 
 .header {
@@ -1208,7 +1208,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   background-color: #b2d4e0;
-  background-image: url("/wp-content/uploads/2022/11/BGBleu.png");
+  background-image: url("/wp-content/uploads/BGBleu.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1225,7 +1225,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   background-color: #f3c25e;
-  background-image: url("/wp-content/uploads/2022/11/BGBleu.png");
+  background-image: url("/wp-content/uploads/BGBleu.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1294,7 +1294,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   background-color: #e9663a;
-  background-image: url("/wp-content/uploads/2022/11/BGOranget.png");
+  background-image: url("/wp-content/uploads/BGOranget.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1349,7 +1349,7 @@ textarea {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("/wp-content/uploads/2022/11/FloppyDisc00.png");
+  background-image: url("/wp-content/uploads/FloppyDisc00.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1367,7 +1367,7 @@ textarea {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("/wp-content/uploads/2022/11/FloppyDisc02.png");
+  background-image: url("/wp-content/uploads/FloppyDisc02.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1385,7 +1385,7 @@ textarea {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("/wp-content/uploads/2022/11/FloppyDisc04.png");
+  background-image: url("/wp-content/uploads/FloppyDisc04.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1403,7 +1403,7 @@ textarea {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("/wp-content/uploads/2022/11/FloppyDisc06.png");
+  background-image: url("/wp-content/uploads/FloppyDisc06.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1570,7 +1570,7 @@ textarea {
   width: 40px;
   display: list-item;
   float: right;
-  background-image: url("/wp-content/uploads/2022/11/LogoFB.png");
+  background-image: url("/wp-content/uploads/LogoFB.png");
   background-repeat: no-repeat;
   background-position: 0;
   cursor: pointer;
@@ -1587,7 +1587,7 @@ textarea {
   width: 40px;
   display: list-item;
   float: right;
-  background-image: url("/wp-content/uploads/2022/11/InstaLogo-1.png_1.png");
+  background-image: url("/wp-content/uploads/InstaLogo-1.png_1.png");
   background-repeat: no-repeat;
   background-position: 0;
   cursor: pointer;
@@ -1604,7 +1604,7 @@ textarea {
   width: 40px;
   display: list-item;
   float: right;
-  background-image: url("/wp-content/uploads/2022/11/IconeMail-1.png");
+  background-image: url("/wp-content/uploads/IconeMail-1.png");
   background-repeat: no-repeat;
   background-position: 0;
   cursor: pointer;
@@ -1682,7 +1682,7 @@ textarea {
   display: flex;
   justify-content: space-between;
   border: black 2px solid;
-  background-image: url("/wp-content/uploads/2022/11/BoutonOrange_hover.png");
+  background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1730,7 +1730,7 @@ textarea {
   margin: 0 5% 0 0;
   display: flex;
   justify-content: space-around;
-  background-image: url("/wp-content/uploads/2022/11/BulleFooter.png-e1667267695647.png");
+  background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
   background-size: 100% 100%;
   background-position: right;
   background-repeat: no-repeat;

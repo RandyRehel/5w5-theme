@@ -37,8 +37,8 @@
             
         </div>          
             <!-- </div>
-            <img class="flecheDroite" src="http://projetweb2022.loc/wp-content/uploads/2022/11/FlecheSuite.png" alt="la flèche droite"  >
-            <img class="flecheGauche" src="http://projetweb2022.loc/wp-content/uploads/2022/11/FlecheSuite.png" alt="la flèche gauche"  height="20px">
+            <img class="flecheDroite" src="http://projetweb2022.loc/wp-content/uploads/FlecheSuite.png" alt="la flèche droite"  >
+            <img class="flecheGauche" src="http://projetweb2022.loc/wp-content/uploads/FlecheSuite.png" alt="la flèche gauche"  height="20px">
         </div> -->
         <div class="">
             
