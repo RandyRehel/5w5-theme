@@ -17,7 +17,7 @@
         #app{
             width: 100%;
             height: 100%;
-            /* padding: 6em 0; */
+             padding: 7em 0; 
             overflow: hidden;
             display: flex;
         }
@@ -67,15 +67,35 @@
                 <img class="ImgNosProjet" src="" alt=""  >
                 <p class="titretProjetVieEtudiante">NOS PROJETS</p>
                 <div class="BoutonsHeader" >
-                <button class="BoutonContenuProjets" type="button" >Jeu</button>
-                <button class="BoutonContenuProjets" type="button" >Web</button>
-                <button class="BoutonContenuProjets" type="button" >Video</button>
-                <button class="BoutonContenuProjets" type="button" >3D</button>
-                <button class="BoutonContenuProjets" type="button" >Imagerie</button>
-                <button class="BoutonContenuProjets" type="button" >Autre</button>
-                </div>
+                <button class="BoutonContenuProjets" type="button" ><p>Jeu</p></button>
+                <button class="BoutonContenuProjets" type="button" ><p>Web</p></button>
+                <button class="BoutonContenuProjets" type="button" ><p>Video</p></button>
+                <button class="BoutonContenuProjets" type="button" ><p>3D</p></button>
+                <button class="BoutonContenuProjets" type="button" ><p>Imagerie</p></button>
+                <button class="BoutonContenuProjets" type="button" ><p>Autre</p></button>
+                </div> <!-- Fin boutonProjet -->
+
+                <div class="BoutonsSelectionProjet" >
+                    <div class="selectionProjet1">
+                        <a><button class="selectionProjetBouton1" type="button" ><p>Image</p></button></a>
+                    </div>
+                    <div class="selectionProjet2">
+                    <a><button class="selectionProjetBouton2" type="button" ><p>Image</p></button></a>
+                    </div>
+                    <div class="selectionProjet3">
+                    <a><button class="selectionProjetBouton3" type="button" ><p>Image</p></button></a>
+                    </div>
+                    <div class="selectionProjet4">
+                    <a><button class="selectionProjetBouton4" type="button" ><p>Image</p></button></a>
+                    </div>
+                </div> <!-- Fin BoutonsSelectionProjet -->
+
+                </div><!-- Fin boutonProjet -->
+
                 
-                </div>
+
+                
+
             
         </div>          
             <!-- </div>

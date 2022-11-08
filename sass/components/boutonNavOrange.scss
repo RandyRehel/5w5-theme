@@ -303,7 +303,7 @@
     margin: 0;
     padding: 0;
     flex-direction: column;
-    justify-content: flex-end;
+    //justify-content: flex-end;
     height: 100%;
     width: 100%;
 
@@ -311,18 +311,184 @@
 //////////////// Boutons de la page des projets 
 .BoutonContenuProjets{
     
-    //background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu.png');
-    //background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-repeat: no-repeat;
+    min-width: 10%;
+    height: 32px;
     // background-position-x: center;
     // background-position-y: center;
-    min-width:35%;
     margin-right: 20px;
     cursor: pointer;
     border: none;
     font: inherit;
     //background-color: transparent;
     font-size: clamp(1rem, 1vw, 2rem);
+    border: solid 1px;
     
     
+}
+
+//////////////////////////////////////////Selection bouton page projet
+
+.BoutonsSelectionProjet{
+    display: flex;
+    flex-direction: row;
+    margin:5px;
+    height: 300px;
+    width:70%;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: black;
+        p{
+            text-align: center;
+        }
+    }
+}
+ .selectionProjet1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc00.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height:300px;
+    width:400px;
+    border: none;
+    font: inherit;
+    background-color: transparent;
+    font-size: clamp(1rem, 1vw, 2rem);
+    margin-right: 50px;
+ }
+
+ .selectionProjet2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc02.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height:300px;
+    width:400px;
+    border: none;
+    font: inherit;
+    background-color: transparent;
+    font-size: clamp(1rem, 1vw, 2rem);
+    margin-right: 50px;
+ }
+ .selectionProjet3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc04.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height:300px;
+    width:400px;
+    border: none;
+    font: inherit;
+    background-color: transparent;
+    font-size: clamp(1rem, 1vw, 2rem);
+    margin-right: 50px;
+ }
+ .selectionProjet4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/FloppyDisc06.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height:300px;
+    width:400px;
+    border: none;
+    font: inherit;
+    background-color: transparent;
+    font-size: clamp(1rem, 1vw, 2rem);
+    margin-right: 50px;
+ }
+ .selectionProjetBouton1{
+    
+    //background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu.png');
+    //background-size: contain;
+    background-repeat: no-repeat;
+    // background-position-x: center;
+    // background-position-y: center;
+    background-repeat: no-repeat;
+    min-width: auto;
+    /* margin-right: 20px; */
+    cursor: pointer;
+    border: solid black 1px;
+    font: inherit;
+    font-size: clamp(1rem, 1vw, 2rem);
+    margin-bottom: 129px;
+    background-color: white;
+    width: 200px;
+    height: 126px;
+}
+.selectionProjetBouton2{
+    
+    //background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu.png');
+    //background-size: contain;
+    background-repeat: no-repeat;
+    // background-position-x: center;
+    // background-position-y: center;
+    background-repeat: no-repeat;
+    min-width: auto;
+    /* margin-right: 20px; */
+    cursor: pointer;
+    border: solid black 1px;
+    font: inherit;
+    font-size: clamp(1rem, 1vw, 2rem);
+    margin-bottom: 129px;
+    background-color: white;
+    width: 200px;
+    height: 126px;
+}
+.selectionProjetBouton3{
+    
+    //background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu.png');
+    //background-size: contain;
+    background-repeat: no-repeat;
+    // background-position-x: center;
+    // background-position-y: center;
+    background-repeat: no-repeat;
+    min-width: auto;
+    /* margin-right: 20px; */
+    cursor: pointer;
+    border: solid black 1px;
+    font: inherit;
+    font-size: clamp(1rem, 1vw, 2rem);
+    margin-bottom: 129px;
+    background-color: white;
+    width: 200px;
+    height: 126px;
+}
+.selectionProjetBouton4{
+    
+    //background-image: url('http://projetweb2022.loc/wp-content/uploads/2022/11/BoutonBleu.png');
+    //background-size: contain;
+    background-repeat: no-repeat;
+    // background-position-x: center;
+    // background-position-y: center;
+    background-repeat: no-repeat;
+    min-width: auto;
+    /* margin-right: 20px; */
+    cursor: pointer;
+    border: solid black 1px;
+    font: inherit;
+    font-size: clamp(1rem, 1vw, 2rem);
+    margin-bottom: 129px;
+    background-color: white;
+    width: 200px;
+    height: 126px;
 }
