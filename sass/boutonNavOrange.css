@@ -6,12 +6,10 @@
   width: 70%;
   align-items: center;
 }
-
 .BoutonsHeader a {
   text-decoration: none;
   color: black;
 }
-
 .BoutonsHeader a p {
   text-align: center;
 }
@@ -118,6 +116,7 @@
 
 .paragrapheLorum1 {
   -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
 }
@@ -218,6 +217,7 @@
 
 .paragrapheLorum1VieEtudiante {
   -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
 }
@@ -317,12 +317,10 @@
   width: 70%;
   align-items: center;
 }
-
 .BoutonsSelectionProjet a {
   text-decoration: none;
   color: black;
 }
-
 .BoutonsSelectionProjet a p {
   text-align: center;
 }
@@ -457,5 +455,4 @@
   background-color: white;
   width: 200px;
   height: 126px;
-}
-/*# sourceMappingURL=boutonNavOrange.css.map */
+}/*# sourceMappingURL=boutonNavOrange.css.map */
