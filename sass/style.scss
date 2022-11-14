@@ -100,3 +100,19 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Alignments
 --------------------------------------------- */
 @import "utilities/alignments";
+
+/* Page stages
+--------------------------------------------- */
+@import "components/leProgramme";
+
+/* Page vie etudiante
+--------------------------------------------- */
+@import "components/vieEtudiante";
+
+/* Page projets
+--------------------------------------------- */
+@import "components/projets";
+
+/* Page stages
+--------------------------------------------- */
+@import "components/stages";
