@@ -97,10 +97,8 @@
 }
 
 .titretProjet {
-  position: absolute;
+  position: relative;
   font-size: 30px;
-  bottom: 59vh;
-  left: 9vh;
 }
 
 .BoutonProjet {
@@ -182,7 +180,7 @@
   justify-content: space-evenly;
   background-color: #2a2841;
   margin: 0;
-  padding: 0;
+  padding-bottom: 3vh;
 }
 
 .PageContenu {
@@ -223,10 +221,7 @@
 }
 
 .titretProjetVieEtudiante {
-  position: absolute;
-  font-size: 30px;
-  bottom: 50vh;
-  left: 9vh;
+  position: relative;
 }
 
 .contentVieEtudiante {
@@ -276,7 +271,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #e9663a;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/BGOranget.png");
+  background-image: url("/wp-content/uploads/BGOranget.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -329,7 +324,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/FloppyDisc00.png");
+  background-image: url("/wp-content/uploads/FloppyDisc00.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -347,7 +342,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/FloppyDisc02.png");
+  background-image: url("/wp-content/uploads/FloppyDisc02.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -365,7 +360,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/FloppyDisc04.png");
+  background-image: url("/wp-content/uploads/FloppyDisc04.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -383,7 +378,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-image: url("http://projetweb2022.loc/wp-content/uploads/FloppyDisc06.png");
+  background-image: url("/wp-content/uploads/FloppyDisc06.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;

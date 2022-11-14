@@ -469,7 +469,7 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
-  background: #fff;
+  background: #2a2841;
 }
 
 hr {
@@ -1080,10 +1080,8 @@ textarea {
 }
 
 .titretProjet {
-  position: absolute;
+  position: relative;
   font-size: 30px;
-  bottom: 59vh;
-  left: 9vh;
 }
 
 .BoutonProjet {
@@ -1165,7 +1163,7 @@ textarea {
   justify-content: space-evenly;
   background-color: #2a2841;
   margin: 0;
-  padding: 0;
+  padding-bottom: 3vh;
 }
 
 .PageContenu {
@@ -1206,10 +1204,7 @@ textarea {
 }
 
 .titretProjetVieEtudiante {
-  position: absolute;
-  font-size: 30px;
-  bottom: 50vh;
-  left: 9vh;
+  position: relative;
 }
 
 .contentVieEtudiante {
@@ -1456,6 +1451,7 @@ textarea {
   flex-direction: row;
   justify-content: space-around;
   background-color: #2a2841;
+  padding-top: 5vh;
 }
 
 .communication {
