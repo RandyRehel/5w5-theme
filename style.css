@@ -1194,6 +1194,7 @@ textarea {
   background-size: 100% 100%;
   margin: 0;
   padding: 0;
+  min-height: 80vh;
 }
 
 .paragrapheLorum1VieEtudiante {
@@ -1433,6 +1434,19 @@ textarea {
   background-color: white;
   width: 200px;
   height: 126px;
+}
+
+.PageContenuStages {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/wp-content/uploads/BGVert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 80vh;
 }
 
 .containerLeprogramme {

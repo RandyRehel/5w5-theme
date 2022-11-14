@@ -1,5 +1,5 @@
 <?php get_header();?>
-    <div class="PageContenuVieEtudiante">
+    <div class="PageContenuStages">
         <div class="NosProjets">
         <div class="BoutonProjet" >
             <img class="ImgNosProjet" src="" alt=""  >
@@ -13,17 +13,7 @@
         <img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"  >
         <img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"  height="20px">
     </div>
-    <div class="lesImagesEtudiantes">
-        <div class="logoLeprogrammeEtudiante1">
-            <img src="" alt="" >           
-        </div>
-        <div class="logoLeprogrammeEtudiante2">
-            <img src="" alt="" >           
-        </div>  
-        <div class="logoLeprogrammeEtudiante3">
-            <img src="" alt="" >           
-        </div>    
-    </div>
+   
     <div class ="BoutonNavOrange">
         <button class="BoutonNavOetB" type="button" ></button>
         <button class="BoutonNavOetB" type="button" ></button> 
