@@ -13,6 +13,7 @@
     flex-direction: row;
     justify-content: space-around;
     background-color:#2a2841;
+    padding-top: 5vh;
     
 }
 
@@ -36,6 +37,8 @@
 
 
 .maisonneuveContactsLeProgramme{
+    position: relative;
+    bottom: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,9 +148,9 @@ padding-right: 5px;
     // align-self: center;
 }
 .logoEmplacementRouge{
-    position: absolute;
-    right: 43vh;
-    top: 109vh;
+    position: relative;
+    right: 37px;
+    top: 49px;
 }
 .nav-item4LeProgramme {
     display: flex;

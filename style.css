@@ -49,20 +49,17 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 --------------------------------------------------------------*/
 @font-face {
-  font-family: 'Silkscreen';
+  font-family: "Silkscreen";
   src: url("./fonts/SilkscreenRegular.ttf") format("truetype");
 }
-
 @font-face {
-  font-family: 'SilkscreenBold';
+  font-family: "SilkscreenBold";
   src: url("./fonts/SilkscreenBold.ttf") format("truetype");
 }
-
 @font-face {
-  font-family: 'Quicksand';
+  font-family: "Quicksand";
   src: url("./fonts/Quicksand.ttf") format("truetype");
 }
-
 /*--------------------------------------------------------------
 # Generic
 --------------------------------------------------------------*/
@@ -239,9 +236,9 @@ select {
  * Correct the inability to style clickable types in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
+[type=button],
+[type=reset],
+[type=submit] {
   -webkit-appearance: button;
 }
 
@@ -249,9 +246,9 @@ button,
  * Remove the inner border and padding in Firefox.
  */
 button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -260,9 +257,9 @@ button::-moz-focus-inner,
  * Restore the focus styles unset by the previous rule.
  */
 button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText;
 }
 
@@ -306,8 +303,8 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-[type="checkbox"],
-[type="radio"] {
+[type=checkbox],
+[type=radio] {
   box-sizing: border-box;
   padding: 0;
 }
@@ -315,8 +312,8 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
   height: auto;
 }
 
@@ -324,7 +321,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
+[type=search] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
@@ -332,7 +329,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-decoration {
+[type=search]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
@@ -472,7 +469,7 @@ big {
 /* Elements
 --------------------------------------------- */
 body {
-  background: #fff;
+  background: #2a2841;
 }
 
 hr {
@@ -535,9 +532,9 @@ table {
 /* Forms
 --------------------------------------------- */
 button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+input[type=button],
+input[type=reset],
+input[type=submit] {
   border: 1px solid;
   border-color: #ccc #ccc #bbb;
   border-radius: 3px;
@@ -546,61 +543,58 @@ input[type="submit"] {
   line-height: 1;
   padding: 0.6em 1em 0.4em;
 }
-
 button:hover,
-input[type="button"]:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover {
+input[type=button]:hover,
+input[type=reset]:hover,
+input[type=submit]:hover {
   border-color: #ccc #bbb #aaa;
 }
-
 button:active, button:focus,
-input[type="button"]:active,
-input[type="button"]:focus,
-input[type="reset"]:active,
-input[type="reset"]:focus,
-input[type="submit"]:active,
-input[type="submit"]:focus {
+input[type=button]:active,
+input[type=button]:focus,
+input[type=reset]:active,
+input[type=reset]:focus,
+input[type=submit]:active,
+input[type=submit]:focus {
   border-color: #aaa #bbb #bbb;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="url"],
-input[type="password"],
-input[type="search"],
-input[type="number"],
-input[type="tel"],
-input[type="range"],
-input[type="date"],
-input[type="month"],
-input[type="week"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="color"],
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+input[type=search],
+input[type=number],
+input[type=tel],
+input[type=range],
+input[type=date],
+input[type=month],
+input[type=week],
+input[type=time],
+input[type=datetime],
+input[type=datetime-local],
+input[type=color],
 textarea {
   color: #666;
   border: 1px solid #ccc;
   border-radius: 3px;
   padding: 3px;
 }
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="url"]:focus,
-input[type="password"]:focus,
-input[type="search"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-input[type="range"]:focus,
-input[type="date"]:focus,
-input[type="month"]:focus,
-input[type="week"]:focus,
-input[type="time"]:focus,
-input[type="datetime"]:focus,
-input[type="datetime-local"]:focus,
-input[type="color"]:focus,
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=number]:focus,
+input[type=tel]:focus,
+input[type=range]:focus,
+input[type=date]:focus,
+input[type=month]:focus,
+input[type=week]:focus,
+input[type=time]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=color]:focus,
 textarea:focus {
   color: #111;
 }
@@ -625,14 +619,12 @@ textarea {
   display: block;
   width: 100%;
 }
-
 .main-navigation ul {
   display: none;
   list-style: none;
   margin: 0;
   padding-left: 0;
 }
-
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
   float: left;
@@ -641,36 +633,28 @@ textarea {
   left: -999em;
   z-index: 99999;
 }
-
 .main-navigation ul ul ul {
   left: -999em;
   top: 0;
 }
-
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul {
   display: block;
   left: auto;
 }
-
 .main-navigation ul ul a {
   width: 200px;
 }
-
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
   left: auto;
 }
-
 .main-navigation li {
   position: relative;
 }
-
 .main-navigation a {
   display: block;
   text-decoration: none;
 }
-
 /* Small menu. */
 .menu-toggle,
 .main-navigation.toggled ul {
@@ -685,25 +669,21 @@ textarea {
     display: flex;
   }
 }
-
-.site-main .comment-navigation, .site-main
-.posts-navigation, .site-main
-.post-navigation {
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
   margin: 0 0 1.5em;
 }
-
 .comment-navigation .nav-links,
 .posts-navigation .nav-links,
 .post-navigation .nav-links {
   display: flex;
 }
-
 .comment-navigation .nav-previous,
 .posts-navigation .nav-previous,
 .post-navigation .nav-previous {
   flex: 1 0 50%;
 }
-
 .comment-navigation .nav-next,
 .posts-navigation .nav-next,
 .post-navigation .nav-next {
@@ -765,21 +745,17 @@ textarea {
   color: black;
   margin-top: 50px;
 }
-
 .middleText a {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
-
 .middleText a:visited {
   color: black;
 }
-
 .middleText a:hover {
   color: black;
 }
-
 .middleText a:active {
   color: black;
 }
@@ -800,7 +776,6 @@ textarea {
   position: relative;
   top: -100px;
 }
-
 .blocIntro .messageBubble {
   background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
   background-size: 100% 100%;
@@ -809,7 +784,6 @@ textarea {
   position: relative;
   top: -90px;
 }
-
 .blocIntro .messageBubble p {
   padding: 40px 10px 25px 10px;
   font-family: "Silkscreen";
@@ -858,7 +832,6 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-
 .divImg .imgProf {
   width: 400px;
   height: auto;
@@ -875,11 +848,9 @@ textarea {
   font-family: "Silkscreen";
   margin-top: 20px;
 }
-
 .infosProf p {
   font-size: 12px;
 }
-
 .infosProf .competences {
   display: flex;
   justify-content: center;
@@ -893,18 +864,15 @@ textarea {
   background-repeat: no-repeat;
   margin: 20px 20px;
 }
-
 .polaroidImg h1 {
   text-align: center;
   position: relative;
   top: -20px;
 }
-
 .polaroidImg .wp-block-image {
   width: 90%;
   margin: 23px 0px 0px 10px;
 }
-
 /* Comments
 --------------------------------------------- */
 .comment-content a {
@@ -920,7 +888,6 @@ textarea {
 .widget {
   margin: 0 0 1.5em;
 }
-
 .widget select {
   max-width: 100%;
 }
@@ -947,13 +914,11 @@ textarea {
   margin-bottom: 1.5em;
   max-width: 100%;
 }
-
-.wp-caption img[class*="wp-image-"] {
+.wp-caption img[class*=wp-image-] {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 .wp-caption .wp-caption-text {
   margin: 0.8075em 0;
 }
@@ -1012,6 +977,395 @@ textarea {
   display: block;
 }
 
+.containerLeprogramme {
+  background-color: aquamarine;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 10px solid black;
+}
+
+.rowLeProgramme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #2a2841;
+  padding-top: 5vh;
+}
+
+.communication {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-size: 30px;
+}
+
+.communicationLeProgramme {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+}
+
+.maisonneuveContactsLeProgramme {
+  position: relative;
+  bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.com {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.comLeProgramme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.navLeProgramme {
+  margin-bottom: 30;
+  margin-left: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav-item {
+  padding-right: 5px;
+}
+
+.nav-itemLeProgramme {
+  padding-right: 5px;
+  padding-left: 15px;
+}
+
+.facebook {
+  height: 40px;
+  width: 40px;
+  display: list-item;
+  float: right;
+  background-image: url("/wp-content/uploads/LogoFB.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100% 100%;
+}
+
+.instagram {
+  height: 40px;
+  width: 40px;
+  display: list-item;
+  float: right;
+  background-image: url("/wp-content/uploads/InstaLogo-1.png_1.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100% 100%;
+}
+
+.mail {
+  height: 40px;
+  width: 40px;
+  display: list-item;
+  float: right;
+  background-image: url("/wp-content/uploads/IconeMail-1.png");
+  background-repeat: no-repeat;
+  background-position: 0;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 100% 100%;
+}
+
+.timLogoFooter {
+  position: absolute;
+  left: 90px;
+  top: 30px;
+}
+
+.emplacementIcone {
+  position: relative;
+  padding-right: 160px;
+}
+
+.logoEmplacementRouge {
+  position: relative;
+  right: 37px;
+  top: 49px;
+}
+
+.nav-item4LeProgramme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: flex-end;
+  height: 100%;
+  font-size: 13px;
+  color: white;
+  padding-bottom: 15px;
+}
+
+.renseignements {
+  color: white;
+}
+
+.renseignementsFooter {
+  color: white;
+  font-size: 15px;
+  margin: 0;
+}
+
+.enterHeader {
+  padding: 20px 20px;
+  width: 40vw;
+  z-index: 3;
+  overflow: hidden;
+  position: absolute;
+  height: 100vh;
+}
+
+.enterNav {
+  display: flex;
+  align-items: flex-end;
+  background-color: rgba(0, 0, 0, 0.4);
+  flex-wrap: wrap;
+}
+.enterNav ul {
+  padding: 0;
+  margin-left: 0;
+  width: 60%;
+  flex-direction: column;
+}
+.enterNav ul .frontNavItems {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: black 2px solid;
+  background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 20px 20px 10px;
+  margin: 5px 0;
+  padding: 10px;
+  align-items: center;
+  z-index: 2;
+  height: 50px;
+}
+.enterNav ul .frontNavItems:first-of-type {
+  width: 125%;
+}
+.enterNav ul .frontNavItems a {
+  text-decoration: none;
+  font-family: "Silkscreen";
+  color: black;
+  padding-left: 20px;
+  font-size: 16px;
+}
+.enterNav ul .frontNavItems img {
+  width: 40px;
+  height: 40px;
+}
+.enterNav .navImgDroit {
+  background-color: beige;
+  width: 30%;
+  height: 160px;
+  margin: 15px;
+  z-index: 0;
+  bottom: -10px;
+  position: relative;
+}
+
+.nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.contactsHeader {
+  margin: 0 5% 0 0;
+  display: flex;
+  justify-content: space-around;
+  background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
+  background-size: 100% 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -15px;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+.contactsHeader .leftHeader {
+  margin-top: 32px;
+}
+.contactsHeader .leftHeader p {
+  width: 55%;
+  color: black;
+  font-family: "Silkscreen";
+  font-size: 14px;
+}
+.contactsHeader .leftHeader ul {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.contactsHeader .leftHeader ul li {
+  width: 20%;
+  list-style-type: none;
+  margin: 0px 10px;
+}
+.contactsHeader .leftHeader ul li a {
+  display: flex;
+  align-items: center;
+}
+.contactsHeader .leftHeader ul li .icoHeader {
+  width: 168px;
+}
+.contactsHeader .rightHeader {
+  margin-top: 32px;
+}
+.contactsHeader .rightHeader ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.contactsHeader .rightHeader ul li:first-of-type {
+  margin-right: 10px;
+}
+.contactsHeader .rightHeader ul li .texteEmplacement {
+  line-height: 0.6rem;
+  font-size: 9px;
+  font-family: "Silkscreen";
+}
+
+/*--------------------------------------------------------------
+# Plugins
+--------------------------------------------------------------*/
+/* Jetpack infinite scroll
+--------------------------------------------- */
+/* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+  display: none;
+}
+
+/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
+.infinity-end.neverending .site-footer {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# Utilities
+--------------------------------------------------------------*/
+/* Accessibility
+--------------------------------------------- */
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+/* Do not show the outline on the skip link target. */
+#primary[tabindex="-1"]:focus {
+  outline: 0;
+}
+
+/* Alignments
+--------------------------------------------- */
+.alignleft {
+  /*rtl:ignore*/
+  float: left;
+  /*rtl:ignore*/
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.alignright {
+  /*rtl:ignore*/
+  float: right;
+  /*rtl:ignore*/
+  margin-left: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+}
+
+/* Page stages
+--------------------------------------------- */
 .BoutonsHeader {
   display: flex;
   flex-direction: row;
@@ -1020,12 +1374,10 @@ textarea {
   width: 70%;
   align-items: center;
 }
-
 .BoutonsHeader a {
   text-decoration: none;
   color: black;
 }
-
 .BoutonsHeader a p {
   text-align: center;
 }
@@ -1107,16 +1459,148 @@ textarea {
   background-image: url("/wp-content/uploads/BoutonVert_Hover.png");
 }
 
+.BoutonNavOrange {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  align-items: flex-end;
+}
+
+.BoutonNavOetB {
+  display: flex;
+  background-image: url("/wp-content/uploads/BoutonNavOrange.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+}
+
+.BoutonNavOetB:hover {
+  background-image: url("/wp-content/uploads/BoutonNav_hover.png");
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #2a2841;
+  margin: 0;
+  padding-bottom: 3vh;
+}
+
+.PageContenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b2d4e0;
+  background-image: url("/wp-content/uploads/BGBleu.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logoLeprogramme {
+  display: flex;
+  align-items: center;
+}
+
+/* Page vie etudiante
+--------------------------------------------- */
+.PageContenuStages {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/wp-content/uploads/BGVert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 80vh;
+}
+
+.PageContenuVieEtudiante {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f3c25e;
+  background-image: url("/wp-content/uploads/BGJaune.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 80vh;
+}
+
+.paragrapheLorum1VieEtudiante {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  max-width: 650px;
+  padding-bottom: 20px;
+}
+
+.titretProjetVieEtudiante {
+  position: relative;
+}
+
+.contentVieEtudiante {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.lesImagesEtudiantes {
+  background: transparent;
+  width: 500px;
+  margin-left: 10vh;
+}
+
+.logoLeprogrammeEtudiante1 {
+  display: flex;
+  align-items: center;
+  height: 14vh;
+  width: 60vh;
+  background-color: white;
+  margin-bottom: 2.5vh;
+  border: solid black 1px;
+}
+
+.logoLeprogrammeEtudiante2 {
+  display: flex;
+  align-items: center;
+  height: 43vh;
+  width: 60vh;
+  background-color: white;
+  margin-bottom: 2.5vh;
+  border: solid black 1px;
+}
+
+.logoLeprogrammeEtudiante3 {
+  display: flex;
+  align-items: center;
+  height: 14vh;
+  width: 60vh;
+  background-color: white;
+  border: solid black 1px;
+}
+
+/* Page projets
+--------------------------------------------- */
 .NosProjets {
   display: flex;
   flex-direction: column;
 }
 
 .titretProjet {
-  position: absolute;
+  position: relative;
   font-size: 30px;
-  bottom: 59vh;
-  left: 9vh;
 }
 
 .BoutonProjet {
@@ -1132,6 +1616,7 @@ textarea {
 
 .paragrapheLorum1 {
   -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
 }
@@ -1168,124 +1653,6 @@ textarea {
   transform: rotate(270deg);
 }
 
-.BoutonNavOrange {
-  display: flex;
-  flex-direction: column;
-  margin: 5px;
-  align-items: flex-end;
-}
-
-.BoutonNavOetB {
-  display: flex;
-  background-image: url("/wp-content/uploads/BoutonNavOrange.png");
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-}
-
-.BoutonNavOetB:hover {
-  background-image: url("/wp-content/uploads/BoutonNav_hover.png");
-}
-
-.header {
-  display: flex;
-  justify-content: space-evenly;
-  background-color: #2a2841;
-  margin: 0;
-  padding: 0;
-}
-
-.PageContenu {
-  display: flex;
-  justify-content: space-between;
-  background-color: #b2d4e0;
-  background-image: url("/wp-content/uploads/BGBleu.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  padding: 0;
-}
-
-.logoLeprogramme {
-  display: flex;
-  align-items: center;
-}
-
-.PageContenuVieEtudiante {
-  display: flex;
-  justify-content: space-between;
-  background-color: #f3c25e;
-  background-image: url("/wp-content/uploads/BGBleu.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-size: 100% 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.paragrapheLorum1VieEtudiante {
-  -webkit-line-clamp: 2;
-  max-width: 650px;
-  padding-bottom: 20px;
-}
-
-.titretProjetVieEtudiante {
-  position: absolute;
-  font-size: 30px;
-  bottom: 50vh;
-  left: 9vh;
-}
-
-.contentVieEtudiante {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.lesImagesEtudiantes {
-  background-color: #f3c25e;
-  width: 500px;
-  margin-left: 10vh;
-}
-
-.logoLeprogrammeEtudiante1 {
-  display: flex;
-  align-items: center;
-  height: 14vh;
-  width: 60vh;
-  background-color: white;
-  margin-bottom: 2.5vh;
-  border: solid black 1px;
-}
-
-.logoLeprogrammeEtudiante2 {
-  display: flex;
-  align-items: center;
-  height: 43vh;
-  width: 60vh;
-  background-color: white;
-  margin-bottom: 2.5vh;
-  border: solid black 1px;
-}
-
-.logoLeprogrammeEtudiante3 {
-  display: flex;
-  align-items: center;
-  height: 14vh;
-  width: 60vh;
-  background-color: white;
-  border: solid black 1px;
-}
-
 .PageContenuProjets {
   display: flex;
   justify-content: space-between;
@@ -1297,6 +1664,7 @@ textarea {
   background-size: 100% 100%;
   margin: 0;
   padding: 0;
+  min-height: 80vh;
 }
 
 .contentProjets {
@@ -1331,12 +1699,10 @@ textarea {
   width: 70%;
   align-items: center;
 }
-
 .BoutonsSelectionProjet a {
   text-decoration: none;
   color: black;
 }
-
 .BoutonsSelectionProjet a p {
   text-align: center;
 }
@@ -1473,404 +1839,17 @@ textarea {
   height: 126px;
 }
 
-.containerLeprogramme {
-  background-color: aquamarine;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  border: 10px solid black;
-}
-
-.rowLeProgramme {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  background-color: #2a2841;
-}
-
-.communication {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  font-size: 30px;
-}
-
-.communicationLeProgramme {
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  font-size: 20px;
-}
-
-.maisonneuveContactsLeProgramme {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-}
-
-.com {
-  white-space: nowrap;
-  text-align: center;
-}
-
-.comLeProgramme {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  white-space: nowrap;
-  text-align: center;
-  color: white;
-  margin-bottom: 20px;
-}
-
-.nav {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  list-style: none;
-}
-
-.navLeProgramme {
-  margin-bottom: 30;
-  margin-left: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-evenly;
-  list-style: none;
-}
-
-.nav-item {
-  padding-right: 5px;
-}
-
-.nav-itemLeProgramme {
-  padding-right: 5px;
-  padding-left: 15px;
-}
-
-.facebook {
-  height: 40px;
-  width: 40px;
-  display: list-item;
-  float: right;
-  background-image: url("/wp-content/uploads/LogoFB.png");
-  background-repeat: no-repeat;
-  background-position: 0;
-  cursor: pointer;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  background-position-x: center;
-  background-position-y: center;
-  background-size: 100% 100%;
-}
-
-.instagram {
-  height: 40px;
-  width: 40px;
-  display: list-item;
-  float: right;
-  background-image: url("/wp-content/uploads/InstaLogo-1.png_1.png");
-  background-repeat: no-repeat;
-  background-position: 0;
-  cursor: pointer;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  background-position-x: center;
-  background-position-y: center;
-  background-size: 100% 100%;
-}
-
-.mail {
-  height: 40px;
-  width: 40px;
-  display: list-item;
-  float: right;
-  background-image: url("/wp-content/uploads/IconeMail-1.png");
-  background-repeat: no-repeat;
-  background-position: 0;
-  cursor: pointer;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  background-position-x: center;
-  background-position-y: center;
-  background-size: 100% 100%;
-}
-
-.timLogoFooter {
-  position: absolute;
-  left: 90px;
-  top: 30px;
-}
-
-.emplacementIcone {
-  position: relative;
-  padding-right: 160px;
-}
-
-.logoEmplacementRouge {
-  position: absolute;
-  right: 43vh;
-  top: 109vh;
-}
-
-.nav-item4LeProgramme {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-content: flex-end;
-  height: 100%;
-  font-size: 13px;
-  color: white;
-  padding-bottom: 15px;
-}
-
-.renseignements {
-  color: white;
-}
-
-.renseignementsFooter {
-  color: white;
-  font-size: 15px;
-  margin: 0;
-}
-
-.enterHeader {
-  padding: 20px 20px;
-  width: 40vw;
-  z-index: 3;
-  overflow: hidden;
-  position: absolute;
-  height: 100vh;
-}
-
-.enterNav {
-  display: flex;
-  align-items: flex-end;
-  background-color: rgba(0, 0, 0, 0.4);
-  flex-wrap: wrap;
-}
-
-.enterNav ul {
-  padding: 0;
-  margin-left: 0;
-  width: 60%;
-  flex-direction: column;
-}
-
-.enterNav ul .frontNavItems {
-  width: 100%;
+/* Page stages
+--------------------------------------------- */
+.PageContenuStages {
   display: flex;
   justify-content: space-between;
-  border: black 2px solid;
-  background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
+  background-image: url("/wp-content/uploads/BGVert.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 10px 20px 20px 10px;
-  margin: 5px 0;
-  padding: 10px;
-  align-items: center;
-  z-index: 2;
-  height: 50px;
-}
-
-.enterNav ul .frontNavItems:first-of-type {
-  width: 125%;
-}
-
-.enterNav ul .frontNavItems a {
-  text-decoration: none;
-  font-family: "Silkscreen";
-  color: black;
-  padding-left: 20px;
-  font-size: 16px;
-}
-
-.enterNav ul .frontNavItems img {
-  width: 40px;
-  height: 40px;
-}
-
-.enterNav .navImgDroit {
-  background-color: beige;
-  width: 30%;
-  height: 160px;
-  margin: 15px;
-  z-index: 0;
-  bottom: -10px;
-  position: relative;
-}
-
-.nav ul {
-  display: flex;
-  list-style-type: none;
-}
-
-.contactsHeader {
-  margin: 0 5% 0 0;
-  display: flex;
-  justify-content: space-around;
-  background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
   background-size: 100% 100%;
-  background-position: right;
-  background-repeat: no-repeat;
-  position: relative;
-  top: -15px;
-  padding-top: 15px;
-  padding-left: 20px;
-}
-
-.contactsHeader .leftHeader {
-  margin-top: 32px;
-}
-
-.contactsHeader .leftHeader p {
-  width: 55%;
-  color: black;
-  font-family: "Silkscreen";
-  font-size: 14px;
-}
-
-.contactsHeader .leftHeader ul {
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-}
-
-.contactsHeader .leftHeader ul li {
-  width: 20%;
-  list-style-type: none;
-  margin: 0px 10px;
-}
-
-.contactsHeader .leftHeader ul li a {
-  display: flex;
-  align-items: center;
-}
-
-.contactsHeader .leftHeader ul li .icoHeader {
-  width: 168px;
-}
-
-.contactsHeader .rightHeader {
-  margin-top: 32px;
-}
-
-.contactsHeader .rightHeader ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-.contactsHeader .rightHeader ul li:first-of-type {
-  margin-right: 10px;
-}
-
-.contactsHeader .rightHeader ul li .texteEmplacement {
-  line-height: 0.6rem;
-  font-size: 9px;
-  font-family: "Silkscreen";
-}
-
-/*--------------------------------------------------------------
-# Plugins
---------------------------------------------------------------*/
-/* Jetpack infinite scroll
---------------------------------------------- */
-/* Hide the Posts Navigation and the Footer when Infinite Scroll is in use. */
-.infinite-scroll .posts-navigation,
-.infinite-scroll.neverending .site-footer {
-  display: none;
-}
-
-/* Re-display the Theme Footer when Infinite Scroll has reached its end. */
-.infinity-end.neverending .site-footer {
-  display: block;
-}
-
-/*--------------------------------------------------------------
-# Utilities
---------------------------------------------------------------*/
-/* Accessibility
---------------------------------------------- */
-/* Text meant only for screen readers. */
-.screen-reader-text {
-  border: 0;
-  clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
+  margin: 0;
   padding: 0;
-  position: absolute !important;
-  width: 1px;
-  word-wrap: normal !important;
-}
-
-.screen-reader-text:focus {
-  background-color: #f1f1f1;
-  border-radius: 3px;
-  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
-  clip: auto !important;
-  clip-path: none;
-  color: #21759b;
-  display: block;
-  font-size: 0.875rem;
-  font-weight: 700;
-  height: auto;
-  left: 5px;
-  line-height: normal;
-  padding: 15px 23px 14px;
-  text-decoration: none;
-  top: 5px;
-  width: auto;
-  z-index: 100000;
-}
-
-/* Do not show the outline on the skip link target. */
-#primary[tabindex="-1"]:focus {
-  outline: 0;
-}
-
-/* Alignments
---------------------------------------------- */
-.alignleft {
-  /*rtl:ignore*/
-  float: left;
-  /*rtl:ignore*/
-  margin-right: 1.5em;
-  margin-bottom: 1.5em;
-}
-
-.alignright {
-  /*rtl:ignore*/
-  float: right;
-  /*rtl:ignore*/
-  margin-left: 1.5em;
-  margin-bottom: 1.5em;
-}
-
-.aligncenter {
-  clear: both;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1.5em;
-}
-/*# sourceMappingURL=style.css.map */
+  min-height: 80vh;
+}/*# sourceMappingURL=style.css.map */
