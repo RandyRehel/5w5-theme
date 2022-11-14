@@ -1,5 +1,5 @@
 <?php get_header();?>
-        <div class="PageContenuVieEtudiante">
+        <div class="PageContenuProjets">
             <div class="NosProjets">
             <div class="BoutonProjet" >
                 <img class="ImgNosProjet" src="" alt=""  >
