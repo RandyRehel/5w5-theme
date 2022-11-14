@@ -108,10 +108,10 @@
     // left:43px;
     // bottom: 72px;
     // font-size: 30px;
-    position: absolute;
+    position: relative;
     font-size: 30px;
-    bottom: 59vh;
-    left: 9vh;
+    // bottom: 59vh;
+    // left: 9vh;
     
 }
 .BoutonProjet{
@@ -200,7 +200,7 @@
     justify-content: space-evenly;
     background-color:#2a2841;
     margin: 0; 
-    padding: 0;
+    padding-bottom: 3vh;
 }
 .PageContenu{
     display: flex;
