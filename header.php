@@ -66,7 +66,7 @@ elseif(!is_front_page()):?>
             <div class="BoutonsHeader">
                 <a href="<?=$url?>/le-programme"  class="BoutonNavHeaderB"><p>Le programme</p></a>
                 <a href="<?=$url?>/vie-etudiante" class="BoutonNavHeaderY"><p>Vie étudiante</p></a>
-                <a href="<?=$url?>/projets" class="BoutonNavHeaderO"><p>Projets</p></a>
+                <a href="<?=$url?>/category/projets" class="BoutonNavHeaderO"><p>Projets</p></a>
                 <a href="<?=$url?>/stages" class="BoutonNavHeaderV"><p>Stages</p></a>
                 </div>
             
