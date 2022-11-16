@@ -95,6 +95,23 @@
     background-image: url('/wp-content/uploads/BoutonVert_Hover.png');
 }
 
+////////////////////// active pour les boutons
+.BoutonNavHeaderB:active{
+    background-image: url('/wp-content/uploads/BoutonBleu_Hover.png');
+}
+
+.BoutonNavHeaderY:hover{
+    background-image: url('/wp-content/uploads/BoutonJaune_hovrr.png');
+}
+
+.BoutonNavHeaderO:hover{
+    background-image: url('/wp-content/uploads/BoutonOrange_hover.png');
+}
+
+.BoutonNavHeaderV:hover{
+    background-image: url('/wp-content/uploads/BoutonVert_Hover.png');
+}
+
 
 ////////////////////////////////////////////////////////////////////////Section des 4 bouttons contenu
 .BoutonNavOrange{
