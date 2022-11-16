@@ -6,12 +6,10 @@
   width: 70%;
   align-items: center;
 }
-
 .BoutonsHeader a {
   text-decoration: none;
   color: black;
 }
-
 .BoutonsHeader a p {
   text-align: center;
 }
@@ -94,19 +92,27 @@
 }
 
 .BoutonNavHeaderB:active {
-  background-image: url("/wp-content/uploads/BoutonBleu_Hover.png");
+  background-image: url("/wp-content/uploads/sprite_3.png");
+  position: relative;
+  top: 61px;
 }
 
-.BoutonNavHeaderY:hover {
-  background-image: url("/wp-content/uploads/BoutonJaune_hovrr.png");
+.BoutonNavHeaderY:active {
+  background-image: url("/wp-content/uploads/sprite_1.png");
+  position: relative;
+  top: 61px;
 }
 
-.BoutonNavHeaderO:hover {
-  background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
+.BoutonNavHeaderO:active {
+  background-image: url("/wp-content/uploads/sprite_2.png");
+  position: relative;
+  top: 61px;
 }
 
-.BoutonNavHeaderV:hover {
-  background-image: url("/wp-content/uploads/BoutonVert_Hover.png");
+.BoutonNavHeaderV:active {
+  background-image: url("/wp-content/uploads/sprite_0.png");
+  position: relative;
+  top: 61px;
 }
 
 .BoutonNavOrange {
@@ -157,4 +163,3 @@
   display: flex;
   align-items: center;
 }
-/*# sourceMappingURL=leProgramme.css.map */
