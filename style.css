@@ -2322,4 +2322,78 @@ textarea {
   padding: 0;
   min-height: 80vh;
 }
+<<<<<<< HEAD
+
+.ContainerphotoPersonnageStages {
+  width: 100%;
+  min-height: 17vh;
+}
+
+.photoPersonnageStages {
+  position: relative;
+  top: 63px;
+  left: 179px;
+  background-color: white;
+  width: 27vh;
+  min-height: 29vh;
+  border: solid 1px black;
+}
+
+.SectionLogoEntreprise {
+  height: 89vh;
+  width: 72vh;
+}
+
+.entrepriseStages {
+  position: relative;
+  height: 78vh;
+  width: 72vh;
+  background-color: white;
+  margin-top: 35px;
+}
+
+/* Nav animation
+--------------------------------------------- */
+.PageContenuStages {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/wp-content/uploads/BGVert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 80vh;
+}
+
+.ContainerphotoPersonnageStages {
+  width: 100%;
+  min-height: 17vh;
+}
+
+.photoPersonnageStages {
+  position: relative;
+  top: 63px;
+  left: 179px;
+  background-color: white;
+  width: 27vh;
+  min-height: 29vh;
+  border: solid 1px black;
+}
+
+.SectionLogoEntreprise {
+  height: 89vh;
+  width: 72vh;
+}
+
+.entrepriseStages {
+  position: relative;
+  height: 78vh;
+  width: 72vh;
+  background-color: white;
+  margin-top: 35px;
+}/*# sourceMappingURL=style.css.map */
+=======
 /*# sourceMappingURL=style.css.map */
+>>>>>>> 63655132949f801e767a95770985307cd1aa5dd8
