@@ -1,4 +1,4 @@
-/*! 
+/*!  
 Theme Name: theme5w5
 Theme URI: http://underscores.me/
 Author: Underscores.me
@@ -1404,8 +1404,16 @@ body {
 }
 .enterNav ul a:first-of-type {
   width: 125%;
+}.enterNav ul a {
+  text-decoration: none;
+}
+.enterNav ul a:first-of-type {
+  width: 125%;
 }
 .enterNav ul a:first-of-type .frontNavItems {
+  background-image: url("/wp-content/uploads/BoutonJaune-1.png");
+}
+.enterNav ul a a:first-of-type .frontNavItems {
   background-image: url("/wp-content/uploads/BoutonJaune-1.png");
 }
 .enterNav ul a .frontNavItems {
@@ -1987,6 +1995,7 @@ body {
 .paragrapheLorum1VieEtudiante {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
 }
@@ -2063,6 +2072,7 @@ body {
 
 .paragrapheLorum1 {
   -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
   -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
