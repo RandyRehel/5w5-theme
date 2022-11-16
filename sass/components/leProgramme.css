@@ -6,12 +6,10 @@
   width: 70%;
   align-items: center;
 }
-
 .BoutonsHeader a {
   text-decoration: none;
   color: black;
 }
-
 .BoutonsHeader a p {
   text-align: center;
 }
@@ -141,4 +139,3 @@
   display: flex;
   align-items: center;
 }
-/*# sourceMappingURL=leProgramme.css.map */
