@@ -1,0 +1,9 @@
+.imagesProjets figure {
+  margin: 5px 0 0 0;
+}
+
+.imagesProjets figure img {
+  width: 225px !important;
+  height: 155px !important;
+}
+/*# sourceMappingURL=singleProjets.css.map */
