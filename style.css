@@ -1,4 +1,4 @@
-/*!
+/*! 
 Theme Name: theme5w5
 Theme URI: http://underscores.me/
 Author: Underscores.me
@@ -2321,6 +2321,7 @@ textarea {
   margin: 0;
   padding: 0;
   min-height: 80vh;
+<<<<<<< HEAD
 }
 <<<<<<< HEAD
 
@@ -2397,3 +2398,6 @@ textarea {
 =======
 /*# sourceMappingURL=style.css.map */
 >>>>>>> 63655132949f801e767a95770985307cd1aa5dd8
+=======
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> Flo
