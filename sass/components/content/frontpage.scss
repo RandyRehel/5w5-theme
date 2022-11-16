@@ -1,7 +1,7 @@
 body {
     width: 100vw;
     height: 90vh;
-    overflow: hidden;
+    overflow-x: hidden;
 } 
 
 .frontBody{
@@ -109,11 +109,12 @@ body {
 
 body {
     width: 100vw;
+    overflow-x: hidden;
 }
-
+ 
 .frontBody{
     background-color: white !important;
-
+    overflow: hidden;
 }
 
 .biggerC{
