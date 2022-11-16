@@ -139,8 +139,7 @@ a {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /**
@@ -721,7 +720,7 @@ textarea {
 body {
   width: 100vw;
   height: 90vh;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .frontBody {
@@ -784,8 +783,6 @@ body {
 
 .blocIntro {
   width: 100vw;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   padding-top: 12vh;
   margin-left: 0;
@@ -797,8 +794,6 @@ body {
 }
 .blocIntro .messageBubble {
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   background-image: url("/wp-content/uploads/Bulle2-1.png.png");
   background-size: 100% 95%;
@@ -828,6 +823,7 @@ body {
   }
   .frontBody {
     background-color: white !important;
+    overflow: hidden;
   }
   .biggerC {
     font-size: 28px;
@@ -875,8 +871,6 @@ body {
   }
   .blocIntro {
     width: 50vw;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     margin-left: 50vw;
     margin-right: 5vw;
@@ -972,8 +966,6 @@ body {
   }
   .blocIntro {
     width: 100vw;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     padding-top: 12vh;
     margin-left: 0;
@@ -985,8 +977,6 @@ body {
   }
   .blocIntro .messageBubble {
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
     background-size: 100% 100%;
@@ -1084,6 +1074,14 @@ body {
   width: 90%;
   margin: 23px 0px 0px 10px;
 }
+.imagesProjets figure {
+  margin: 5px 0 0 0;
+}
+.imagesProjets figure img {
+  width: 225px !important;
+  height: 155px !important;
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
@@ -1376,8 +1374,6 @@ body {
   z-index: 3;
   overflow: hidden;
   position: absolute;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 .enterHeader button {
@@ -1490,8 +1486,6 @@ body {
   margin-top: 1.5vw;
 }
 .contactsHeader .leftHeader p {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   color: black;
   font-family: "Silkscreen";
@@ -1530,8 +1524,6 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   padding-top: 0.8vw;
 }
@@ -1646,8 +1638,6 @@ body {
   .contactsHeader {
     margin: 0 5% 0 0;
     width: 33vw;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     position: relative;
@@ -1673,8 +1663,6 @@ body {
     margin-top: 1.5vw;
   }
   .contactsHeader .leftHeader p {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
     color: black;
     font-family: "Silkscreen";
@@ -1714,8 +1702,6 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
     padding-top: 0.8vw;
   }
@@ -1757,8 +1743,7 @@ body {
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -1772,8 +1757,7 @@ body {
   border-radius: 3px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
-  -webkit-clip-path: none;
-          clip-path: none;
+  clip-path: none;
   color: #21759b;
   display: block;
   font-size: 0.875rem;
@@ -1899,6 +1883,22 @@ body {
 }
 
 .BoutonNavHeaderB:hover {
+  background-image: url("/wp-content/uploads/BoutonBleu_Hover.png");
+}
+
+.BoutonNavHeaderY:hover {
+  background-image: url("/wp-content/uploads/BoutonJaune_hovrr.png");
+}
+
+.BoutonNavHeaderO:hover {
+  background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
+}
+
+.BoutonNavHeaderV:hover {
+  background-image: url("/wp-content/uploads/BoutonVert_Hover.png");
+}
+
+.BoutonNavHeaderB:active {
   background-image: url("/wp-content/uploads/BoutonBleu_Hover.png");
 }
 
@@ -2049,19 +2049,17 @@ body {
 
 /* Page projets
 --------------------------------------------- */
-.NosProjets {
-  display: flex;
-  flex-direction: column;
-}
-
 .titretProjet {
   position: relative;
   font-size: 30px;
 }
 
 .BoutonProjet {
+  display: flex;
+  flex-direction: column;
   padding-top: 60px;
   padding-left: 60px;
+  align-items: center;
 }
 
 .ImgNosProjet {
@@ -2110,15 +2108,29 @@ body {
   transform: rotate(270deg);
 }
 
-.PageContenuProjets {
+.BoutonsFilter {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  margin: 5px;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.BoutonsFilter a {
+  text-decoration: none;
+  color: black;
+}
+.BoutonsFilter a p {
+  text-align: center;
+}
+
+.PageContenuProjets {
   background-color: #e9663a;
   background-image: url("/wp-content/uploads/BGOranget.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-size: 100% 100%;
+  background-size: 100% 75%;
+  background-position: bottom;
   margin: 0;
   padding: 0;
   min-height: 80vh;
@@ -2152,9 +2164,9 @@ body {
   display: flex;
   flex-direction: row;
   margin: 5px;
-  height: 300px;
-  width: 70%;
   align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .BoutonsSelectionProjet a {
   text-decoration: none;
@@ -2164,76 +2176,36 @@ body {
   text-align: center;
 }
 
-.selectionProjet1 {
+.selectionProjet {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 300px;
+  width: 400px;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  font-size: clamp(1rem, 1vw, 2rem);
+}
+
+.tag-floppy1 .selectionProjet {
   background-image: url("/wp-content/uploads/FloppyDisc00.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  height: 300px;
-  width: 400px;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  font-size: clamp(1rem, 1vw, 2rem);
-  margin-right: 50px;
 }
 
-.selectionProjet2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.tag-floppy2 .selectionProjet {
   background-image: url("/wp-content/uploads/FloppyDisc02.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  height: 300px;
-  width: 400px;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  font-size: clamp(1rem, 1vw, 2rem);
-  margin-right: 50px;
 }
 
-.selectionProjet3 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.tag-floppy3 .selectionProjet {
   background-image: url("/wp-content/uploads/FloppyDisc04.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  height: 300px;
-  width: 400px;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  font-size: clamp(1rem, 1vw, 2rem);
-  margin-right: 50px;
 }
 
-.selectionProjet4 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.tag-floppy4 .selectionProjet {
   background-image: url("/wp-content/uploads/FloppyDisc06.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  height: 300px;
-  width: 400px;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  font-size: clamp(1rem, 1vw, 2rem);
-  margin-right: 50px;
 }
 
 .selectionProjetBouton1 {
@@ -2309,4 +2281,86 @@ body {
   margin: 0;
   padding: 0;
   min-height: 80vh;
+<<<<<<< HEAD
+}
+
+.ContainerphotoPersonnageStages {
+  width: 100%;
+  min-height: 17vh;
+}
+
+.photoPersonnageStages {
+  position: relative;
+  top: 63px;
+  left: 179px;
+  background-color: white;
+  width: 27vh;
+  min-height: 29vh;
+  border: solid 1px black;
+}
+
+.SectionLogoEntreprise {
+  height: 89vh;
+  width: 72vh;
+}
+
+.entrepriseStages {
+  position: relative;
+  height: 78vh;
+  width: 72vh;
+  background-color: white;
+  margin-top: 35px;
+}
+
+/* Nav animation
+<<<<<<< HEAD
+--------------------------------------------- */
+=======
+--------------------------------------------- */
+.PageContenuStages {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/wp-content/uploads/BGVert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 80vh;
+}
+
+.ContainerphotoPersonnageStages {
+  width: 100%;
+  min-height: 17vh;
+}
+
+.photoPersonnageStages {
+  position: relative;
+  top: 63px;
+  left: 179px;
+  background-color: white;
+  width: 27vh;
+  min-height: 29vh;
+  border: solid 1px black;
+}
+
+.SectionLogoEntreprise {
+  height: 89vh;
+  width: 72vh;
+}
+
+.entrepriseStages {
+  position: relative;
+  height: 78vh;
+  width: 72vh;
+  background-color: white;
+  margin-top: 35px;
 }/*# sourceMappingURL=style.css.map */
+=======
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 63655132949f801e767a95770985307cd1aa5dd8
+=======
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> Flo
+>>>>>>> 3a4697860e86fc126d7f51194c617412abb3c58c

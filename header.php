@@ -10,7 +10,7 @@
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=1024px, initial-scale=1">
     
     <?php wp_head() ?>
 </head>
@@ -75,7 +75,7 @@ elseif(!is_front_page()):?>
             <div class="BoutonsHeader">
                 <a href="<?=$url?>/le-programme"  class="BoutonNavHeaderB"><p>Le programme</p></a>
                 <a href="<?=$url?>/vie-etudiante" class="BoutonNavHeaderY"><p>Vie étudiante</p></a>
-                <a href="<?=$url?>/projets" class="BoutonNavHeaderO"><p>Projets</p></a>
+                <a href="<?=$url?>/category/projets" class="BoutonNavHeaderO"><p>Projets</p></a>
                 <a href="<?=$url?>/stages" class="BoutonNavHeaderV"><p>Stages</p></a>
                 </div>
             
