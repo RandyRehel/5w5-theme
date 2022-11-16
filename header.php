@@ -18,11 +18,16 @@
 <?php if(is_front_page()) :?>
     <body class="frontBody">
         <header class="enterHeader" x-data="{open: false}">
-            <button x-on:click="open = ! open"><img src="https://s2.svgbox.net/hero-outline.svg?ic=menu&color=000" width="40" height="40"></button>
+            <button x-on:click="open = ! open"><svg viewBox="0 0 100 80" width="6vh" height="6vh">
+            <rect width="100" height="20"></rect>
+            <rect y="30" width="100" height="20"></rect>
+            <rect y="60" width="100" height="20"></rect>
+            </svg></button>
             <div x-show="open">
                 <div class="nav enterNav">
                 <?php get_template_part( 'template-parts/components/nav');?>
-                    <div class="navImgDroit" style="content:'';">
+                    <div class="navImgDroit">
+                        <img class="timmien" src="<?=$img_dir?>Timien1.png" alt="timmien">
                     </div>
                     <div class="contactsHeader">
                         <div class="leftHeader">
@@ -44,6 +49,10 @@
                                         H1X 2A2 | (514) 254-7131</p></li>
                             </ul>
                         </div>
+                        
+                    </div>
+                    <div class="copyrightHead">
+                            COPYRIGHT &copy; 2022 - TIM Maisonneuve. Tous droits réservés
                     </div>
                 </div>
             </div>

@@ -7,12 +7,12 @@
     </div>
 
     <div class="blocIntro">
-        <img src="<?=$img_dir?>New_Piskel-1.png_1.png" alt="Timien" width="200px" height="auto">
+        <div class="vide"> </div>
         <div class="messageBubble">
             <p>
                BONJOUR VISITEUR, BIENVENUE SUR LE SITE DU TIM! <br>
-               POUR COMMENCER UNE VISITE GUIDÉE DU DÉPARTEMENT APPUIE SUR <br> 
-               LE BOUTON JOUER. TU PEUX AUSSI OUVRIR LE MENU ET Y NAVIGUER <br>
+               POUR COMMENCER UNE VISITE GUIDÉE DU DÉPARTEMENT APPUIE SUR
+               LE BOUTON JOUER. <br> TU PEUX AUSSI OUVRIR LE MENU ET Y NAVIGUER
                TOI MÊME. <br><br>
                BONNE VISITE! :)
             </p>

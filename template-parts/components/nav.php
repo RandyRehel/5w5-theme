@@ -9,11 +9,13 @@
 
     <ul>
         <?php foreach($navLinks as $links):?>
-        
-        <li class="frontNavItems"> 
-            <a href="<?=$links['link']?>"><p><?=$links['txt']?></p></a>
-            <img src="<?=$img_dir?>BoutonNav_hover-1.png" alt="image de cercles menus">
-        </li>
+
+        <a href="<?=$links['link']?>">
+            <li class="frontNavItems"> 
+                <p><?=$links['txt']?></p>
+                <img src="<?=$img_dir?>BoutonNav_hover-1.png" alt="image de cercles menus">
+            </li>
+        </a>
         <?php endforeach; ?>
     </ul>
 <?php endwhile; ?>

@@ -139,7 +139,8 @@ a {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 /**
@@ -717,12 +718,20 @@ textarea {
   margin: 0 0 1.5em;
 }
 
-.frontBody {
+body {
+  width: 100vw;
+  height: 90vh;
   overflow: hidden;
 }
 
+.frontBody {
+  background-color: white !important;
+  margin: 0;
+  padding: 0;
+}
+
 .biggerC {
-  font-size: 28px;
+  font-size: 5vw;
 }
 
 .flecheVisite {
@@ -735,19 +744,22 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   overflow: hidden;
+  width: 100vw;
+  height: 93vh;
 }
 
 .middleText {
-  width: 40vw;
+  width: 80vw;
   display: flex;
   text-align: center;
   flex-direction: column;
   font-family: "Silkscreen";
-  font-size: 16px;
+  font-size: 3vw;
   align-items: center;
   color: black;
-  margin-top: 50px;
+  margin-top: 10vh;
 }
 .middleText a {
   display: flex;
@@ -771,36 +783,231 @@ textarea {
 }
 
 .blocIntro {
-  width: 40vw;
-  align-self: flex-end;
+  width: 100vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 12vh;
+  margin-left: 0;
+  background-image: url("/wp-content/uploads/Timien1.png");
+  background-size: 20vh;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  margin-right: 50px;
-  position: relative;
-  top: -100px;
+  align-self: flex-end;
+  background-repeat: no-repeat;
 }
 .blocIntro .messageBubble {
-  background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
-  background-size: 100% 100%;
-  background-position: right;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-image: url("/wp-content/uploads/Bulle2-1.png.png");
+  background-size: 100% 95%;
+  padding-top: 5vh;
+  background-position: left;
   background-repeat: no-repeat;
-  position: relative;
-  top: -90px;
+  z-index: 1;
 }
 .blocIntro .messageBubble p {
-  padding: 40px 10px 25px 10px;
+  padding: 0 8vw 0 8vw;
+  width: 95vw;
   font-family: "Silkscreen";
-  font-size: 12px;
+  font-size: 1.5vh;
 }
 
 .copyrightFoot {
-  position: absolute;
-  bottom: 0;
+  display: none;
+  bottom: 1.2vh;
   font-family: "Silkscreen";
-  font-size: 12px;
+  font-size: 2vw;
+  padding: 0;
 }
 
+@media screen and (min-width: 992px) {
+  body {
+    width: 100vw;
+  }
+  .frontBody {
+    background-color: white !important;
+  }
+  .biggerC {
+    font-size: 28px;
+  }
+  .flecheVisite {
+    rotate: -90deg;
+    width: 38px;
+    height: auto;
+  }
+  .containerFrontpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  .middleText {
+    width: 40vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Silkscreen";
+    font-size: 16px;
+    align-items: center;
+    color: black;
+    margin-top: 2vw;
+  }
+  .middleText a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  .middleText a:visited {
+    color: black;
+  }
+  .middleText a:hover {
+    color: black;
+  }
+  .middleText a:active {
+    color: black;
+  }
+  .Logo {
+    width: 240px;
+    height: auto;
+    margin-bottom: 1.5vh;
+  }
+  .blocIntro {
+    width: 50vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-left: 50vw;
+    margin-right: 5vw;
+    padding-top: 6vw;
+    background-image: url("/wp-content/uploads/Timien1.png");
+    background-position: 35vw -2vw;
+    background-size: 16vw;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-repeat: no-repeat;
+  }
+  .blocIntro .vide {
+    display: none;
+  }
+  .blocIntro .messageBubble {
+    background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
+    background-size: 100% 80%;
+    transform: scaleX(-1);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 3vw;
+    z-index: 1;
+  }
+  .blocIntro .messageBubble p {
+    width: 47vw;
+    padding: 2vw 2vw 2vw 0vw;
+    font-family: "Silkscreen";
+    font-size: 0.9vw;
+    transform: scaleX(-1);
+  }
+  .copyrightFoot {
+    display: flex;
+    font-family: "Silkscreen";
+    font-size: 0.8vw;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 481px) {
+  body {
+    width: 100vw;
+  }
+  .frontBody {
+    background-color: white !important;
+  }
+  .biggerC {
+    font-size: 4vw;
+  }
+  .flecheVisite {
+    rotate: -90deg;
+    width: 5vw;
+    height: auto;
+  }
+  .containerFrontpage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    height: 94vh;
+  }
+  .middleText {
+    width: 80vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Silkscreen";
+    font-size: 2vh;
+    align-items: center;
+    color: black;
+    margin-top: 50px;
+  }
+  .middleText a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  .middleText a:visited {
+    color: black;
+  }
+  .middleText a:hover {
+    color: black;
+  }
+  .middleText a:active {
+    color: black;
+  }
+  .Logo {
+    width: 20vh;
+    height: auto;
+    margin-bottom: 2vh;
+    margin-top: 5vh;
+  }
+  .blocIntro {
+    width: 100vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-top: 12vh;
+    margin-left: 0;
+    background-image: url("/wp-content/uploads/Timien1.png");
+    background-size: 20vh;
+    display: flex;
+    align-self: flex-end;
+    background-repeat: no-repeat;
+  }
+  .blocIntro .messageBubble {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
+    background-size: 100% 100%;
+    padding-top: 5vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    z-index: 1;
+  }
+  .blocIntro .messageBubble p {
+    padding: 0 0 0 5vw;
+    width: 95vw;
+    font-family: "Silkscreen";
+    font-size: 1.5vh;
+  }
+  .copyrightFoot {
+    display: none;
+    font-family: "Silkscreen";
+    font-size: 2vw;
+    padding: 0;
+  }
+}
 .flecheDroiteProf {
   position: relative;
   height: 60px;
@@ -1162,127 +1369,361 @@ textarea {
 }
 
 .enterHeader {
-  padding: 20px 20px;
-  width: 40vw;
+  top: -1vh;
+  left: -2vw;
+  padding: 2vw;
+  width: 105vw;
   z-index: 3;
   overflow: hidden;
   position: absolute;
-  height: 100vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.enterHeader button {
+  background-color: white;
+  border: none;
 }
 
 .enterNav {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
   background-color: rgba(0, 0, 0, 0.4);
   flex-wrap: wrap;
+  top: 0;
+  margin: 0;
 }
 .enterNav ul {
-  padding: 0;
+  padding: 1vh 0;
   margin-left: 0;
   width: 60%;
   flex-direction: column;
 }
-.enterNav ul .frontNavItems {
+.enterNav ul a {
+  text-decoration: none;
+}
+.enterNav ul a:first-of-type {
+  width: 125%;
+}
+.enterNav ul a:first-of-type .frontNavItems {
+  background-image: url("/wp-content/uploads/BoutonJaune-1.png");
+}
+.enterNav ul a .frontNavItems {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border: black 2px solid;
-  background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
+  background-image: url("/wp-content/uploads/BoutonOrange-1.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-radius: 10px 20px 20px 10px;
-  margin: 5px 0;
-  padding: 10px;
+  background-size: contain;
+  background-position: right;
+  margin: 1vh 0;
+  padding: 1vw 6vh;
   align-items: center;
   z-index: 2;
-  height: 50px;
+  height: 9vh;
+  width: 70vw;
 }
-.enterNav ul .frontNavItems:first-of-type {
+.enterNav ul a .frontNavItems:first-of-type {
   width: 125%;
 }
-.enterNav ul .frontNavItems a {
+.enterNav ul a .frontNavItems p {
   text-decoration: none;
   font-family: "Silkscreen";
   color: black;
-  padding-left: 20px;
-  font-size: 16px;
+  width: 30vw;
+  font-size: 3vw;
 }
-.enterNav ul .frontNavItems img {
-  width: 40px;
-  height: 40px;
+.enterNav ul a .frontNavItems img {
+  margin-left: 10vw;
+  width: 7vw;
+  height: 7vw;
+}
+.enterNav .frontNavItems:hover {
+  size: 2;
 }
 .enterNav .navImgDroit {
-  background-color: beige;
   width: 30%;
   height: 160px;
   margin: 15px;
   z-index: 0;
-  bottom: -10px;
+  bottom: -50vh;
   position: relative;
 }
+.enterNav .navImgDroit img {
+  width: 80vw;
+}
 
+.nav {
+  width: 100vw;
+  height: 95vh;
+}
 .nav ul {
   display: flex;
   list-style-type: none;
 }
 
 .contactsHeader {
-  margin: 0 5% 0 0;
   display: flex;
   justify-content: space-around;
-  background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
+  position: relative;
+  background-image: url("/wp-content/uploads/Bulle2-1.png.png");
+  transform: scaleX(-1);
   background-size: 100% 100%;
   background-position: right;
+  flex-direction: row-reverse;
   background-repeat: no-repeat;
-  position: relative;
-  top: -15px;
-  padding-top: 15px;
-  padding-left: 20px;
+  width: 100vw;
 }
 .contactsHeader .leftHeader {
-  margin-top: 32px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 1.5vw;
 }
 .contactsHeader .leftHeader p {
-  width: 55%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   color: black;
   font-family: "Silkscreen";
-  font-size: 14px;
+  font-size: 0.8rem;
+  transform: scaleX(-1);
 }
 .contactsHeader .leftHeader ul {
+  transform: scaleX(-1);
   flex-direction: row;
   display: flex;
   align-items: center;
 }
 .contactsHeader .leftHeader ul li {
-  width: 20%;
+  transform: scaleX(-1);
+  width: 7vw;
   list-style-type: none;
-  margin: 0px 10px;
+  margin: 0vw 0.5vw;
 }
 .contactsHeader .leftHeader ul li a {
   display: flex;
   align-items: center;
 }
 .contactsHeader .leftHeader ul li .icoHeader {
-  width: 168px;
+  width: 100px;
+  transform: scaleX(-1);
 }
 .contactsHeader .rightHeader {
   margin-top: 32px;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  transform: scaleX(-1);
 }
 .contactsHeader .rightHeader ul {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 0.8vw;
 }
 .contactsHeader .rightHeader ul li:first-of-type {
-  margin-right: 10px;
+  width: 30%;
 }
 .contactsHeader .rightHeader ul li .texteEmplacement {
   line-height: 0.6rem;
+  margin: 0vw 0.5vw;
   font-size: 9px;
   font-family: "Silkscreen";
 }
 
+.copyrightHead {
+  position: relative;
+  color: white;
+  bottom: 3vw;
+  font-family: "Silkscreen";
+  font-size: 2.5vw;
+  padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .enterHeader {
+    top: -1vh;
+    left: -1vw;
+    padding: 20px 20px;
+    width: 40vw;
+    z-index: 3;
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+  }
+  .enterHeader button {
+    background-color: white;
+    border: none;
+  }
+  .enterNav {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: solid rgba(0, 0, 0, 0.648) 0.1vw;
+    border-radius: 0 3vw 3vw 0;
+    flex-wrap: wrap;
+    width: 38vw;
+    height: 88vh;
+    margin: 0;
+  }
+  .enterNav ul {
+    padding: 1vh 0;
+    margin-left: 0;
+    width: 50%;
+    flex-direction: column;
+  }
+  .enterNav ul a {
+    text-decoration: none;
+  }
+  .enterNav ul a:first-of-type {
+    width: 125%;
+  }
+  .enterNav ul a:first-of-type .frontNavItems {
+    background-image: url("/wp-content/uploads/BoutonJaune-1.png");
+  }
+  .enterNav ul a .frontNavItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("/wp-content/uploads/BoutonOrange-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    margin: 1vh 0;
+    padding: 1vw 3vh;
+    align-items: center;
+    z-index: 2;
+    height: 5vw;
+    width: 25vw;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  .enterNav ul a .frontNavItems p {
+    text-decoration: none;
+    font-family: "Silkscreen";
+    color: black;
+    padding-left: 20px;
+    font-size: 0.79vw;
+  }
+  .enterNav ul a .frontNavItems img {
+    width: 40px;
+    height: 40px;
+  }
+  .enterNav .frontNavItems:hover {
+    transform: translateX(3vw);
+    transition: 0.5s;
+    background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
+  }
+  .enterNav .navImgDroit {
+    width: 30%;
+    height: 160px;
+    margin: 15px;
+    z-index: 0;
+    bottom: -50vh;
+    position: relative;
+  }
+  .enterNav .navImgDroit img {
+    width: 80vw;
+  }
+  .nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  .contactsHeader {
+    margin: 0 5% 0 0;
+    width: 33vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    left: 1vw;
+    background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
+    transform: scaleX(-1);
+    background-size: 100% 100%;
+    background-position: right;
+    flex-direction: row-reverse;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    top: -15px;
+    padding-top: 15px;
+    padding-left: 0.5vw;
+  }
+  .contactsHeader .leftHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 18vw;
+    margin-top: 1.5vw;
+  }
+  .contactsHeader .leftHeader p {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    color: black;
+    font-family: "Silkscreen";
+    font-size: 0.8rem;
+    transform: scaleX(-1);
+  }
+  .contactsHeader .leftHeader ul {
+    transform: scaleX(-1);
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+  }
+  .contactsHeader .leftHeader ul li {
+    transform: scaleX(-1);
+    width: 20vw;
+    list-style-type: none;
+    margin: 0vw 0.5vw;
+  }
+  .contactsHeader .leftHeader ul li a {
+    display: flex;
+    align-items: center;
+    width: 2vw;
+  }
+  .contactsHeader .leftHeader ul li .icoHeader {
+    width: 5vw;
+    transform: scaleX(-1);
+  }
+  .contactsHeader .rightHeader {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 15vw;
+    transform: scaleX(-1);
+  }
+  .contactsHeader .rightHeader ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-top: 0.8vw;
+  }
+  .contactsHeader .rightHeader ul li:first-of-type {
+    width: 1vw;
+  }
+  .contactsHeader .rightHeader ul li .texteEmplacement {
+    line-height: 0.6rem;
+    margin: 0vw 0.5vw;
+    font-size: 9px;
+    font-family: "Silkscreen";
+  }
+  .copyrightHead {
+    display: none;
+  }
+}
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
@@ -1308,7 +1749,8 @@ textarea {
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -1322,7 +1764,8 @@ textarea {
   border-radius: 3px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
-  clip-path: none;
+  -webkit-clip-path: none;
+          clip-path: none;
   color: #21759b;
   display: block;
   font-size: 0.875rem;
@@ -1856,4 +2299,4 @@ textarea {
   margin: 0;
   padding: 0;
   min-height: 80vh;
-}/*# sourceMappingURL=style.css.map */
+}
