@@ -1,4 +1,4 @@
-/*!
+/*! 
 Theme Name: theme5w5
 Theme URI: http://underscores.me/
 Author: Underscores.me
@@ -720,7 +720,11 @@ textarea {
 body {
   width: 100vw;
   height: 90vh;
+<<<<<<< HEAD
   overflow: hidden;
+=======
+  overflow-x: hidden;
+>>>>>>> main
 }
 
 .frontBody {
@@ -777,7 +781,11 @@ body {
 }
 
 .blocIntro {
+<<<<<<< HEAD
   width: 50vw;
+=======
+  width: 100vw;
+>>>>>>> main
   height: fit-content;
   margin-left: 50vw;
   margin-right: 5vw;
@@ -790,6 +798,7 @@ body {
   align-content: flex-start;
   background-repeat: no-repeat;
 }
+<<<<<<< HEAD
 .blocIntro .vide {
   display: none;
 }
@@ -798,6 +807,15 @@ body {
   background-size: 100% 80%;
   transform: scaleX(-1);
   background-position: right;
+=======
+.blocIntro .messageBubble {
+  width: 100%;
+  height: fit-content;
+  background-image: url("/wp-content/uploads/Bulle2-1.png.png");
+  background-size: 100% 95%;
+  padding-top: 5vh;
+  background-position: left;
+>>>>>>> main
   background-repeat: no-repeat;
   padding-right: 3vw;
   z-index: 1;
@@ -817,6 +835,101 @@ body {
   padding: 0;
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 992px) {
+  body {
+    width: 100vw;
+  }
+  .frontBody {
+    background-color: white !important;
+    overflow: hidden;
+  }
+  .biggerC {
+    font-size: 28px;
+  }
+  .flecheVisite {
+    rotate: -90deg;
+    width: 38px;
+    height: auto;
+  }
+  .containerFrontpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  .middleText {
+    width: 40vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Silkscreen";
+    font-size: 16px;
+    align-items: center;
+    color: black;
+    margin-top: 2vw;
+  }
+  .middleText a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  .middleText a:visited {
+    color: black;
+  }
+  .middleText a:hover {
+    color: black;
+  }
+  .middleText a:active {
+    color: black;
+  }
+  .Logo {
+    width: 240px;
+    height: auto;
+    margin-bottom: 1.5vh;
+  }
+  .blocIntro {
+    width: 50vw;
+    height: fit-content;
+    margin-left: 50vw;
+    margin-right: 5vw;
+    padding-top: 6vw;
+    background-image: url("/wp-content/uploads/Timien1.png");
+    background-position: 35vw -2vw;
+    background-size: 16vw;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-repeat: no-repeat;
+  }
+  .blocIntro .vide {
+    display: none;
+  }
+  .blocIntro .messageBubble {
+    background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
+    background-size: 100% 80%;
+    transform: scaleX(-1);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-right: 3vw;
+    z-index: 1;
+  }
+  .blocIntro .messageBubble p {
+    width: 47vw;
+    padding: 2vw 2vw 2vw 0vw;
+    font-family: "Silkscreen";
+    font-size: 0.9vw;
+    transform: scaleX(-1);
+  }
+  .copyrightFoot {
+    display: flex;
+    font-family: "Silkscreen";
+    font-size: 0.8vw;
+    padding: 0;
+  }
+}
+>>>>>>> main
 @media screen and (max-width: 991px) and (min-width: 481px) {
   body {
     width: 100vw;
@@ -1798,6 +1911,7 @@ body {
   background-image: url("/wp-content/uploads/BoutonVert_Hover.png");
 }
 
+<<<<<<< HEAD
 .BoutonNavHeaderB:link {
   background-image: url("/wp-content/uploads/sprite_3.png");
   position: relative;
@@ -1820,6 +1934,22 @@ body {
   background-image: url("/wp-content/uploads/sprite_0.png");
   position: relative;
   top: 61px;
+=======
+.BoutonNavHeaderB:active {
+  background-image: url("/wp-content/uploads/BoutonBleu_Hover.png");
+}
+
+.BoutonNavHeaderY:hover {
+  background-image: url("/wp-content/uploads/BoutonJaune_hovrr.png");
+}
+
+.BoutonNavHeaderO:hover {
+  background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
+}
+
+.BoutonNavHeaderV:hover {
+  background-image: url("/wp-content/uploads/BoutonVert_Hover.png");
+>>>>>>> main
 }
 
 .BoutonNavOrange {
@@ -2187,6 +2317,10 @@ body {
   margin: 0;
   padding: 0;
   min-height: 80vh;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> main
 }
 
 .ContainerphotoPersonnageStages {
@@ -2218,4 +2352,58 @@ body {
 }
 
 /* Nav animation
+<<<<<<< HEAD
 --------------------------------------------- */
+=======
+<<<<<<< HEAD
+--------------------------------------------- */
+=======
+--------------------------------------------- */
+.PageContenuStages {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("/wp-content/uploads/BGVert.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 100% 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 80vh;
+}
+
+.ContainerphotoPersonnageStages {
+  width: 100%;
+  min-height: 17vh;
+}
+
+.photoPersonnageStages {
+  position: relative;
+  top: 63px;
+  left: 179px;
+  background-color: white;
+  width: 27vh;
+  min-height: 29vh;
+  border: solid 1px black;
+}
+
+.SectionLogoEntreprise {
+  height: 89vh;
+  width: 72vh;
+}
+
+.entrepriseStages {
+  position: relative;
+  height: 78vh;
+  width: 72vh;
+  background-color: white;
+  margin-top: 35px;
+}/*# sourceMappingURL=style.css.map */
+=======
+/*# sourceMappingURL=style.css.map */
+>>>>>>> 63655132949f801e767a95770985307cd1aa5dd8
+=======
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> Flo
+>>>>>>> 3a4697860e86fc126d7f51194c617412abb3c58c
+>>>>>>> main

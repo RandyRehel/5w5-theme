@@ -1,11 +1,120 @@
 body {
     width: 100vw;
     height: 90vh;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .frontBody{
     background-color: white !important;
+    margin: 0;
+    padding: 0;
+}
+
+.biggerC{
+    font-size: 5vw;
+}
+
+.flecheVisite{
+    rotate: -90deg;
+    width: 38px;
+    height: auto;
+}
+
+.containerFrontpage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 100vw;
+    height: 93vh;
+}
+
+.middleText{
+    width: 80vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: $font__title;
+    font-size: 3vw;
+    align-items: center;
+    color: black;
+    margin-top: 10vh;
+
+
+    a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        &:visited{
+            color: black;
+        }
+
+        &:hover{
+            color: black;
+        }
+
+        &:active{
+            color: black;
+        }
+    }
+}
+
+.Logo{
+    width: 240px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.blocIntro{
+    width: 100vw;
+    height: fit-content;
+    padding-top: 12vh;
+    margin-left: 0;
+    background-image: url('/wp-content/uploads/Timien1.png');
+    background-size: 20vh;
+    display: flex;
+
+    align-self: flex-end;
+    background-repeat: no-repeat;
+    .vide {
+    }
+    .messageBubble{
+        width:100%;
+        height: fit-content;
+        background-image: url('/wp-content/uploads/Bulle2-1.png.png');
+        background-size: 100% 95%;
+        padding-top: 5vh;
+        background-position: left;
+        background-repeat: no-repeat;
+        z-index: 1;
+        p{
+            padding: 0 8vw 0 8vw;
+            width: 95vw;
+            font-family: $font__title;
+            font-size:1.5vh;
+        }
+    }
+}
+
+.copyrightFoot{
+    display: none;
+    bottom: 1.2vh;
+    font-family: $font__title;
+    font-size: 2vw;
+    padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+
+body {
+    width: 100vw;
+}
+
+.frontBody{
+    background-color: white !important;
+    overflow: hidden;
+
 }
 
 .biggerC{
@@ -101,7 +210,7 @@ body {
     font-size: 0.8vw;
     padding: 0;
 }
-
+}
 
 @media screen and (max-width: 991px) and (min-width: 481px) {
 
