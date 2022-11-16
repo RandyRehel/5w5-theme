@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACI,cADU,CACV,MAAM,CAAA;EACF,MAAM,EAAE,SAAS;CAKpB;;AAPL,AAGQ,cAHM,CACV,MAAM,CAEF,GAAG,CAAA;EACC,KAAK,EAAE,gBAAgB;EACvB,MAAM,EAAE,gBAAgB;CAC3B",
+    "sources": [
+        "content/singleProjets.scss"
+    ],
+    "names": [],
+    "file": "singleProjets.css"
+}
