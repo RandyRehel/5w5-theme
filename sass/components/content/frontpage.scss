@@ -8,6 +8,7 @@ body {
     background-color: white !important;
     margin: 0;
     padding: 0;
+    overflow-y: hidden;
 }
 
 .biggerC{
@@ -211,7 +212,7 @@ body {
     padding: 0;
 }
 }
-
+ 
 @media screen and (max-width: 991px) and (min-width: 481px) {
 
     body {
@@ -220,7 +221,7 @@ body {
     
     .frontBody{
         background-color: white !important;
-    
+        overflow: hidden;
     }
     
     .biggerC{

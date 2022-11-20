@@ -52,7 +52,9 @@
                         
                     </div>
                     <div class="copyrightHead">
+                        <p>
                             COPYRIGHT &copy; 2022 - TIM Maisonneuve. Tous droits réservés
+                        </p>
                     </div>
                 </div>
             </div>

@@ -3,15 +3,22 @@
 .BoutonsHeader{
     display: flex;
     flex-direction: row;
-    margin:5px;
-    height: 100px;
-    width:70%;
+    height: 7.5vh;
+    width:85%;
     align-items: center;
     a{
         text-decoration: none;
+        padding: 0;
         color: black;
+        font-family: $font__title;
+        display: flex;
+        align-content: center;
+        justify-content: center;
         p{
             text-align: center;
+            height: fit-content;
+            margin: 2vh;
+            padding: 0;
         }
     }
 }
@@ -22,9 +29,8 @@
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    height:60%;
-    width:40%;
-    margin-right: 20px;
+    height:90%;
+    width:70%;
     cursor: pointer;
     border: none;
     font: inherit;
@@ -40,9 +46,8 @@
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    height:60%;
-    width:40%;
-    margin-right: 20px;
+    height:90%;
+    width:70%;
     cursor: pointer;
     border: none;
     font: inherit;
@@ -55,9 +60,8 @@
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    height:60%;
-    width:40%;
-    margin-right: 20px;
+    height:90%;
+    width:70%;
     cursor: pointer;
     border: none;
     font: inherit;
@@ -70,9 +74,8 @@
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;
-    height:60%;
-    width:40%;
-    margin-right: 20px;
+    height:90%;
+    width:70%;
     cursor: pointer;
     border: none;
     font: inherit;
@@ -142,24 +145,38 @@
 //sections de la page
 .header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     background-color:#2a2841;
-    margin: 0; 
-    padding-bottom: 3vh;
+    height: 15vh;
 }
 .PageContenu{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: flex-end;
+    align-content: flex-start;
+    height: 70vh;
     background-color: #b2d4e0;
     background-image: url('/wp-content/uploads/BGBleu.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-   margin: 0; 
-   padding: 0; 
+    margin: 0; 
+    padding: 0; 
+    p {
+        margin-right: 10vw;
+    }
 }
 .logoLeprogramme{
     display: flex;
+    margin-left: 4vw;
     align-items: center;
+}
+
+footer {
+    .container {
+        .rowLeProgramme {
+            
+        }
+    }
+    
 }

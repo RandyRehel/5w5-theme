@@ -28,7 +28,7 @@
         a{
             text-decoration: none;
             &:first-of-type{
-                width: 125%;
+                width: 115%;
                 .frontNavItems{ 
                 background-image: url('/wp-content/uploads/BoutonJaune-1.png'); 
             }
@@ -87,12 +87,13 @@
 .nav{
     width: 100vw;
     height: 95vh;
+    justify-content: flex-start;
     ul{
         display: flex;
         list-style-type: none;
     }
     
-}  
+}   
 
 .contactsHeader{
     display: flex;
@@ -109,16 +110,16 @@
 
     .leftHeader{
         display: flex;
-        align-items: flex-end;
         flex-direction: column;
-        width:30vw;
-        margin-top: 1.5vw;
+        align-items: center;
+        justify-items: center;
+        width:35vw;
+        margin-top: 5vw;
         p{
-            width: fit-content;
-            
+            width: 40vw;
             color: black;
             font-family: $font__title;
-            font-size: 0.8rem;
+            font-size: 0.7rem;
             transform: scaleX(-1);
 
         }
@@ -128,12 +129,15 @@
             flex-direction: row;
             display: flex;
             align-items: center;
+            justify-items: space-around;
 
             li{
                transform: scaleX(-1);
                width: 7vw;
                list-style-type: none;
-               margin: 0vw 0.5vw ;
+               &:nth-child(2){
+                margin: 0vw 2vw ;
+               }
                a{
                 display: flex;
                 align-items: center;
@@ -177,12 +181,15 @@
 }
 
 .copyrightHead{
-    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
     color: white;
     bottom : 3vw;
     font-family: $font__title;
     font-size: 2.5vw;
     padding: 0;
+    text-align: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -268,7 +275,8 @@
         height: 160px;
         margin: 15px;
         z-index: 0;
-        bottom: -50vh;
+        bottom: -45vh;
+        left: 10%;
         position: relative;
         img {
             width: 80vw;
@@ -325,9 +333,8 @@
             align-items: center;
             li{
                transform: scaleX(-1);
-               width: 20vw;
+               width: fit-content;
                list-style-type: none;
-               margin: 0vw 0.5vw ;
                a{
                 display: flex;
                 align-items: center;
@@ -359,7 +366,7 @@
                 width: 1vw;
                } 
                 .texteEmplacement{
-                    line-height: 0.6rem;
+                    line-height: 1rem;
                     margin: 0vw 0.5vw;
                     font-size: 9px;
                     font-family: $font__title;
@@ -373,4 +380,199 @@
 .copyrightHead{
     display: none;
 }
+}
+
+@media screen and (max-width: 991px) and (min-width: 481px) { 
+    .enterHeader{
+        top:-1vh;
+        left: -2vw;
+        padding: 2vw;
+        width: 105vw;
+        z-index: 3;
+        overflow: hidden;
+        position: absolute;
+        height: fit-content;
+        button {
+            background-color: white;
+            border: none;
+        }
+    }
+    
+    .enterNav{
+        display: flex;
+        align-items: flex-start;
+        background-color: rgba($color: black, $alpha: .4);
+        flex-wrap: wrap;
+        top: 0;
+        margin: 0;
+        ul{
+            padding: 1vh 0;
+            width: 40%;
+            flex-direction: column;
+            a{
+                text-decoration: none;
+                &:first-of-type{
+                    width: 125%;
+                    .frontNavItems{ 
+                    background-image: url('/wp-content/uploads/BoutonJaune-1.png'); 
+                }
+            }
+            .frontNavItems{
+                width: 100%;
+                &:first-of-type{
+                    width: 125%;
+                }
+                display: flex;
+                justify-content: space-between;
+                background-image: url('/wp-content/uploads/BoutonOrange-1.png');
+                background-repeat: no-repeat;
+                background-size: 60vw 9vh;
+                background-position: right;
+                margin: 1vh 0;
+                padding: 0 6vh;
+                align-items: center;
+                z-index: 2;
+                height: 9vh;
+                width: 60vw;
+                p{
+                    text-decoration: none;
+                    font-family: $font__title;
+                    color: black;
+                    width: 20vw;
+                    font-size: 2vw;
+                }
+    
+                img{
+                    margin-left: 10vw;
+                    width: 5vw;
+                    height: 5vw;
+                }
+            }
+        }
+    }
+    
+        .a:hover{ 
+            size: 2;
+        }
+    
+        .navImgDroit{
+            z-index: 0;
+            top: 45%;
+            left : 30vw;
+            position: relative;
+            img {
+                width: 28vw;
+            }
+        }
+    }
+    
+    .nav{
+        width: 100vw;
+        height: 95vh;
+        justify-content: flex-start;
+
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+        
+    }   
+    
+    .contactsHeader{
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        background-image: url('/wp-content/uploads/Bulle2-1.png.png');
+        transform: scaleX(-1);
+        background-size: 100% 100%;
+        background-position: right;
+        flex-direction: row-reverse;
+        background-repeat: no-repeat;
+        width: 100vw;
+    
+        .leftHeader{
+            display: flex;
+            align-items: center;
+            justify-items: center;
+            flex-direction: column;
+            width:29vw;
+            margin-top: 5vw;
+            p{
+                width: 23vw;
+                color: black;
+                font-family: $font__title;
+                font-size: 0.7rem;
+                transform: scaleX(-1);
+    
+            }
+    
+            ul{
+                transform: scaleX(-1);
+                flex-direction: row;
+                width: 60%;
+                display: flex;
+                align-items: center;
+                justify-items: space-around;
+                li{
+                   transform: scaleX(-1);
+                   width: 7vw;
+                   list-style-type: none;
+                   &:nth-child(2){
+                    margin: 0vw 3vw ;
+                   }
+                   a{
+                    display: flex;
+                    align-items: center;
+                   }
+                   .icoHeader{
+                        width: 100%;
+                        transform: scaleX(-1);
+                   }
+                }
+            }
+        }
+    
+        .rightHeader{
+            margin-top: 2.5vh;
+            width: 29vw;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            transform: scaleX(-1);
+            ul{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                width: fit-content;
+                padding-top: 4vw;
+                li{
+                   &:first-of-type{
+                    width: 10%;
+                   } 
+                    .texteEmplacement{
+                        line-height: 1.2rem;
+                        margin: 0vw 1vw;
+                        font-size: 1.5svw;
+                        font-family: $font__title;
+                    }
+                }
+            }
+            
+        }
+        
+    }
+    
+    .copyrightHead{
+        display: flex;
+        width: 100vw;
+        color: white;
+        font-family: $font__title;
+        font-size: 1.6vw;
+        margin-bottom: 1vw;
+        justify-content: center;
+        
+        p{
+            text-align: center;
+        }
+    }
 }
