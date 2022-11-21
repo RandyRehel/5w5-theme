@@ -1,6 +1,4 @@
 <?php /* Template Name: SingleProf */ ?>
-<?php while (have_posts() ) : the_post();?>
-
 <?php get_header();?>
             <div class="PageContenu">
                 <div class="divImg">
@@ -26,7 +24,7 @@
             </div><!--Fin PageContenu -->
         </div><!--Fin content -->
     </div> <!--Fin app -->
-<?php include 'footer2.php';?>
-<?php endwhile; ?>
+    
+    <?php include 'footer2.php';?>
 </body>
 </html>

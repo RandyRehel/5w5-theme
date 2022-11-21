@@ -139,8 +139,7 @@ a {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /**
@@ -785,8 +784,6 @@ body {
 
 .blocIntro {
   width: 100vw;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   padding-top: 12vh;
   margin-left: 0;
@@ -798,8 +795,6 @@ body {
 }
 .blocIntro .messageBubble {
   width: 100%;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   background-image: url("/wp-content/uploads/Bulle2-1.png.png");
   background-size: 100% 95%;
@@ -878,8 +873,6 @@ body {
   }
   .blocIntro {
     width: 50vw;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     margin-left: 50vw;
     margin-right: 5vw;
@@ -976,8 +969,6 @@ body {
   }
   .blocIntro {
     width: 100vw;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     padding-top: 12vh;
     margin-left: 0;
@@ -989,8 +980,6 @@ body {
   }
   .blocIntro .messageBubble {
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
     background-size: 100% 100%;
@@ -1094,6 +1083,79 @@ body {
 .imagesProjets figure img {
   width: 225px !important;
   height: 155px !important;
+}
+
+.projetFlex {
+  justify-content: space-around !important;
+  background-color: #e9663a;
+  background-image: url("/wp-content/uploads/BGOranget.png") !important;
+}
+
+.left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.left .projetsInfos {
+  margin-top: 20px;
+  background-color: white;
+  border: black solid 2.5px;
+  border-radius: 30px;
+}
+.left .projetsInfos h4 {
+  margin: 10px;
+}
+.left .projetsInfos p {
+  margin: 10px;
+}
+.left .projetsDesc {
+  background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+}
+.left .projetsDesc p {
+  margin: 8vh 4vw;
+  font-size: 13px;
+}
+.left div {
+  width: 90%;
+  margin: 1vh 0;
+}
+.left .bottomLeft {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.projetsLiens {
+  background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+}
+.projetsLiens a {
+  text-decoration: none;
+  color: black;
+}
+
+.right {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right .divImg {
+  width: auto;
+}
+.right .divImg img {
+  width: auto;
+  height: 60vh;
+  border: 5px dotted black !important;
 }
 
 /* Comments
@@ -1388,8 +1450,6 @@ body {
   z-index: 3;
   overflow: hidden;
   position: absolute;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
 }
 .enterHeader button {
@@ -1537,8 +1597,6 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   padding-top: 0.8vw;
 }
@@ -1657,8 +1715,6 @@ body {
   .contactsHeader {
     margin: 0 5% 0 0;
     width: 33vw;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     position: relative;
@@ -1684,8 +1740,6 @@ body {
     margin-top: 1.5vw;
   }
   .contactsHeader .leftHeader p {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
     color: black;
     font-family: "Silkscreen";
@@ -1700,8 +1754,6 @@ body {
   }
   .contactsHeader .leftHeader ul li {
     transform: scaleX(-1);
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
     list-style-type: none;
   }
@@ -1726,8 +1778,6 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
     padding-top: 0.8vw;
   }
@@ -1753,8 +1803,6 @@ body {
     z-index: 3;
     overflow: hidden;
     position: absolute;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
   }
   .enterHeader button {
@@ -1897,8 +1945,6 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
     padding-top: 4vw;
   }
@@ -1949,8 +1995,7 @@ body {
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -1964,8 +2009,7 @@ body {
   border-radius: 3px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
-  -webkit-clip-path: none;
-          clip-path: none;
+  clip-path: none;
   color: #21759b;
   display: block;
   font-size: 0.875rem;
@@ -2031,8 +2075,6 @@ body {
 }
 .BoutonsHeader a p {
   text-align: center;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   margin: 2vh;
   padding: 0;
@@ -2204,8 +2246,6 @@ body {
   }
   .BoutonsHeader a p {
     text-align: center;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     margin: 2vh;
     padding: 0;

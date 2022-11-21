@@ -8,3 +8,84 @@
     }
 }
 
+
+.projetFlex{
+    justify-content: space-around !important;
+    background-color: #e9663a;
+    background-image: url('/wp-content/uploads/BGOranget.png') !important;
+}
+
+.left{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    .projetsInfos{
+        margin-top: 20px;
+        background-color: white;
+        border: black solid 2.5px;
+        border-radius: 30px;
+        h4{
+            margin: 10px;
+        }
+        p{
+            margin: 10px;
+        }
+    }
+
+    .projetsDesc{
+        background-image: url('/wp-content/uploads/BulleFooter.png-e1667267695647.png');
+        background-size: 100% 90%;
+        background-repeat: no-repeat;
+        p{
+            margin: 8vh 4vw;
+            font-size: 13px;
+        }
+    }
+
+    div{
+        width: 90%;
+        margin: 1vh 0;
+    }
+
+    .bottomLeft{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
+
+
+.projetsLiens{
+    background-image: url('/wp-content/uploads/BulleFooter.png-e1667267695647.png');
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.right{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .divImg{
+        width: auto;
+        img{
+            width: auto;
+            height: 60vh;
+            border: 5px dotted black !important;
+        }
+    }
+
+
+}
