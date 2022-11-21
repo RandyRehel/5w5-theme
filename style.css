@@ -2128,42 +2128,23 @@ body {
 }
 
 .BoutonNavOrange {
-  display: flex;
-  flex-direction: column;
-  margin: 5px;
-  align-items: flex-end;
-}
-
-.BoutonNavOetB {
-  display: flex;
-  background-image: url("/wp-content/uploads/BoutonNavOrange.png");
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-}
-
-.BoutonNavOetB:hover {
-  background-image: url("/wp-content/uploads/BoutonNav_hover.png");
+  display: none;
 }
 
 .header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #2a2841;
-  height: 15vh;
+  display: none;
+}
+
+.nosProjets {
+  margin-top: 5vh;
 }
 
 .PageContenu {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-content: flex-start;
-  height: 70vh;
+  flex-wrap: wrap;
+  height: 100vh;
   background-color: #b2d4e0;
   background-image: url("/wp-content/uploads/BGBleu.png");
   background-repeat: no-repeat;
@@ -2173,13 +2154,26 @@ body {
   padding: 0;
 }
 .PageContenu p {
-  margin-right: 10vw;
+  margin: 2vh 3vh 0vh 3vh;
+  font-size: 2vh;
 }
 
 .logoLeprogramme {
   display: flex;
   margin-left: 4vw;
   align-items: center;
+}
+
+footer {
+  display: none;
+}
+
+.lesImages {
+  height: 30vh;
+}
+
+.fleches {
+  line-height: 0 !important;
 }
 
 @media screen and (min-width: 992px) {
@@ -2288,25 +2282,7 @@ body {
     background-image: url("/wp-content/uploads/BoutonVert_Hover.png");
   }
   .BoutonNavOrange {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    align-items: flex-end;
-  }
-  .BoutonNavOetB {
-    display: flex;
-    background-image: url("/wp-content/uploads/BoutonNavOrange.png");
-    background-size: cover;
-    height: 100px;
-    width: 100px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    border: none;
-    font: inherit;
-    background-color: transparent;
-  }
-  .BoutonNavOetB:hover {
-    background-image: url("/wp-content/uploads/BoutonNav_hover.png");
+    display: none;
   }
   .header {
     display: flex;
@@ -2335,6 +2311,9 @@ body {
     display: flex;
     margin-left: 4vw;
     align-items: center;
+  }
+  footer {
+    display: block;
   }
 }
 /* Page vie etudiante
