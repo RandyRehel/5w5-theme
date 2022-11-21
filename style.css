@@ -1,4 +1,4 @@
-/*! 
+/*!  
 Theme Name: theme5w5
 Theme URI: http://underscores.me/
 Author: Underscores.me
@@ -139,7 +139,8 @@ a {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 /**
@@ -727,6 +728,7 @@ body {
   background-color: white !important;
   margin: 0;
   padding: 0;
+  overflow-y: hidden;
 }
 
 .biggerC {
@@ -783,6 +785,8 @@ body {
 
 .blocIntro {
   width: 100vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   padding-top: 12vh;
   margin-left: 0;
@@ -794,6 +798,8 @@ body {
 }
 .blocIntro .messageBubble {
   width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   background-image: url("/wp-content/uploads/Bulle2-1.png.png");
   background-size: 100% 95%;
@@ -820,6 +826,7 @@ body {
 @media screen and (min-width: 992px) {
   body {
     width: 100vw;
+    overflow-x: hidden;
   }
   .frontBody {
     background-color: white !important;
@@ -871,6 +878,8 @@ body {
   }
   .blocIntro {
     width: 50vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     margin-left: 50vw;
     margin-right: 5vw;
@@ -915,6 +924,7 @@ body {
   }
   .frontBody {
     background-color: white !important;
+    overflow: hidden;
   }
   .biggerC {
     font-size: 4vw;
@@ -966,6 +976,8 @@ body {
   }
   .blocIntro {
     width: 100vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     padding-top: 12vh;
     margin-left: 0;
@@ -977,6 +989,8 @@ body {
   }
   .blocIntro .messageBubble {
     width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     background-image: url("/wp-content/uploads/BulleFooter.png-e1667267695647.png");
     background-size: 100% 100%;
@@ -1202,7 +1216,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   background-color: #2a2841;
-  padding-top: 5vh;
+  height: 15vh;
 }
 
 .communication {
@@ -1374,6 +1388,8 @@ body {
   z-index: 3;
   overflow: hidden;
   position: absolute;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
 }
 .enterHeader button {
@@ -1399,7 +1415,7 @@ body {
   text-decoration: none;
 }
 .enterNav ul a:first-of-type {
-  width: 125%;
+  width: 115%;
 }
 .enterNav ul a:first-of-type .frontNavItems {
   background-image: url("/wp-content/uploads/BoutonJaune-1.png");
@@ -1452,6 +1468,7 @@ body {
 .nav {
   width: 100vw;
   height: 95vh;
+  justify-content: flex-start;
 }
 .nav ul {
   display: flex;
@@ -1472,16 +1489,17 @@ body {
 }
 .contactsHeader .leftHeader {
   display: flex;
-  align-items: flex-end;
   flex-direction: column;
-  width: 30vw;
-  margin-top: 1.5vw;
+  align-items: center;
+  justify-items: center;
+  width: 35vw;
+  margin-top: 5vw;
 }
 .contactsHeader .leftHeader p {
-  width: fit-content;
+  width: 40vw;
   color: black;
   font-family: "Silkscreen";
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   transform: scaleX(-1);
 }
 .contactsHeader .leftHeader ul {
@@ -1489,12 +1507,15 @@ body {
   flex-direction: row;
   display: flex;
   align-items: center;
+  justify-items: space-around;
 }
 .contactsHeader .leftHeader ul li {
   transform: scaleX(-1);
   width: 7vw;
   list-style-type: none;
-  margin: 0vw 0.5vw;
+}
+.contactsHeader .leftHeader ul li:nth-child(2) {
+  margin: 0vw 2vw;
 }
 .contactsHeader .leftHeader ul li a {
   display: flex;
@@ -1516,6 +1537,8 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   padding-top: 0.8vw;
 }
@@ -1530,12 +1553,15 @@ body {
 }
 
 .copyrightHead {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
   color: white;
   bottom: 3vw;
   font-family: "Silkscreen";
   font-size: 2.5vw;
   padding: 0;
+  text-align: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -1617,7 +1643,8 @@ body {
     height: 160px;
     margin: 15px;
     z-index: 0;
-    bottom: -50vh;
+    bottom: -45vh;
+    left: 10%;
     position: relative;
   }
   .enterNav .navImgDroit img {
@@ -1630,6 +1657,8 @@ body {
   .contactsHeader {
     margin: 0 5% 0 0;
     width: 33vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     display: flex;
     position: relative;
@@ -1655,6 +1684,8 @@ body {
     margin-top: 1.5vw;
   }
   .contactsHeader .leftHeader p {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     color: black;
     font-family: "Silkscreen";
@@ -1669,9 +1700,10 @@ body {
   }
   .contactsHeader .leftHeader ul li {
     transform: scaleX(-1);
-    width: 20vw;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
     list-style-type: none;
-    margin: 0vw 0.5vw;
   }
   .contactsHeader .leftHeader ul li a {
     display: flex;
@@ -1694,6 +1726,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     padding-top: 0.8vw;
   }
@@ -1701,13 +1735,193 @@ body {
     width: 1vw;
   }
   .contactsHeader .rightHeader ul li .texteEmplacement {
-    line-height: 0.6rem;
+    line-height: 1rem;
     margin: 0vw 0.5vw;
     font-size: 9px;
     font-family: "Silkscreen";
   }
   .copyrightHead {
     display: none;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 481px) {
+  .enterHeader {
+    top: -1vh;
+    left: -2vw;
+    padding: 2vw;
+    width: 105vw;
+    z-index: 3;
+    overflow: hidden;
+    position: absolute;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .enterHeader button {
+    background-color: white;
+    border: none;
+  }
+  .enterNav {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.4);
+    flex-wrap: wrap;
+    top: 0;
+    margin: 0;
+  }
+  .enterNav ul {
+    padding: 1vh 0;
+    width: 40%;
+    flex-direction: column;
+  }
+  .enterNav ul a {
+    text-decoration: none;
+  }
+  .enterNav ul a:first-of-type {
+    width: 125%;
+  }
+  .enterNav ul a:first-of-type .frontNavItems {
+    background-image: url("/wp-content/uploads/BoutonJaune-1.png");
+  }
+  .enterNav ul a .frontNavItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("/wp-content/uploads/BoutonOrange-1.png");
+    background-repeat: no-repeat;
+    background-size: 60vw 9vh;
+    background-position: right;
+    margin: 1vh 0;
+    padding: 0 6vh;
+    align-items: center;
+    z-index: 2;
+    height: 9vh;
+    width: 60vw;
+  }
+  .enterNav ul a .frontNavItems:first-of-type {
+    width: 125%;
+  }
+  .enterNav ul a .frontNavItems p {
+    text-decoration: none;
+    font-family: "Silkscreen";
+    color: black;
+    width: 20vw;
+    font-size: 2vw;
+  }
+  .enterNav ul a .frontNavItems img {
+    margin-left: 10vw;
+    width: 5vw;
+    height: 5vw;
+  }
+  .enterNav .a:hover {
+    size: 2;
+  }
+  .enterNav .navImgDroit {
+    z-index: 0;
+    top: 45%;
+    left: 30vw;
+    position: relative;
+  }
+  .enterNav .navImgDroit img {
+    width: 28vw;
+  }
+  .nav {
+    width: 100vw;
+    height: 95vh;
+    justify-content: flex-start;
+  }
+  .nav ul {
+    display: flex;
+    list-style-type: none;
+  }
+  .contactsHeader {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    background-image: url("/wp-content/uploads/Bulle2-1.png.png");
+    transform: scaleX(-1);
+    background-size: 100% 100%;
+    background-position: right;
+    flex-direction: row-reverse;
+    background-repeat: no-repeat;
+    width: 100vw;
+  }
+  .contactsHeader .leftHeader {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    width: 29vw;
+    margin-top: 5vw;
+  }
+  .contactsHeader .leftHeader p {
+    width: 23vw;
+    color: black;
+    font-family: "Silkscreen";
+    font-size: 0.7rem;
+    transform: scaleX(-1);
+  }
+  .contactsHeader .leftHeader ul {
+    transform: scaleX(-1);
+    flex-direction: row;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-items: space-around;
+  }
+  .contactsHeader .leftHeader ul li {
+    transform: scaleX(-1);
+    width: 7vw;
+    list-style-type: none;
+  }
+  .contactsHeader .leftHeader ul li:nth-child(2) {
+    margin: 0vw 3vw;
+  }
+  .contactsHeader .leftHeader ul li a {
+    display: flex;
+    align-items: center;
+  }
+  .contactsHeader .leftHeader ul li .icoHeader {
+    width: 100%;
+    transform: scaleX(-1);
+  }
+  .contactsHeader .rightHeader {
+    margin-top: 2.5vh;
+    width: 29vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transform: scaleX(-1);
+  }
+  .contactsHeader .rightHeader ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-top: 4vw;
+  }
+  .contactsHeader .rightHeader ul li:first-of-type {
+    width: 10%;
+  }
+  .contactsHeader .rightHeader ul li .texteEmplacement {
+    line-height: 1.2rem;
+    margin: 0vw 1vw;
+    font-size: 1.5svw;
+    font-family: "Silkscreen";
+  }
+  .copyrightHead {
+    display: flex;
+    width: 100vw;
+    color: white;
+    font-family: "Silkscreen";
+    font-size: 1.6vw;
+    margin-bottom: 1vw;
+    justify-content: center;
+  }
+  .copyrightHead p {
+    text-align: center;
   }
 }
 /*--------------------------------------------------------------
@@ -1735,7 +1949,8 @@ body {
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
-  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
   height: 1px;
   margin: -1px;
   overflow: hidden;
@@ -1749,7 +1964,8 @@ body {
   border-radius: 3px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
   clip: auto !important;
-  clip-path: none;
+  -webkit-clip-path: none;
+          clip-path: none;
   color: #21759b;
   display: block;
   font-size: 0.875rem;
@@ -1800,17 +2016,26 @@ body {
 .BoutonsHeader {
   display: flex;
   flex-direction: row;
-  margin: 5px;
-  height: 100px;
-  width: 70%;
+  height: 7.5vh;
+  width: 85%;
   align-items: center;
 }
 .BoutonsHeader a {
   text-decoration: none;
+  padding: 0;
   color: black;
+  font-family: "Silkscreen";
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 .BoutonsHeader a p {
   text-align: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 2vh;
+  padding: 0;
 }
 
 .BoutonNavHeaderB {
@@ -1819,9 +2044,8 @@ body {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  height: 60%;
-  width: 40%;
-  margin-right: 20px;
+  height: 90%;
+  width: 70%;
   cursor: pointer;
   border: none;
   font: inherit;
@@ -1835,9 +2059,8 @@ body {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  height: 60%;
-  width: 40%;
-  margin-right: 20px;
+  height: 90%;
+  width: 70%;
   cursor: pointer;
   border: none;
   font: inherit;
@@ -1850,9 +2073,8 @@ body {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  height: 60%;
-  width: 40%;
-  margin-right: 20px;
+  height: 90%;
+  width: 70%;
   cursor: pointer;
   border: none;
   font: inherit;
@@ -1865,9 +2087,8 @@ body {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
-  height: 60%;
-  width: 40%;
-  margin-right: 20px;
+  height: 90%;
+  width: 70%;
   cursor: pointer;
   border: none;
   font: inherit;
@@ -1932,15 +2153,17 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  align-items: center;
   background-color: #2a2841;
-  margin: 0;
-  padding-bottom: 3vh;
+  height: 15vh;
 }
 
 .PageContenu {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-content: flex-start;
+  height: 70vh;
   background-color: #b2d4e0;
   background-image: url("/wp-content/uploads/BGBleu.png");
   background-repeat: no-repeat;
@@ -1949,12 +2172,171 @@ body {
   margin: 0;
   padding: 0;
 }
+.PageContenu p {
+  margin-right: 10vw;
+}
 
 .logoLeprogramme {
   display: flex;
+  margin-left: 4vw;
   align-items: center;
 }
 
+@media screen and (min-width: 992px) {
+  .mobile {
+    display: none;
+  }
+  .BoutonsHeader {
+    display: flex;
+    flex-direction: row;
+    height: 7.5vh;
+    width: 85%;
+    align-items: center;
+  }
+  .BoutonsHeader a {
+    text-decoration: none;
+    padding: 0;
+    color: black;
+    font-family: "Silkscreen";
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  .BoutonsHeader a p {
+    text-align: center;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 2vh;
+    padding: 0;
+  }
+  .BoutonNavHeaderB {
+    background-image: url("/wp-content/uploads/BoutonBleu.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 90%;
+    width: 70%;
+    cursor: pointer;
+    border: none;
+    font: inherit;
+    background-color: transparent;
+    font-size: clamp(1rem, 1vw, 2rem);
+  }
+  .BoutonNavHeaderY {
+    background-image: url("/wp-content/uploads/BoutonJaune.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 90%;
+    width: 70%;
+    cursor: pointer;
+    border: none;
+    font: inherit;
+    background-color: transparent;
+  }
+  .BoutonNavHeaderO {
+    background-image: url("/wp-content/uploads/BoutonOrange.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 90%;
+    width: 70%;
+    cursor: pointer;
+    border: none;
+    font: inherit;
+    background-color: transparent;
+  }
+  .BoutonNavHeaderV {
+    background-image: url("/wp-content/uploads/BoutonVert.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    height: 90%;
+    width: 70%;
+    cursor: pointer;
+    border: none;
+    font: inherit;
+    background-color: transparent;
+  }
+  .BoutonNavHeaderB:hover {
+    background-image: url("/wp-content/uploads/BoutonBleu_Hover.png");
+  }
+  .BoutonNavHeaderY:hover {
+    background-image: url("/wp-content/uploads/BoutonJaune_hovrr.png");
+  }
+  .BoutonNavHeaderO:hover {
+    background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
+  }
+  .BoutonNavHeaderV:hover {
+    background-image: url("/wp-content/uploads/BoutonVert_Hover.png");
+  }
+  .BoutonNavHeaderB:active {
+    background-image: url("/wp-content/uploads/BoutonBleu_Hover.png");
+  }
+  .BoutonNavHeaderY:hover {
+    background-image: url("/wp-content/uploads/BoutonJaune_hovrr.png");
+  }
+  .BoutonNavHeaderO:hover {
+    background-image: url("/wp-content/uploads/BoutonOrange_hover.png");
+  }
+  .BoutonNavHeaderV:hover {
+    background-image: url("/wp-content/uploads/BoutonVert_Hover.png");
+  }
+  .BoutonNavOrange {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    align-items: flex-end;
+  }
+  .BoutonNavOetB {
+    display: flex;
+    background-image: url("/wp-content/uploads/BoutonNavOrange.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    font: inherit;
+    background-color: transparent;
+  }
+  .BoutonNavOetB:hover {
+    background-image: url("/wp-content/uploads/BoutonNav_hover.png");
+  }
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2a2841;
+    height: 15vh;
+  }
+  .PageContenu {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-start;
+    height: 70vh;
+    background-color: #b2d4e0;
+    background-image: url("/wp-content/uploads/BGBleu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  }
+  .PageContenu p {
+    margin-right: 10vw;
+  }
+  .logoLeprogramme {
+    display: flex;
+    margin-left: 4vw;
+    align-items: center;
+  }
+}
 /* Page vie etudiante
 --------------------------------------------- */
 .PageContenuStages {
