@@ -42,11 +42,8 @@
                     </div>
                </div>
             </div>          
-            <!-- </div>
-            <img class="flecheDroite" src="http://projetweb2022.loc/wp-content/uploads/FlecheSuite.png" alt="la flèche droite"  >
-            <img class="flecheGauche" src="http://projetweb2022.loc/wp-content/uploads/FlecheSuite.png" alt="la flèche gauche"  height="20px">
-        </div> -->
-       
+            <a href="<?=$url?>/stages/"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
+            <a href="<?=$url?>/vie-etudiante/"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
         </div><!--Fin PageContenu -->
     </div><!--Fin content -->
 </div> <!--Fin app -->

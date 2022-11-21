@@ -11,8 +11,8 @@
                       , sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                       
             </div>
-            <img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"  >
-            <img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"  height="20px">
+            <a href="<?=$url?>/category/projets/"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
+            <a href="<?=$url?>/le-programme/"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
         </div>
         <div class="lesImagesEtudiantes">
             <div class="logoLeprogrammeEtudiante1">

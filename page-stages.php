@@ -14,8 +14,7 @@
         <div class ="photoPersonnageStages"><img class="" src=""></div>
 
         <div>
-        <img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"  >
-        <img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"  height="20px">
+        <a href="<?=$url?>/category/projets/"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
         </div>
         
     </div>

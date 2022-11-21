@@ -14,7 +14,7 @@
                          , sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             </div>
             <a href="<?=$url?>/category/profs"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
-            <img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"  height="20px">
+            <a href="<?=$url?>"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
         </div>
         <div class="lesImages">
             <p>Images</p>
