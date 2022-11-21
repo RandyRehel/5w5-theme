@@ -197,3 +197,6 @@ function globalVars(){
 
 add_action('wp_enqueue_scripts', 'globalVars');
 
+
+
+

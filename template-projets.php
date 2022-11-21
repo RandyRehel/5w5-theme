@@ -17,12 +17,6 @@
                         <img class="flecheDroiteProf" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite" >
                     </div>
                 </div>
-                    <div class ="BoutonNavOrange">
-                        <button class="BoutonNavOetB" type="button" ></button>
-                        <button class="BoutonNavOetB" type="button" ></button> 
-                        <button class="BoutonNavOetB" type="button" ></button> 
-                        <button class="BoutonNavOetB" type="button" ></button> 
-                    </div> 
             </div><!--Fin PageContenu -->
         </div><!--Fin content -->
     </div> <!--Fin app -->

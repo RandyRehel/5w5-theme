@@ -1,20 +1,29 @@
 <?php get_header();?>
         <div class="PageContenuProjets">
             <div class="NosProjets">
-                <div class="BoutonProjet" >
+                <div class="BoutonProjet">
                     <p class="titretProjetVieEtudiante">NOS PROJETS</p>
-                    <div class="BoutonsFilter" >
-                        <button class="BoutonContenuProjets" type="button" ><p>Jeu</p></button>
-                        <button class="BoutonContenuProjets" type="button" ><p>Web</p></button>
-                        <button class="BoutonContenuProjets" type="button" ><p>Video</p></button>
-                        <button class="BoutonContenuProjets" type="button" ><p>3D</p></button>
-                        <button class="BoutonContenuProjets" type="button" ><p>Imagerie</p></button>
-                        <button class="BoutonContenuProjets" type="button" ><p>Autre</p></button>
-                    </div> <!-- Fin boutonProjet -->
+                    
+                        <form method="post" class="BoutonsFilter">
+                            <button class="BoutonContenuProjets" name="a" value="jeu" type="submit"><p>Jeu</p></button>
+                            <button class="BoutonContenuProjets" name="a" value="web" type="submit"><p>Web</p></button>
+                            <button class="BoutonContenuProjets" name="a" value="video" type="submit"><p>Video</p></button>
+                            <button class="BoutonContenuProjets" name="a" value="3D" type="submit"><p>3D</p></button>
+                            <button class="BoutonContenuProjets" name="a" value="imagerie" type="submit"><p>Imagerie</p></button>
+                            <button class="BoutonContenuProjets" name="a" value="autre" type="submit"><p>Autre</p></button>
+                        </form>
+                     <!-- Fin boutonProjet -->
                     <div class="BoutonsSelectionProjet">
                         <?php 
+
+                            
+                        
+                        $args = array('category_name' => (isset($_POST['a'])&& $_POST['a']!= '') ? $_POST['a'] : 'projets');
+                        
+                            $posts = get_posts($args);
+
                         if (have_posts()) :
-        
+                            
                             while (have_posts() ) :
                                 the_post();
                                 ?>
@@ -28,7 +37,7 @@
                                     endif;
                                     ?>
 
-                                        <div class="selectionProjet">
+                                        <div class="selectionProjet" >
                                             <div class="imagesProjets">
                                                 <?php the_content();?>
                                             </div>
