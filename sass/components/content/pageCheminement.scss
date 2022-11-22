@@ -4,6 +4,7 @@
     margin: 0; 
     padding: 0; 
     align-items: flex-end;
+    min-height: 80vh;
 }
 
 .cheminementFleches{
@@ -12,7 +13,7 @@
 
 .cotesCheminement{
     position: relative;
-    bottom: -30vh;
+    bottom: -25vh;
     z-index: 0;
     img{
         width: 250px;

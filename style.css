@@ -1163,7 +1163,7 @@ body {
   padding: 2vh 2vw;
 }
 .branchesImages img {
-  width: 31.5%;
+  width: 30.5%;
   border: 2.5px solid black;
   margin: 5px;
 }
@@ -1178,6 +1178,7 @@ body {
   margin: 0;
   padding: 0;
   align-items: flex-end;
+  min-height: 80vh;
 }
 
 .cheminementFleches {
@@ -1186,7 +1187,7 @@ body {
 
 .cotesCheminement {
   position: relative;
-  bottom: -30vh;
+  bottom: -25vh;
   z-index: 0;
 }
 .cotesCheminement img {
@@ -1346,7 +1347,9 @@ body {
   flex-direction: row;
   justify-content: space-around;
   background-color: #2a2841;
-  height: 15vh;
+  height: 20vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .communication {
@@ -1457,7 +1460,7 @@ body {
 
 .mail {
   height: 40px;
-  width: 40px;
+  width: 55px;
   display: list-item;
   float: right;
   background-image: url("/wp-content/uploads/IconeMail-1.png");
@@ -1472,15 +1475,10 @@ body {
   background-size: 100% 100%;
 }
 
-.timLogoFooter {
-  position: absolute;
-  left: 90px;
-  top: 30px;
-}
-
 .emplacementIcone {
-  position: relative;
-  padding-right: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logoEmplacementRouge {
@@ -1490,14 +1488,8 @@ body {
 }
 
 .nav-item4LeProgramme {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-content: flex-end;
-  height: 100%;
   font-size: 13px;
   color: white;
-  padding-bottom: 15px;
 }
 
 .renseignements {

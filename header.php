@@ -70,7 +70,7 @@ elseif(!is_front_page()):?>
        
         <div class="logoLeprogramme">
             <a href="<?=$url?>/frontpage">
-                <img src="<?=$img_dir?>Logo.png" alt="LOGO DU TIM" height="110px" width="110px">           
+                <img src="<?=$img_dir?>LogoTIM-1.png" alt="LOGO DU TIM" height="110px" width="110px">           
             </a>
         </div>
         
