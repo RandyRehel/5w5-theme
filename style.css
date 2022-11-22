@@ -1001,33 +1001,30 @@ body {
     padding: 0;
   }
 }
-.flecheDroiteProf {
-  position: relative;
-  height: 60px;
-  left: 85%;
-  bottom: 4%;
-  transform: rotate(-270deg);
+.contenuProfs {
+  justify-content: space-around !important;
 }
-
-.flecheGaucheProf {
-  position: relative;
-  left: 2%;
-  bottom: 14%;
-  height: 60px;
-  transform: rotate(270deg);
+.contenuProfs .divImg {
+  width: unset;
 }
 
 .pageContenuProfs {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.containerProfs {
   background-color: #b2d4e0;
   background-image: url("/wp-content/uploads/BGBleu.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .divImg {
@@ -1156,6 +1153,32 @@ body {
   width: auto;
   height: 60vh;
   border: 5px dotted black !important;
+}
+
+.branchesImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 45vw !important;
+  padding: 2vh 2vw;
+}
+.branchesImages img {
+  width: 31.5%;
+  border: 2.5px solid black;
+  margin: 5px;
+}
+
+.infosBranches {
+  width: 45vw !important;
+}
+
+.contenuPageCheminement {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  align-items: center;
 }
 
 /* Comments
@@ -2211,11 +2234,15 @@ footer {
 }
 
 .lesImages {
-  height: 30vh;
+  height: 100%;
 }
 
 .fleches {
   line-height: 0 !important;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 1vh 2vw;
 }
 
 @media screen and (min-width: 992px) {
@@ -2484,17 +2511,11 @@ footer {
 .flecheDroite {
   position: relative;
   height: 60px;
-  left: 85%;
-  bottom: 4%;
-  width: 10%;
   transform: rotate(-270deg);
 }
 
 .flecheGauche {
   position: relative;
-  left: 2%;
-  bottom: 14%;
-  width: 10%;
   height: 60px;
   transform: rotate(270deg);
 }

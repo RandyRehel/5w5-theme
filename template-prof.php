@@ -1,6 +1,6 @@
 <?php /* Template Name: SingleProf */ ?>
 <?php get_header();?>
-            <div class="PageContenu">
+            <div class="PageContenu contenuProfs">
                 <div class="divImg">
                     <img class="imgProf" src="<?php the_field('photo');?>" alt="Image du prof">
                 </div>

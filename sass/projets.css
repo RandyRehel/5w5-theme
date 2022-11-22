@@ -41,17 +41,11 @@
 .flecheDroite {
   position: relative;
   height: 60px;
-  left: 85%;
-  bottom: 4%;
-  width: 10%;
   transform: rotate(-270deg);
 }
 
 .flecheGauche {
   position: relative;
-  left: 2%;
-  bottom: 14%;
-  width: 10%;
   height: 60px;
   transform: rotate(270deg);
 }

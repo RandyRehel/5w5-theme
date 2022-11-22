@@ -157,11 +157,15 @@ footer {
 }
 
 .lesImages {
-    height: 30vh;
+    height: 100%
 }
 
 .fleches {
     line-height: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 1vh 2vw;
 }
 
 
