@@ -9,29 +9,29 @@
             <div class="titreCheminement">
                     <h3>Grille de cheminement</h3>
                 </div>
-                <div class="sessionsConteneur">
-                    <button>fleche gauche</button>
+                <div class="sessionsConteneur" x-data="{active: 1}">
+                    <button x-on:click="active = active > 1 ? active-1 : active = 6"></button>
                     <div class="sessions">
-                        <div class="sessionCercle">
+                        <div class="sessionCercle" :class="{'inactiveCercle': active != 1}">
                             <a href=""><h4>Session 1</h4></a>
                         </div>
-                        <div class="sessionCercle inactiveCercle">
+                        <div class="sessionCercle inactiveCercle" :class="{'inactiveCercle': active != 2}">
                             <a href=""><h4>Session 2</h4></a>
                         </div>
-                        <div class="sessionCercle inactiveCercle">
+                        <div class="sessionCercle inactiveCercle" :class="{'inactiveCercle': active != 3}">
                             <a href=""><h4>Session 3</h4></a>
                         </div>
-                        <div class="sessionCercle inactiveCercle">
+                        <div class="sessionCercle inactiveCercle" :class="{'inactiveCercle': active != 4}">
                             <a href=""><h4>Session 4</h4></a>
                         </div>
-                        <div class="sessionCercle inactiveCercle">
+                        <div class="sessionCercle inactiveCercle" :class="{'inactiveCercle': active != 5}">
                             <a href=""><h4>Session 5</h4></a>
                         </div>
-                        <div class="sessionCercle inactiveCercle">
+                        <div class="sessionCercle inactiveCercle" :class="{'inactiveCercle': active != 6}">
                             <a href=""><h4>Session 6</h4></a>
                         </div>
                     </div>
-                    <button>fleche droite</button>
+                    <button x-on:click="active = active < 6 ? active+1 : active = 1"></button>
                 </div>
         </div>
         <div class="cotesCheminement" style="right: -50px;">

@@ -1209,12 +1209,58 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: stretch;
+  justify-content: space-around;
+}
+.midCheminement .titreCheminement {
+  color: black;
+  font-size: 35px;
+  font-family: "Silkscreen";
+  white-space: nowrap;
 }
 
 .sessionsConteneur {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.sessionsConteneur button {
+  background-image: url("/wp-content/uploads/fleche2-1.png");
+  background-repeat: no-repeat;
+  background-color: unset;
+  background-size: contain;
+  border: none;
+  content: "";
+  margin: 0 30px;
+  width: 50px;
+  height: 50px;
+  transition-duration: 1s;
+}
+.sessionsConteneur button:first-of-type {
+  rotate: 90deg;
+}
+.sessionsConteneur button:first-of-type:after {
+  top: 50px;
+  left: 0;
+}
+.sessionsConteneur button:last-of-type {
+  rotate: -90deg;
+}
+.sessionsConteneur button:last-of-type:after {
+  top: 0;
+  left: 50px;
+}
+.sessionsConteneur button:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+.sessionsConteneur button:hover {
+  width: 60px;
+  height: 60px;
+  transition-duration: 1s;
 }
 
 .sessions {
@@ -1225,6 +1271,25 @@ body {
 
 .sessionCercle {
   background-image: url("/wp-content/uploads/BoutonNavOrange-2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 1s;
+}
+.sessionCercle:hover {
+  width: 325px;
+  height: 325px;
+  transition-duration: 1s;
+}
+.sessionCercle a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-family: "Silkscreen";
 }
 
 /* Comments

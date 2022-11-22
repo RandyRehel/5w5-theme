@@ -35,12 +35,31 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-self: stretch;
+  justify-content: space-around;
 }
 
 .sessionsConteneur {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.sessionsConteneur button {
+  background-image: url("/wp-content/uploads/fleche2-1.png");
+  background-repeat: no-repeat;
+  background-color: unset;
+  background-size: contain;
+  border: none;
+  content: "";
+  margin: 0 30px;
+  width: 50px;
+  height: 50px;
+}
+.sessionsConteneur button:first-of-type {
+  rotate: 90deg;
+}
+.sessionsConteneur button:last-of-type {
+  rotate: -90deg;
 }
 
 .sessions {
@@ -51,4 +70,11 @@
 
 .sessionCercle {
   background-image: url("/wp-content/uploads/BoutonNavOrange-2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
