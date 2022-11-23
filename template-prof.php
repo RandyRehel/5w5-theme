@@ -10,17 +10,11 @@
                     <div class="competences">
                         COMPETENCES 
                     </div>
-                    <div class="flechesDiv">
-                        <a href="javascript:history.back()"><img class="flecheGaucheProf" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche" ></a> 
-                        <img class="flecheDroiteProf" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite" >
+                    <div class="fleches">
+                        <a href="javascript:history.back()"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche" ></a> 
+                    
                     </div>
                 </div>
-                    <div class ="BoutonNavOrange">
-                        <button class="BoutonNavOetB" type="button" ></button>
-                        <button class="BoutonNavOetB" type="button" ></button> 
-                        <button class="BoutonNavOetB" type="button" ></button> 
-                        <button class="BoutonNavOetB" type="button" ></button> 
-                    </div> 
             </div><!--Fin PageContenu -->
         </div><!--Fin content -->
     </div> <!--Fin app -->

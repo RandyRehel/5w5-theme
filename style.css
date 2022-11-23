@@ -1292,6 +1292,78 @@ body {
   font-family: "Silkscreen";
 }
 
+h4 {
+  font-family: "Silkscreen";
+  font-size: 50px;
+}
+
+h3 {
+  font-family: "Silkscreen";
+  font-size: 20px;
+}
+
+.containerContenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  justify-content: space-evenly;
+}
+
+.pageContenuSessions {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.cours {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerCours {
+  background-color: white;
+  border: 2px solid black;
+  width: 90%;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+.containerCours:hover {
+  box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+  -webkit-box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+  -moz-box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+  transition-duration: 1s;
+}
+
+.contentCours {
+  position: fixed;
+  top: 10vh;
+  left: 7.5vw;
+  width: 85vw;
+  height: 80vh;
+  background-color: white;
+  box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+  -webkit-box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+  -moz-box-shadow: 0px 0px 20px 5px rgb(0, 0, 0);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 4;
+}
+.contentCours .titreCours {
+  font-size: 24px;
+  font-family: "Silkscreen";
+}
+.contentCours .texteCours {
+  padding: 0 60px;
+  font-size: 18px;
+  font-family: "Quicksand";
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
