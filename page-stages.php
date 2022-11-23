@@ -1,6 +1,6 @@
 <?php get_header();?>
     <div class="PageContenuStages">
-        <div class="NosProjets" style="display: flex; flex-direction:column">
+        <div class="NosProjetsStage">
         <div class="BoutonProjet" >
             <img class="ImgNosProjet" src="" alt=""  >
             <p class="titretProjetVieEtudiante">LES STAGES DE FIN D'ÉTUDE AU TIM</p>
@@ -10,7 +10,7 @@
                     , sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                     
         </div>
-        <div style="display: flex;">
+        <div class="divPhotoPersonnageStages">
             <div class ="photoPersonnageStages"><img class="" src=""></div>
 
             <div class="fleches">

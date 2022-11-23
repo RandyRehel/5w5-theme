@@ -1,6 +1,7 @@
 .titretProjet {
   position: relative;
   font-size: 30px;
+  font-family: "Silkscreen";
 }
 
 .BoutonProjet {
@@ -77,6 +78,15 @@
   width: 100%;
 }
 
+.titretProjetPageProjets {
+  position: relative;
+  /* position: relative; */
+  font-family: "Silkscreen";
+  font-size: 40px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .BoutonContenuProjets {
   display: flex;
   align-items: center;
@@ -90,6 +100,7 @@
   font: inherit;
   font-size: clamp(1rem, 1vw, 2rem);
   border: solid 1px;
+  font-family: "Silkscreen";
 }
 
 .BoutonsSelectionProjet {

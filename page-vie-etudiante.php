@@ -18,13 +18,13 @@
         </div>
         <div class="lesImagesEtudiantes">
             <div class="logoLeprogrammeEtudiante1">
-                <img src="" alt="" >           
+                <img class="flecheCarouselVieEtudiante1" src="/wp-content/uploads/Fleche2.png" alt="" >           
             </div>
             <div class="logoLeprogrammeEtudiante2">
                 <img src="" alt="" >           
             </div>  
             <div class="logoLeprogrammeEtudiante3">
-                <img src="" alt="" >           
+                <img class="flecheCarouselVieEtudiante2" src="/wp-content/uploads/Fleche2.png" alt="" >           
             </div>    
     </div>
         <div class ="BoutonNavOrange">

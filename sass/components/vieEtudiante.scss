@@ -33,12 +33,16 @@
     -webkit-box-orient: vertical;
     max-width: 650px;
     padding-bottom: 20px;
+    font-weight: bold;
 }
 .titretProjetVieEtudiante{
     position: relative;
     // font-size: 30px;
     // bottom: 50vh;
     // left: 9vh;
+    /* position: relative; */
+    font-family: "Silkscreen";
+    
 }
 .contentVieEtudiante{
     display: flex;
@@ -49,18 +53,28 @@
 }
 ////////////// les images étudiantes
 .lesImagesEtudiantes{
+    display: flex;
     background: transparent;
     width: 500px;
     margin-left: 10vh;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .logoLeprogrammeEtudiante1{
     display: flex;
     align-items: center;
     height: 14vh; 
     width: 60vh;
-    background-color: white;
+
     margin-bottom: 2.5vh;
-    border: solid black 1px;
+    justify-content: center;
+}
+//// fleches carousel
+.flecheCarouselVieEtudiante1{
+    transform: rotate(180deg);
+}
+.flecheCarouselVieEtudiante2{
+    transform: rotate(0deg);
 }
 .logoLeprogrammeEtudiante2{
     display: flex;
@@ -76,6 +90,5 @@
     align-items: center;
     height: 14vh; 
     width: 60vh;
-    background-color: white;
-    border: solid black 1px;
+    justify-content: center;
 }
