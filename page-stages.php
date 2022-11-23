@@ -14,10 +14,7 @@
         <div class ="photoPersonnageStages"><img class="" src=""></div>
 
         <div>
-        <div class="fleches">
-                        <a href="<?=$url?>/category/profs"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
-                        <a href="#" onclick="history.go(-1)"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"  height="20px"></a>
-                    </div>
+        <a href="<?=$url?>/category/projets/"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
         </div>
         
     </div>

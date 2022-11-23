@@ -2619,6 +2619,9 @@ footer {
 .flecheGauche {
   position: relative;
   height: 60px;
+  bottom: 4%;
+  width: 10%;
+  bottom: 203px;
   transform: rotate(270deg);
 }
 
