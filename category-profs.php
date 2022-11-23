@@ -25,6 +25,8 @@
                 endif;
             ?>
             </div><!--Fin PageContenu -->
+            <a href="<?=$url?>/vie-etudiante/"><img class="flecheDroiteContenuProf" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
+            <a href="<?=$url?>/le-programme/"><img class="flecheGaucheContenuProf" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
         </div><!--Fin content -->
 
 

@@ -11,9 +11,10 @@
                          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
                          , sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
             <div class="fleches">
-                <a href="<?=$url?>/category/profs"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
-                <a href="#" onclick="history.go(-1)"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"  height="20px"></a>
+            <a href="<?=$url?>/category/profs"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
+            <a href="<?=$url?>"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
             </div>
+            
         </div>
         <div class="lesImages">
             <p>Images</p>
