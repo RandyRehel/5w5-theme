@@ -2,7 +2,7 @@
         <div class="PageContenuProjets">
             <div class="NosProjets">
                 <div class="BoutonProjet">
-                    <p class="titretProjetVieEtudiante">NOS PROJETS</p>
+                    <p class="titretProjetPageProjets">NOS PROJETS</p>
                     
                         <form method="post" class="BoutonsFilter">
                             <button class="BoutonContenuProjets" name="a" value="jeu" type="submit"><p>Jeu</p></button>

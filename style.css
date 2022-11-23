@@ -1159,6 +1159,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  height: 100%;
   width: 45vw !important;
   padding: 2vh 2vw;
 }
@@ -1534,6 +1535,7 @@ h3 {
   text-align: center;
   color: white;
   margin-bottom: 20px;
+  font-family: "Silkscreen";
 }
 
 .nav {
@@ -1631,6 +1633,7 @@ h3 {
 .nav-item4LeProgramme {
   font-size: 13px;
   color: white;
+  font-family: "Silkscreen";
 }
 
 .renseignements {
@@ -1640,6 +1643,7 @@ h3 {
 .renseignementsFooter {
   color: white;
   font-size: 15px;
+  font-family: "Silkscreen";
   margin: 0;
 }
 
@@ -2393,12 +2397,14 @@ h3 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  flex-direction: column;
   margin: 0;
   padding: 0;
 }
 .PageContenu p {
   margin: 2vh 3vh 0vh 3vh;
   font-size: 2vh;
+  font-weight: bold;
 }
 
 .logoLeprogramme {
@@ -2411,8 +2417,13 @@ footer {
   display: none;
 }
 
-.lesImages {
+.lesImagesProgramme {
   height: 100%;
+}
+
+.ImagesProgramme {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .fleches {
@@ -2421,6 +2432,10 @@ footer {
   justify-content: space-between;
   flex-direction: row-reverse;
   padding: 1vh 2vw;
+}
+
+.titreProjet {
+  font-family: "Silkscreen";
 }
 
 @media screen and (min-width: 992px) {
@@ -2538,8 +2553,7 @@ footer {
   }
   .PageContenu {
     display: flex;
-    justify-content: flex-end;
-    align-content: flex-start;
+    align-content: space-around;
     height: 70vh;
     background-color: #b2d4e0;
     background-image: url("/wp-content/uploads/BGBleu.png");
@@ -2595,10 +2609,13 @@ footer {
   -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 
 .titretProjetVieEtudiante {
   position: relative;
+  /* position: relative; */
+  font-family: "Silkscreen";
 }
 
 .contentVieEtudiante {
@@ -2610,9 +2627,12 @@ footer {
 }
 
 .lesImagesEtudiantes {
+  display: flex;
   background: transparent;
   width: 500px;
   margin-left: 10vh;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .logoLeprogrammeEtudiante1 {
@@ -2620,9 +2640,16 @@ footer {
   align-items: center;
   height: 14vh;
   width: 60vh;
-  background-color: white;
   margin-bottom: 2.5vh;
-  border: solid black 1px;
+  justify-content: center;
+}
+
+.flecheCarouselVieEtudiante1 {
+  transform: rotate(180deg);
+}
+
+.flecheCarouselVieEtudiante2 {
+  transform: rotate(0deg);
 }
 
 .logoLeprogrammeEtudiante2 {
@@ -2640,8 +2667,7 @@ footer {
   align-items: center;
   height: 14vh;
   width: 60vh;
-  background-color: white;
-  border: solid black 1px;
+  justify-content: center;
 }
 
 /* Page projets
@@ -2649,6 +2675,7 @@ footer {
 .titretProjet {
   position: relative;
   font-size: 30px;
+  font-family: "Silkscreen";
 }
 
 .BoutonProjet {
@@ -2725,6 +2752,15 @@ footer {
   width: 100%;
 }
 
+.titretProjetPageProjets {
+  position: relative;
+  /* position: relative; */
+  font-family: "Silkscreen";
+  font-size: 40px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
 .BoutonContenuProjets {
   display: flex;
   align-items: center;
@@ -2738,6 +2774,7 @@ footer {
   font: inherit;
   font-size: clamp(1rem, 1vw, 2rem);
   border: solid 1px;
+  font-family: "Silkscreen";
 }
 
 .BoutonsSelectionProjet {
@@ -2868,10 +2905,13 @@ footer {
   min-height: 17vh;
 }
 
+.divPhotoPersonnageStages {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
 .photoPersonnageStages {
-  position: relative;
-  top: 63px;
-  left: 179px;
   background-color: white;
   width: 27vh;
   min-height: 29vh;
@@ -2884,11 +2924,16 @@ footer {
 }
 
 .entrepriseStages {
-  position: relative;
   height: 78vh;
   width: 72vh;
   background-color: white;
   margin-top: 35px;
+}
+
+.NosProjetsStage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 /* Nav animation

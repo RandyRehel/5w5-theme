@@ -16,8 +16,8 @@
             </div>
             
         </div>
-        <div class="lesImages">
-            <img src="" alt="Images">
+        <div class="lesImagesProgramme">
+            <img class="ImagesProgramme" src="/wp-content/uploads/integrationMultimedia.jpg" alt="ImagesProgramme">
         </div>
         
         </div><!--Fin PageContenu -->

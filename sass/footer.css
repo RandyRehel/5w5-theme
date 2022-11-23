@@ -60,6 +60,7 @@
   text-align: center;
   color: white;
   margin-bottom: 20px;
+  font-family: "Silkscreen";
 }
 
 .nav {
@@ -157,6 +158,7 @@
 .nav-item4LeProgramme {
   font-size: 13px;
   color: white;
+  font-family: "Silkscreen";
 }
 
 .renseignements {
@@ -166,5 +168,6 @@
 .renseignementsFooter {
   color: white;
   font-size: 15px;
+  font-family: "Silkscreen";
   margin: 0;
 }

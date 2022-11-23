@@ -16,10 +16,13 @@
   min-height: 17vh;
 }
 
+.divPhotoPersonnageStages {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
 .photoPersonnageStages {
-  position: relative;
-  top: 63px;
-  left: 179px;
   background-color: white;
   width: 27vh;
   min-height: 29vh;
@@ -32,9 +35,14 @@
 }
 
 .entrepriseStages {
-  position: relative;
   height: 78vh;
   width: 72vh;
   background-color: white;
   margin-top: 35px;
+}
+
+.NosProjetsStage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
