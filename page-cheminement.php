@@ -41,7 +41,7 @@
                    
                 </div>   <!--Fin PageContenu -->
                 <div class="fleches cheminementFleches">
-                        <a href="<?=$url?>/cheminement"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
+                        <a href="<?=$url?>/vie-etudiante"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
                         <a href="#" onclick="history.go(-1)"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"  height="20px"></a>
                     </div>
             </div>

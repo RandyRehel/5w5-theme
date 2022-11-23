@@ -13,18 +13,18 @@
             </div>
             <div class="fleches">
             <a href="<?=$url?>/category/projets/"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
-            <a href="<?=$url?>/le-programme/"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
+            <a href="<?=$url?>/cheminement/"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
             </div>
         </div>
         <div class="lesImagesEtudiantes">
             <div class="logoLeprogrammeEtudiante1">
-                <img class="flecheCarouselVieEtudiante1" src="/wp-content/uploads/Fleche2.png" alt="" >           
+                <img class="flecheCarouselVieEtudiante1" src="<?=$img_dir?>fleche2-1.png" alt="">           
             </div>
             <div class="logoLeprogrammeEtudiante2">
-                <img src="" alt="" >           
+                <img src="<?=$img_dir?>vieEtudiante3.jpg" alt="" >           
             </div>  
             <div class="logoLeprogrammeEtudiante3">
-                <img class="flecheCarouselVieEtudiante2" src="/wp-content/uploads/Fleche2.png" alt="" >           
+                <img class="flecheCarouselVieEtudiante2" src="<?=$img_dir?>fleche2-1.png" alt="">           
             </div>    
     </div>
         <div class ="BoutonNavOrange">
