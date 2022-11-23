@@ -1,6 +1,6 @@
 <?php get_header();?>
     <div class="PageContenuStages">
-        <div class="NosProjets">
+        <div class="NosProjets" style="display: flex; flex-direction:column">
         <div class="BoutonProjet" >
             <img class="ImgNosProjet" src="" alt=""  >
             <p class="titretProjetVieEtudiante">LES STAGES DE FIN D'ÉTUDE AU TIM</p>
@@ -10,13 +10,13 @@
                     , sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                     
         </div>
+        <div style="display: flex;">
+            <div class ="photoPersonnageStages"><img class="" src=""></div>
 
-        <div class ="photoPersonnageStages"><img class="" src=""></div>
-
-        <div>
-        <a href="<?=$url?>/category/projets/"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
+            <div class="fleches">
+            <a href="<?=$url?>/category/projets/"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
+            </div>
         </div>
-        
     </div>
    <div class="SectionLogoEntreprise">
     <div class="entrepriseStages">

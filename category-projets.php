@@ -50,9 +50,11 @@
                         ?>
                     </div>
                </div>
-            </div>          
-            <a href="<?=$url?>/stages/"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
-            <a href="<?=$url?>/vie-etudiante/"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
+            </div>
+            <div class="fleches">          
+                <a href="<?=$url?>/stages/"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
+                <a href="<?=$url?>/vie-etudiante/"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
+            </div>
         </div><!--Fin PageContenu -->
     </div><!--Fin content -->
 </div> <!--Fin app -->
