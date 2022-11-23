@@ -1001,33 +1001,30 @@ body {
     padding: 0;
   }
 }
-.flecheDroiteProf {
-  position: relative;
-  height: 60px;
-  left: 85%;
-  bottom: 4%;
-  transform: rotate(-270deg);
+.contenuProfs {
+  justify-content: space-around !important;
 }
-
-.flecheGaucheProf {
-  position: relative;
-  left: 2%;
-  bottom: 14%;
-  height: 60px;
-  transform: rotate(270deg);
+.contenuProfs .divImg {
+  width: unset;
 }
 
 .pageContenuProfs {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.containerProfs {
   background-color: #b2d4e0;
   background-image: url("/wp-content/uploads/BGBleu.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .divImg {
@@ -1158,6 +1155,78 @@ body {
   border: 5px dotted black !important;
 }
 
+.branchesImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 45vw !important;
+  padding: 2vh 2vw;
+}
+.branchesImages img {
+  width: 30.5%;
+  border: 2.5px solid black;
+  margin: 5px;
+}
+
+.infosBranches {
+  width: 45vw !important;
+}
+
+.contenuPageCheminement {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  align-items: flex-end;
+  min-height: 80vh;
+}
+
+.cheminementFleches {
+  z-index: 1;
+}
+
+.cotesCheminement {
+  position: relative;
+  bottom: -25vh;
+  z-index: 0;
+}
+.cotesCheminement img {
+  width: 250px;
+}
+
+.footerCheminement {
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.inactiveCercle {
+  position: absolute;
+  right: 100vw;
+}
+
+.midCheminement {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sessionsConteneur {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sessions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sessionCercle {
+  background-image: url("/wp-content/uploads/BoutonNavOrange-2.png");
+}
+
 /* Comments
 --------------------------------------------- */
 .comment-content a {
@@ -1278,7 +1347,9 @@ body {
   flex-direction: row;
   justify-content: space-around;
   background-color: #2a2841;
-  height: 15vh;
+  height: 20vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .communication {
@@ -1389,7 +1460,7 @@ body {
 
 .mail {
   height: 40px;
-  width: 40px;
+  width: 55px;
   display: list-item;
   float: right;
   background-image: url("/wp-content/uploads/IconeMail-1.png");
@@ -1404,15 +1475,10 @@ body {
   background-size: 100% 100%;
 }
 
-.timLogoFooter {
-  position: absolute;
-  left: 90px;
-  top: 30px;
-}
-
 .emplacementIcone {
-  position: relative;
-  padding-right: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logoEmplacementRouge {
@@ -1422,14 +1488,8 @@ body {
 }
 
 .nav-item4LeProgramme {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-content: flex-end;
-  height: 100%;
   font-size: 13px;
   color: white;
-  padding-bottom: 15px;
 }
 
 .renseignements {
@@ -2170,42 +2230,23 @@ body {
 }
 
 .BoutonNavOrange {
-  display: flex;
-  flex-direction: column;
-  margin: 5px;
-  align-items: flex-end;
-}
-
-.BoutonNavOetB {
-  display: flex;
-  background-image: url("/wp-content/uploads/BoutonNavOrange.png");
-  background-size: cover;
-  height: 100px;
-  width: 100px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-}
-
-.BoutonNavOetB:hover {
-  background-image: url("/wp-content/uploads/BoutonNav_hover.png");
+  display: none;
 }
 
 .header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #2a2841;
-  height: 15vh;
+  display: none;
+}
+
+.nosProjets {
+  margin-top: 5vh;
 }
 
 .PageContenu {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-content: flex-start;
-  height: 70vh;
+  flex-wrap: wrap;
+  height: 100vh;
   background-color: #b2d4e0;
   background-image: url("/wp-content/uploads/BGBleu.png");
   background-repeat: no-repeat;
@@ -2215,13 +2256,30 @@ body {
   padding: 0;
 }
 .PageContenu p {
-  margin-right: 10vw;
+  margin: 2vh 3vh 0vh 3vh;
+  font-size: 2vh;
 }
 
 .logoLeprogramme {
   display: flex;
   margin-left: 4vw;
   align-items: center;
+}
+
+footer {
+  display: none;
+}
+
+.lesImages {
+  height: 100%;
+}
+
+.fleches {
+  line-height: 0 !important;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 1vh 2vw;
 }
 
 @media screen and (min-width: 992px) {
@@ -2328,25 +2386,7 @@ body {
     background-image: url("/wp-content/uploads/BoutonVert_Hover.png");
   }
   .BoutonNavOrange {
-    display: flex;
-    flex-direction: column;
-    margin: 5px;
-    align-items: flex-end;
-  }
-  .BoutonNavOetB {
-    display: flex;
-    background-image: url("/wp-content/uploads/BoutonNavOrange.png");
-    background-size: cover;
-    height: 100px;
-    width: 100px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    border: none;
-    font: inherit;
-    background-color: transparent;
-  }
-  .BoutonNavOetB:hover {
-    background-image: url("/wp-content/uploads/BoutonNav_hover.png");
+    display: none;
   }
   .header {
     display: flex;
@@ -2375,6 +2415,9 @@ body {
     display: flex;
     margin-left: 4vw;
     align-items: center;
+  }
+  footer {
+    display: block;
   }
 }
 /* Page vie etudiante
@@ -2505,31 +2548,10 @@ body {
 .flecheDroite {
   position: relative;
   height: 60px;
-  left: 85%;
-  bottom: 4%;
-  width: 10%;
   transform: rotate(-270deg);
 }
 
 .flecheGauche {
-  position: relative;
-  height: 60px;
-  bottom: 4%;
-  width: 10%;
-  transform: rotate(270deg);
-}
-
-.flecheDroiteContenuProf {
-  position: relative;
-  height: 60px;
-  left: 85%;
-  bottom: 4%;
-  width: 10%;
-  bottom: 203px;
-  transform: rotate(-270deg);
-}
-
-.flecheGaucheContenuProf {
   position: relative;
   height: 60px;
   bottom: 4%;

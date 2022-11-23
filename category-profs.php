@@ -1,6 +1,7 @@
  
     <?php get_header();?>
-            <div class="pageContenuProfs" style="min-height:80vh;">
+        <div class="containerProfs" style="min-height:80vh;">
+        <div class="pageContenuProfs">
             <?php 
                 if (have_posts()) :
   
@@ -22,14 +23,16 @@
                         </article>
                         <?php
                     endwhile;
-                endif;
-            ?>
-            </div><!--Fin PageContenu -->
-            <a href="<?=$url?>/vie-etudiante/"><img class="flecheDroiteContenuProf" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
-            <a href="<?=$url?>/le-programme/"><img class="flecheGaucheContenuProf" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
+                endif;?>
+
+                   
+                </div>   <!--Fin PageContenu -->
+                <div class="fleches">
+                        <a href="<?=$url?>/cheminement"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
+                        <a href="#" onclick="history.go(-1)"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"  height="20px"></a>
+                    </div>
+            </div>
         </div><!--Fin content -->
-
-
 <?php include 'footer2.php';?>
 </body>
 </html>

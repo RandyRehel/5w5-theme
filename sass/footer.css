@@ -14,7 +14,9 @@
   flex-direction: row;
   justify-content: space-around;
   background-color: #2a2841;
-  height: 15vh;
+  height: 20vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .communication {
@@ -125,7 +127,7 @@
 
 .mail {
   height: 40px;
-  width: 40px;
+  width: 55px;
   display: list-item;
   float: right;
   background-image: url("/wp-content/uploads/IconeMail-1.png");
@@ -140,15 +142,10 @@
   background-size: 100% 100%;
 }
 
-.timLogoFooter {
-  position: absolute;
-  left: 90px;
-  top: 30px;
-}
-
 .emplacementIcone {
-  position: relative;
-  padding-right: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .logoEmplacementRouge {
@@ -158,14 +155,8 @@
 }
 
 .nav-item4LeProgramme {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  justify-content: flex-end;
-  height: 100%;
   font-size: 13px;
   color: white;
-  padding-bottom: 15px;
 }
 
 .renseignements {

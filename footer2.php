@@ -12,8 +12,8 @@
     </div>
 
     <div class="emplacementIcone">
-    <img class="timLogoFooter" src="<?=$img_dir?>Logo.png" height="140px" width="140px" >
-    <li class="nav-item4LeProgramme">Copyright @ 2022 -Tim Maisonneuve. Tous Droits Réservés</li>
+    <img class="timLogoFooter" src="<?=$img_dir?>LogoTIM-1.png" height="140px" width="140px" >
+    <p class="nav-item4LeProgramme">Copyright @ 2022 -Tim Maisonneuve. Tous Droits Réservés</p>
     </div>
     <!-- section Contacts de l'école maisonneuve-->
     <div class="maisonneuveContactsLeProgramme">

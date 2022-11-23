@@ -1,4 +1,3 @@
-
 //////////////////////////////////////////////////////////////////// Section header pour selection programme, vie étudiante, projets et stages
 .BoutonsHeader{
     display: flex;
@@ -118,43 +117,22 @@
 
 ////////////////////////////////////////////////////////////////////////Section des 4 bouttons contenu
 .BoutonNavOrange{
-    display: flex;
-    flex-direction: column;
-    margin:5px;
-    align-items: flex-end;
-    
-    
+    display: none;
 }
-//bouton orange
-.BoutonNavOetB{
-    display: flex;
-    background-image: url('/wp-content/uploads/BoutonNavOrange.png');
-    background-size: cover;
-    height:100px;
-    width:100px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    border: none;
-    font: inherit;
-    background-color: transparent;
-}
-// hover pour que bouton tourne blue
-.BoutonNavOetB:hover{
-    background-image: url('/wp-content/uploads/BoutonNav_hover.png');
-}
+
 //sections de la page
 .header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color:#2a2841;
-    height: 15vh;
+    display: none;
+}
+.nosProjets {
+    margin-top: 5vh;
 }
 .PageContenu{
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-content: flex-start;
-    height: 70vh;
+    flex-wrap: wrap;
+    height: 100vh;
     background-color: #b2d4e0;
     background-image: url('/wp-content/uploads/BGBleu.png');
     background-repeat: no-repeat;
@@ -163,7 +141,8 @@
     margin: 0; 
     padding: 0; 
     p {
-        margin-right: 10vw;
+        margin: 2vh 3vh 0vh 3vh;
+        font-size: 2vh;
     }
 }
 .logoLeprogramme{
@@ -173,13 +152,22 @@
 }
 
 footer {
-    .container {
-        .rowLeProgramme {
-            
-        }
-    }
+    display: none;
     
 }
+
+.lesImages {
+    height: 100%
+}
+
+.fleches {
+    line-height: 0 !important;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 1vh 2vw;
+}
+
 
 @media screen and (min-width: 992px) {
 .mobile {
@@ -304,29 +292,7 @@ footer {
 
 ////////////////////////////////////////////////////////////////////////Section des 4 bouttons contenu
 .BoutonNavOrange{
-    display: flex;
-    flex-direction: column;
-    margin:5px;
-    align-items: flex-end;
-    
-    
-}
-//bouton orange
-.BoutonNavOetB{
-    display: flex;
-    background-image: url('/wp-content/uploads/BoutonNavOrange.png');
-    background-size: cover;
-    height:100px;
-    width:100px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    border: none;
-    font: inherit;
-    background-color: transparent;
-}
-// hover pour que bouton tourne blue
-.BoutonNavOetB:hover{
-    background-image: url('/wp-content/uploads/BoutonNav_hover.png');
+    display: none;
 }
 //sections de la page
 .header{
@@ -359,11 +325,7 @@ footer {
 }
 
 footer {
-    .container {
-        .rowLeProgramme {
-            
-        }
-    }
+    display: block;
     
 }
 }
