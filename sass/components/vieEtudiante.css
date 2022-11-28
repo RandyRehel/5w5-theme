@@ -30,10 +30,13 @@
   -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 
 .titretProjetVieEtudiante {
   position: relative;
+  /* position: relative; */
+  font-family: "Silkscreen";
 }
 
 .contentVieEtudiante {
@@ -45,9 +48,12 @@
 }
 
 .lesImagesEtudiantes {
+  display: flex;
   background: transparent;
   width: 500px;
   margin-left: 10vh;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .logoLeprogrammeEtudiante1 {
@@ -55,9 +61,16 @@
   align-items: center;
   height: 14vh;
   width: 60vh;
-  background-color: white;
   margin-bottom: 2.5vh;
-  border: solid black 1px;
+  justify-content: center;
+}
+
+.flecheCarouselVieEtudiante1 {
+  transform: rotate(180deg);
+}
+
+.flecheCarouselVieEtudiante2 {
+  transform: rotate(0deg);
 }
 
 .logoLeprogrammeEtudiante2 {
@@ -75,6 +88,5 @@
   align-items: center;
   height: 14vh;
   width: 60vh;
-  background-color: white;
-  border: solid black 1px;
+  justify-content: center;
 }

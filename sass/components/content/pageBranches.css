@@ -1,0 +1,17 @@
+.branchesImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%;
+  width: 45vw !important;
+  padding: 2vh 2vw;
+}
+.branchesImages img {
+  width: 30.5%;
+  border: 2.5px solid black;
+  margin: 5px;
+}
+
+.infosBranches {
+  width: 45vw !important;
+}
