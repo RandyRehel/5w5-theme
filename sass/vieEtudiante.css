@@ -21,7 +21,7 @@
   background-position: center;
   background-size: 100% 100%;
   margin: 0;
-  padding: 0;
+  padding-right: 25px;
   min-height: 80vh;
 }
 
@@ -50,7 +50,6 @@
 .lesImagesEtudiantes {
   display: flex;
   background: transparent;
-  width: 500px;
   margin-left: 10vh;
   flex-direction: column;
   justify-content: space-around;
@@ -89,4 +88,25 @@
   height: 14vh;
   width: 60vh;
   justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  .PageContenuVieEtudiante {
+    flex-direction: column;
+  }
+  .lesImagesEtudiantes {
+    align-items: center;
+    transform: rotate(90deg);
+    margin: auto;
+  }
+  .logoLeprogrammeEtudiante2 {
+    min-width: 20%;
+  }
+}
+@media screen and (max-width: 510px) {
+  .lesImagesEtudiantes {
+    transform: rotate(0deg);
+    align-items: center;
+    margin-left: 5px;
+  }
 }
