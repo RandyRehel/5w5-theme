@@ -50,7 +50,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 @font-face {
   font-family: "Silkscreen";
-  src: url("./fonts/SilkscreenRegular.ttf") format("truetype");
+  src: url("./fonts/SilkscreenRegular.ttf") format("truetype"); 
 }
 @font-face {
   font-family: "SilkscreenBold";
