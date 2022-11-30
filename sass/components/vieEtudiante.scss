@@ -68,6 +68,22 @@
     margin-bottom: 2.5vh;
     justify-content: center;
 }
+
+/////////////////////////////////////// Carousel
+.mySlides{
+    display: none;
+}
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
 //// fleches carousel
 .flecheCarouselVieEtudiante1{
     transform: rotate(180deg);
@@ -83,6 +99,9 @@
     background-color: white;
     margin-bottom: 2.5vh;
     border: solid black 1px;
+    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .logoLeprogrammeEtudiante3{
     display: flex;
@@ -91,6 +110,7 @@
     width: 60vh;
     justify-content: center;
 }
+
 
 
 /////////////// Mobile et tablette de la page vie etudiante
@@ -109,6 +129,9 @@
     .logoLeprogrammeEtudiante2{
         min-width: 20%;
     }
+    .imgRotate{
+        transform: rotate(270deg);
+    }
 
     }
     ////////////////telephone
@@ -122,5 +145,7 @@
         .logoLeprogrammeEtudiante2{
             //width: 40vh;
         }
-    
+        .imgRotate{
+            transform: none;
+        }
         }

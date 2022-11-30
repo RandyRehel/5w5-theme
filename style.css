@@ -2639,6 +2639,10 @@ footer {
   justify-content: center;
 }
 
+.mySlides {
+  display: none;
+}
+
 .flecheCarouselVieEtudiante1 {
   transform: rotate(180deg);
 }
@@ -2655,6 +2659,9 @@ footer {
   background-color: white;
   margin-bottom: 2.5vh;
   border: solid black 1px;
+  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .logoLeprogrammeEtudiante3 {
@@ -2677,12 +2684,18 @@ footer {
   .logoLeprogrammeEtudiante2 {
     min-width: 20%;
   }
+  .imgRotate {
+    transform: rotate(270deg);
+  }
 }
 @media screen and (max-width: 510px) {
   .lesImagesEtudiantes {
     transform: rotate(0deg);
     align-items: center;
     margin-left: 5px;
+  }
+  .imgRotate {
+    transform: none;
   }
 }
 /* Page projets
