@@ -1,0 +1,8 @@
+.fil-arianne ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.fil-arianne ul li a {
+  text-decoration: none;
+}

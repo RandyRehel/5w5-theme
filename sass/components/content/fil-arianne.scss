@@ -1,0 +1,36 @@
+.fil-arianne{
+    ul{
+        margin-left: 0;
+        padding-left: 0;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        .activeFil{
+            
+            transition-duration: 0.5s;
+            background-color: rgba(255,255,255,1);
+            a{
+                text-shadow: 1px 2px 0 #969696;
+            }
+        }
+        
+        li{
+            display: flex;
+            justify-content: center;
+            width: 25%;
+            background: rgba(255,255,255,0.4);
+            &:hover{
+                transition-duration: 0.5s;
+                background-color: rgba(255,255,255,1);
+                a{
+                    text-shadow: 1px 2px 0 #969696;
+                }
+            }
+            a{
+                text-decoration: none;
+                color: black;
+                font-family: $font__title;
+            }
+        }
+    }
+}
