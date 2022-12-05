@@ -1,6 +1,9 @@
 <?php get_header();?>
         <div class="PageContenu">
             <div class="nosProjets infosBranches">
+                <div class="fil-arianne">
+                    <?php include('fil-arianne.php')?>
+                </div>
                 <p class="titreProjet">LES DIFFÉRENTES BRANCHES DU PROGRAMME</p>
                 <p class="paragrapheLorum1">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure

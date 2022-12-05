@@ -1400,6 +1400,8 @@ h3 {
   text-decoration: none;
   color: black;
   font-family: "Silkscreen";
+  width: 100%;
+  text-align: center;
 }
 
 /* Comments

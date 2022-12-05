@@ -1,6 +1,9 @@
  
     <?php get_header();?>
         <div class="containerProfs" style="min-height:80vh;">
+        <div class="fil-arianne">
+                    <?php include('fil-arianne.php')?>
+        </div>
         <div class="contenuPageCheminement">
         <div class="cotesCheminement" style="left: -50px;">
             <img src="<?=$img_dir?>BoutonNavOrange-2.png" alt="image cercle gauche">

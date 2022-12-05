@@ -1,6 +1,9 @@
  
     <?php get_header();?>
         <div class="containerProfs" style="min-height:80vh;">
+        <div class="fil-arianne">
+                    <?php include('fil-arianne.php')?>
+        </div>
         <div class="pageContenuProfs">
             <?php 
                 if (have_posts()) :

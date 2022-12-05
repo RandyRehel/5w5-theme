@@ -23,11 +23,9 @@
             </div>
             
             <div class="logoLeprogrammeEtudiante2">
-            
                 <div class="mySlides fade"><img class ="imgRotate" src="/wp-content/uploads/Martin.png" alt="" ></div>
                 <div class="mySlides fade"><img class ="imgRotate" src="/wp-content/uploads/Johanne.png" alt="" ></div>
                 <div class="mySlides fade"><img class ="imgRotate" src="/wp-content/uploads/Manon.png" alt="" ></div>
-            
             </div>  
             <div class="logoLeprogrammeEtudiante3">
                <a><img class="flecheCarouselVieEtudiante2" onclick="plusSlides(1)" src="/wp-content/uploads/Fleche2.png" alt="" > </a>           
