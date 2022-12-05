@@ -1,5 +1,6 @@
 
  <?php get_header();?>
+ <script src= "/js/carousel.js" defer></script>
         <div class="PageContenuVieEtudiante">
             <div class="NosProjets">
             <div class="BoutonProjet" >
@@ -18,13 +19,18 @@
         </div>
         <div class="lesImagesEtudiantes">
             <div class="logoLeprogrammeEtudiante1">
-                <img class="flecheCarouselVieEtudiante1" src="<?=$img_dir?>fleche2-1.png" alt="">           
+                <a><img class="flecheCarouselVieEtudiante1" onclick="plusSlides(-1)" src="/wp-content/uploads/Fleche2.png" alt="" > </a>          
             </div>
+            
             <div class="logoLeprogrammeEtudiante2">
-                <img src="<?=$img_dir?>vieEtudiante3.jpg" alt="" >           
+            
+                <div class="mySlides fade"><img class ="imgRotate" src="/wp-content/uploads/Martin.png" alt="" ></div>
+                <div class="mySlides fade"><img class ="imgRotate" src="/wp-content/uploads/Johanne.png" alt="" ></div>
+                <div class="mySlides fade"><img class ="imgRotate" src="/wp-content/uploads/Manon.png" alt="" ></div>
+            
             </div>  
             <div class="logoLeprogrammeEtudiante3">
-                <img class="flecheCarouselVieEtudiante2" src="<?=$img_dir?>fleche2-1.png" alt="">           
+               <a><img class="flecheCarouselVieEtudiante2" onclick="plusSlides(1)" src="/wp-content/uploads/Fleche2.png" alt="" > </a>           
             </div>    
     </div>
         <div class ="BoutonNavOrange">
@@ -39,4 +45,32 @@
 <?php include 'footer2.php';?>
 
 </body>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 </html>

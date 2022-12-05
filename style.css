@@ -2600,7 +2600,7 @@ footer {
   background-position: center;
   background-size: 100% 100%;
   margin: 0;
-  padding: 0;
+  padding-right: 25px;
   min-height: 80vh;
 }
 
@@ -2629,7 +2629,6 @@ footer {
 .lesImagesEtudiantes {
   display: flex;
   background: transparent;
-  width: 500px;
   margin-left: 10vh;
   flex-direction: column;
   justify-content: space-around;
@@ -2644,6 +2643,23 @@ footer {
   justify-content: center;
 }
 
+.mySlides {
+  display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .flecheCarouselVieEtudiante1 {
   transform: rotate(180deg);
 }
@@ -2660,6 +2676,9 @@ footer {
   background-color: white;
   margin-bottom: 2.5vh;
   border: solid black 1px;
+  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .logoLeprogrammeEtudiante3 {
@@ -2670,6 +2689,32 @@ footer {
   justify-content: center;
 }
 
+@media screen and (max-width: 992px) {
+  .PageContenuVieEtudiante {
+    flex-direction: column;
+  }
+  .lesImagesEtudiantes {
+    align-items: center;
+    transform: rotate(90deg);
+    margin: auto;
+  }
+  .logoLeprogrammeEtudiante2 {
+    min-width: 20%;
+  }
+  .imgRotate {
+    transform: rotate(270deg);
+  }
+}
+@media screen and (max-width: 510px) {
+  .lesImagesEtudiantes {
+    transform: rotate(0deg);
+    align-items: center;
+    margin-left: 5px;
+  }
+  .imgRotate {
+    transform: none;
+  }
+}
 /* Page projets
 --------------------------------------------- */
 .titretProjet {
