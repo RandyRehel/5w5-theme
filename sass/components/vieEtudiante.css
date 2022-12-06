@@ -21,7 +21,7 @@
   background-position: center;
   background-size: 100% 100%;
   margin: 0;
-  padding: 0;
+  padding-right: 25px;
   min-height: 80vh;
 }
 
@@ -30,10 +30,13 @@
   -webkit-box-orient: vertical;
   max-width: 650px;
   padding-bottom: 20px;
+  font-weight: bold;
 }
 
 .titretProjetVieEtudiante {
   position: relative;
+  /* position: relative; */
+  font-family: "Silkscreen";
 }
 
 .contentVieEtudiante {
@@ -45,9 +48,11 @@
 }
 
 .lesImagesEtudiantes {
+  display: flex;
   background: transparent;
-  width: 500px;
   margin-left: 10vh;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .logoLeprogrammeEtudiante1 {
@@ -55,9 +60,44 @@
   align-items: center;
   height: 14vh;
   width: 60vh;
-  background-color: white;
   margin-bottom: 2.5vh;
-  border: solid black 1px;
+  justify-content: center;
+}
+
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.flecheCarouselVieEtudiante1 {
+  transform: rotate(180deg);
+}
+
+.flecheCarouselVieEtudiante2 {
+  transform: rotate(0deg);
 }
 
 .logoLeprogrammeEtudiante2 {
@@ -68,6 +108,9 @@
   background-color: white;
   margin-bottom: 2.5vh;
   border: solid black 1px;
+  overflow: auto;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .logoLeprogrammeEtudiante3 {
@@ -75,6 +118,32 @@
   align-items: center;
   height: 14vh;
   width: 60vh;
-  background-color: white;
-  border: solid black 1px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 992px) {
+  .PageContenuVieEtudiante {
+    flex-direction: column;
+  }
+  .lesImagesEtudiantes {
+    align-items: center;
+    transform: rotate(90deg);
+    margin: auto;
+  }
+  .logoLeprogrammeEtudiante2 {
+    min-width: 20%;
+  }
+  .imgRotate {
+    transform: rotate(270deg);
+  }
+}
+@media screen and (max-width: 510px) {
+  .lesImagesEtudiantes {
+    transform: rotate(0deg);
+    align-items: center;
+    margin-left: 5px;
+  }
+  .imgRotate {
+    transform: none;
+  }
 }

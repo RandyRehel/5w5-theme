@@ -5,7 +5,12 @@
     margin: 0; 
     padding: 0; 
     align-items: flex-end;
-    min-height: 80vh;
+    //min-height: 80vh;
+}
+.conteneurPageChem{
+    @media screen and (max-width: 992px) {
+        height: 100vh;
+    }
 }
 
 .cheminementFleches{
@@ -38,10 +43,15 @@
     align-items: center;
     align-self: stretch;
     justify-content: space-around;
-
+    @media screen and (max: 992px) {
+        justify-content: center;
+    }
     .titreCheminement{
         color: black;
         font-size: 35px;
+        @media screen and (max-width: 992px) {
+            font-size: 1.5rem;
+        }
         font-family: $font__title;
         white-space: nowrap;
     }

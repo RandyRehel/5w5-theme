@@ -1,0 +1,38 @@
+.branchesImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%;
+  width: 45vw;
+  padding: 1vw 2vw;
+}
+.branchesImages img {
+  width: 17rem;
+  border: 2.5px solid black;
+  margin: 1.5vw;
+  margin-top: 0.5vw;
+}
+
+.infosBranches {
+  width: 50vw;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 991px) and (min-width: 481px) {
+  .infosBranches {
+    width: 85vw;
+    height: auto;
+  }
+  .branchesImages {
+    width: 85vw;
+  }
+}
+@media screen and (max-width: 481px) {
+  .infosBranches {
+    width: 95vw;
+    height: auto;
+  }
+  .branchesImages {
+    width: 95vw;
+  }
+}

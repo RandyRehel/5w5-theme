@@ -1,5 +1,6 @@
  
     <?php get_header();?>
+    <div class="conteneurPageChem">
         <div class="containerProfs" style="min-height:80vh;">
         <div class="fil-arianne">
                     <?php include('fil-arianne.php')?>
@@ -47,6 +48,7 @@
                         <a href="<?=$url?>/vie-etudiante"><img class="flecheDroite" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche droite"></a>
                         <a href="#" onclick="history.go(-1)"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"  height="20px"></a>
                     </div>
+            </div>
             </div>
         </div><!--Fin content -->
         <div class="footerCheminement">

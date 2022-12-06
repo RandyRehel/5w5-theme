@@ -1,17 +1,19 @@
  
     <?php get_header();?>
+    <div class="PageContenu">
         <div class="containerProfs" style="min-height:80vh;">
         <div class="fil-arianne">
                     <?php include('fil-arianne.php')?>
         </div>
         <div class="pageContenuProfs">
+
             <?php 
                 if (have_posts()) :
   
                     while (have_posts() ) :
                         the_post();
                         ?>
-                        <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                        <article id="post-<?php the_ID(); ?>" style="rotate: <?= rand(-5, 5) ?>deg;" <?php post_class(); ?>>
                             <?php
                             if ( has_post_thumbnail() ) :
                                 the_post_thumbnail();
@@ -25,6 +27,7 @@
                             </div>
                         </article>
                         <?php
+
                     endwhile;
                 endif;?>
 
@@ -35,6 +38,8 @@
                         <a href="#" onclick="history.go(-1)"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"  height="20px"></a>
                     </div>
             </div>
+        
+        </div>
         </div><!--Fin content -->
 <?php include 'footer2.php';?>
 </body>

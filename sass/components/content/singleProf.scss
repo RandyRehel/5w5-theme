@@ -1,10 +1,10 @@
 
-.contenuProfs{
-    justify-content: space-around !important;
-    .divImg{
-        width: unset;
-    }
-}
+// .contenuProfs{
+//     @media screen and (max-width: 992px) {
+//         flex-direction: column;
+//         margin-top: 5vh;
+//     }
+// }
 
 .pageContenuProfs{
     display: flex;
@@ -23,18 +23,28 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @media screen and (max-width: 992px) {
+    padding-top: 7vh;
+    height: 100%;
+    }
 }
 
 
 .divImg{
-    width: 50%;
-
+    width: 40vw;
+    @media screen and (max-width: 992px) {
+        width: 85%;
+        margin-top: 6.5vh;
+        margin-bottom: 0;
+    }
+    margin-top: 11vh;
+    margin-bottom: 6vh;
+    align-self: flex-start;
     display: flex;
     align-items: center;
     justify-content: center;
 
     .imgProf{
-        width: 400px;
         height: auto;
         border: 2px solid lightgray;
         box-shadow: 4px 3px 28px 0px rgba(0,0,0,0.4);
@@ -44,15 +54,18 @@
 }
 
 .infosProf{
-    width: 55%;
+    width: 55vw;
     display: flex;
     flex-direction: column;
     font-family: $font__title;
-
+    @media screen and (max-width: 992px) {
+        width: 85%;
+    }
     margin-top: 20px;
 
     h4{
-
+        font-size: xx-large;
+        margin-block: 0;
     }
 
     p{

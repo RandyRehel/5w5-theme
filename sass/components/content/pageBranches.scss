@@ -3,15 +3,38 @@
     flex-wrap: wrap;
     justify-content: space-around;
     height: 100%;
-    width: 45vw !important;
+    width: 45vw;
     img{
-        width: 30.5%;
+        width: 17rem;
         border: 2.5px solid black;
-        margin: 5px;
+        margin: 1.5vw;
+        margin-top: 0.5vw;
     }
-   padding: 2vh 2vw;
+   padding: 1vw 2vw;
 }
 
 .infosBranches{
-    width: 45vw !important;
+    width: 50vw;
+    align-self: flex-start;
+}
+@media screen and (max-width: 991px) and (min-width: 481px) {
+
+    .infosBranches{
+        width: 85vw;
+        height: auto;
+    }
+
+    .branchesImages{
+        width: 85vw;
+    }
+}
+@media screen and (max-width: 481px) {
+    .infosBranches{
+        width: 95vw;
+        height: auto;
+    }
+
+    .branchesImages{
+        width: 95vw;
+    }
 }

@@ -10,3 +10,39 @@
   padding: 0;
   min-height: 80vh;
 }
+
+.ContainerphotoPersonnageStages {
+  width: 100%;
+  min-height: 17vh;
+}
+
+.divPhotoPersonnageStages {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.photoPersonnageStages {
+  background-color: white;
+  width: 27vh;
+  min-height: 29vh;
+  border: solid 1px black;
+}
+
+.SectionLogoEntreprise {
+  height: 89vh;
+  width: 72vh;
+}
+
+.entrepriseStages {
+  height: 78vh;
+  width: 72vh;
+  background-color: white;
+  margin-top: 35px;
+}
+
+.NosProjetsStage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

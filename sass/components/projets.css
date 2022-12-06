@@ -1,16 +1,15 @@
-.NosProjets {
-  display: flex;
-  flex-direction: column;
-}
-
 .titretProjet {
   position: relative;
   font-size: 30px;
+  font-family: "Silkscreen";
 }
 
 .BoutonProjet {
+  display: flex;
+  flex-direction: column;
   padding-top: 60px;
   padding-left: 60px;
+  align-items: center;
 }
 
 .ImgNosProjet {
@@ -32,41 +31,39 @@
   text-align: center;
 }
 
-.flechesDiv {
-  position: relative;
-  bottom: 0;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
 .flecheDroite {
-  position: relative;
   height: 60px;
-  left: 85%;
-  bottom: 4%;
-  width: 10%;
   transform: rotate(-270deg);
 }
 
 .flecheGauche {
-  position: relative;
-  left: 2%;
-  bottom: 14%;
-  width: 10%;
   height: 60px;
   transform: rotate(270deg);
 }
 
-.PageContenuProjets {
+.BoutonsFilter {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  margin: 5px;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.BoutonsFilter a {
+  text-decoration: none;
+  color: black;
+}
+.BoutonsFilter a p {
+  text-align: center;
+}
+
+.PageContenuProjets {
   background-color: #e9663a;
   background-image: url("/wp-content/uploads/BGOranget.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-size: 100% 100%;
+  background-size: 100% 75%;
+  background-position: bottom;
   margin: 0;
   padding: 0;
   min-height: 80vh;
@@ -79,6 +76,15 @@
   flex-direction: column;
   height: 100%;
   width: 100%;
+}
+
+.titretProjetPageProjets {
+  position: relative;
+  /* position: relative; */
+  font-family: "Silkscreen";
+  font-size: 40px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .BoutonContenuProjets {
@@ -94,15 +100,16 @@
   font: inherit;
   font-size: clamp(1rem, 1vw, 2rem);
   border: solid 1px;
+  font-family: "Silkscreen";
 }
 
 .BoutonsSelectionProjet {
   display: flex;
   flex-direction: row;
   margin: 5px;
-  height: 300px;
-  width: 70%;
   align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .BoutonsSelectionProjet a {
   text-decoration: none;
@@ -112,76 +119,36 @@
   text-align: center;
 }
 
-.selectionProjet1 {
+.selectionProjet {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 300px;
+  width: 400px;
+  border: none;
+  font: inherit;
+  background-color: transparent;
+  font-size: clamp(1rem, 1vw, 2rem);
+}
+
+.tag-floppy1 .selectionProjet {
   background-image: url("/wp-content/uploads/FloppyDisc00.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  height: 300px;
-  width: 400px;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  font-size: clamp(1rem, 1vw, 2rem);
-  margin-right: 50px;
 }
 
-.selectionProjet2 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.tag-floppy2 .selectionProjet {
   background-image: url("/wp-content/uploads/FloppyDisc02.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  height: 300px;
-  width: 400px;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  font-size: clamp(1rem, 1vw, 2rem);
-  margin-right: 50px;
 }
 
-.selectionProjet3 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.tag-floppy3 .selectionProjet {
   background-image: url("/wp-content/uploads/FloppyDisc04.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  height: 300px;
-  width: 400px;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  font-size: clamp(1rem, 1vw, 2rem);
-  margin-right: 50px;
 }
 
-.selectionProjet4 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.tag-floppy4 .selectionProjet {
   background-image: url("/wp-content/uploads/FloppyDisc06.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  height: 300px;
-  width: 400px;
-  border: none;
-  font: inherit;
-  background-color: transparent;
-  font-size: clamp(1rem, 1vw, 2rem);
-  margin-right: 50px;
 }
 
 .selectionProjetBouton1 {
