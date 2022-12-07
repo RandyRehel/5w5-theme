@@ -2561,6 +2561,10 @@ h3 {
   align-items: center;
 }
 
+.post {
+  width: 13.5rem;
+}
+
 footer {
   display: none;
 }
