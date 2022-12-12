@@ -140,6 +140,11 @@
   justify-content: flex-end;
 }
 
+.polaroidImg h1 {
+  font-family: "Silkscreen";
+  font-size: clamp(1rem, 4vw, 1.5rem);
+}
+
 @media screen and (max-width: 992px) {
   .BoutonProjet {
     padding-right: 60px;
