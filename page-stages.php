@@ -11,8 +11,12 @@
                     
         </div>
         <div class="divPhotoPersonnageStages">
-            <div class ="photoPersonnageStages"><img class="" src=""></div>
-
+            <div class ="photoPersonnageStages"><img class="" src="">
+            <div class ="photoPersonnageText"><img class="" src="/wp-content/uploads/BulleFooter.png.png">
+           </div>
+           <p class="texteStages">LES STAGES DE FIN D'ÉTUDE SONT EFFECTUÉS À LA DERNIÈRE SESSION DE LA TECHNIQUE, SOIT À LA SESSION 6.</p>
+        </div>
+            
             <div class="fleches">
             <a href="<?=$url?>/category/projets/"><img class="flecheGauche" src="<?=$img_dir?>FlecheSuite.png" alt="la flèche gauche"></a>
             </div>
@@ -20,7 +24,13 @@
     </div>
    <div class="SectionLogoEntreprise">
     <div class="entrepriseStages">
-
+    <div class="SectionLogoEntreprisePhoto1"></div>
+    <div class="SectionLogoEntreprisePhoto2"></div>
+    <div class="SectionLogoEntreprisePhoto3"></div>
+    <div class="SectionLogoEntreprisePhoto4"></div>
+    <div class="SectionLogoEntreprisePhoto5"></div>
+    <div class="SectionLogoEntreprisePhoto6"></div>
+    <div class="SectionLogoEntreprisePhoto7"></div>
     </div> <!--Fin SectionLogoEntreprise  -->
    </div><!--Fin entrepriseStages  -->
     <div class ="BoutonNavOrange">
